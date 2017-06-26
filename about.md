@@ -4,4 +4,6 @@ title: About
 permalink: /about/
 ---
 
-My passion is to learn about the world through data. I'm motivated by a concern for sustainability and mobility in cities of the future. Please feel free to contact me at mateo.neira.16@ucl.ac.uk or [@mateoneira](https://twitter.com/mateoneira).
+Spatial data scientist interested in understanding interactions of people and space through data. Particularly curious about the influence of urban morphology on behaviour and its relationship to sustainability and resilience. 
+
+Please feel free to contact me at [mateo.neira.16@ucl.ac.uk](mailto: mateo.neira.16@ucl.ac.uk)  or [@mateoneira](https://twitter.com/mateoneira).
