@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset='UTF-8' />
+    <title>SignalBox</title>
+    <style>
+      html {
+        font-family: sans-serif;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+      }
+      h2{
+        font-family: sans-serif;
+      }
+      .mainWrapper{
+        /*make map occupy the height of device*/
+        height: 100vh;
+      }
+      body {margin: 0; padding: 0; overflow: hidden; background-color: rgb(32,32,32)}
+      #info {
+        position: absolute;
+        background-color: transparent;
+        padding: 10px;
+        top: 15px;
+        left: 15px
+      }
+      #time {
+        position: absolute;
+        background-color: transparent;
+        padding: 10px;
+        top: 75px;
+        left: 15px;
+        color: white;
+      }
+
+      #map-canvas{
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="mainWrapper">
+      <div id="mapCanvas"></div>
+      <div id="info">
+        <img src="./logo/signalBox.png" alt="logo" style="height: 50px">
+      </div>
+      <div id = "time">
+      <h1><span id = 'timestamp'></span></h1>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src='bundle.js'></script>
+
+  </body>
+</html>
