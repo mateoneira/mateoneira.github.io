@@ -11,4 +11,7 @@ Prior to this, I worked as a junior researcher at [llactaLAB](https://llactalab.
 
 You can find my full resume [here]({{site.url}}/assets/cv_mneira.pdf).
 
+<h2>Projects</h2>
+[placeSpace](http://placespace.org/)
+
 <iframe src="https://player.vimeo.com/video/223309049?autoplay=1&loop=1&title=0&portrait=0" style="width:100%;height:500px;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
