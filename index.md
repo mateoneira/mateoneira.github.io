@@ -14,6 +14,7 @@ You can find my full resume [here]({{site.url}}/assets/cv_mneira.pdf).
 <h2>PROJECTS</h2>
 <h2>placeSpace</h2> 
 [placeSpace](http://placespace.org/) is an interactive online platform that enables users to visualize and explore amenity location and distribution in London. The platform originates from the need to interpret and assess the complexity of cities in terms of agglomeration economies.
+<iframe src="https://player.vimeo.com/video/224066364?loop=1&title=0&portrait=0" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 <h2>urbanPulse</h2>
 <iframe src="https://player.vimeo.com/video/223309049?autoplay=0&loop=1&title=0&portrait=0&background=1" style="width:100%;height:500px;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
