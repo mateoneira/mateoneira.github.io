@@ -5,9 +5,9 @@
 layout: home
 ---
 <h2><b>ABOUT</b></h2>
-I am a grad student at the [Centre for Advanced Spatial Analysis in UCL](http://mscsmartcities.org/){:target="_blank"}, studying spatial data science, geospatial analytics, and complexity. 
+I am a grad student at the [Centre for Advanced Spatial Analysis in UCL](http://mscsmartcities.org/){:target="_blank"}, studying spatial data science, geospatial analytics, and complexity. Prior to this, I worked as a junior researcher at [llactaLAB](https://llactalab.ucuenca.edu.ec/){:target="_blank"}. 
 
-Prior to this, I worked as a junior researcher at [llactaLAB](https://llactalab.ucuenca.edu.ec/){:target="_blank"}. My research interest broadly revolves around cities as systems of interaction. Particulary looking at multilayered social networks embedded in time and space to understand the influence of urban morphology on behaviour and its relationship to sustainability and resilience. 
+My research interest broadly revolves around cities as systems of interaction. Particulary looking at multilayered social networks embedded in time and space to understand the influence of urban morphology on behaviour and its relationship to sustainability and resilience. 
 
 You can find my full resume [here]({{site.url}}/assets/cv_mneira.pdf).
 <hr>
