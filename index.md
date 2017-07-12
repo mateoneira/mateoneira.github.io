@@ -18,4 +18,7 @@ You can find my full resume [here]({{site.url}}/assets/cv_mneira.pdf).
 <iframe src="https://player.vimeo.com/video/224066364?loop=1&title=0&portrait=0" style="width:100%;height:500px;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <br>
 <h2>urbanPulse</h2>
+Our collective activities in the city unfold in time and space in a repeating fashion. These cyclic patterns of actions and interactions create a particular rythm, an urban 'Pulse' influenced by socio-cultural and physical aspects of our environment. 
+
+Increasingly people use online networks to interact, and even though these interactions are virtual, they take place in physical space. By retreiving the digital traces they leave behind we can visualize these cyclic spatio-temporal patterns in a city. 
 <iframe src="https://player.vimeo.com/video/223309049?autoplay=0&loop=1&title=0&portrait=0&background=1" style="width:100%;height:500px;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
