@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /Underground Networks/
+permalink: /transport_networks/
 ---
 <h2><b>Network Properties of Transport Systems</b></h2>
 
