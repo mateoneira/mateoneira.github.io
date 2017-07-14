@@ -26,4 +26,6 @@ The results were then exported to a geojson file and a
 <h3><b>Measuring Robustness</b></h3>
 Robustenss refers to the ability of a system to maintain its stability despite disruption at a local level. 
 
+[get the PDF]({{ site.url }}/assets/mydoc.pdf)
+
 
