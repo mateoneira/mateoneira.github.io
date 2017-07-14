@@ -5,58 +5,89 @@
 	<button type="button" class="btn btn-primary" onclick="change('chicago')"  style="text-align:center">Chicago</button>
 	<button type="button" class="btn btn-primary" onclick="change('santiago')"  style="text-align:center">Santiago</button>
 </div>		
-<div>
 
-<div class="newyork" style="display:block;overflow: hidden;">
+<div>
+<div style="position: relative;height:420px">
+
+<div class="newyork" style="display:block;overflow: hidden; position: absolute; top: 0px; left:0px;width: 100%;">
 	{% include new_york.html %} 
 </div>
 
-
-<div class="london" style="display:block;overflow: hidden;">
+<div class="london" style="display:block;overflow: hidden; position: absolute; top: 0px; left:0px; width: 100%;">
 	{% include london.html %} 
 </div>
 
-<div class="santiago" style="display:block;overflow: hidden;">
+<div class="santiago" style="display:block;overflow: hidden; position: absolute; top: 0px; left:0px;width: 100%;">
 	{% include santiago.html %} 
 </div>
 
-<div class="chicago" style="display:block;overflow: hidden;">
+<div class="chicago" style="display:block;overflow: hidden; position: absolute; top: 0px; left:0px;width: 100%;">
 	{% include chicago.html %} 
+</div>
+
+</div>
 </div>
 
 
 <script type="text/javascript">
 
 	$(document).ready(function() {
-		$('.newyork').hide();
-		$('.santiago').hide();
-		$('.chicago').hide();
+		$('.newyork').css({ 'opacity' : 0 });
+		$('.santiago').css({ 'opacity' : 0 });
+		$('.chicago').css({ 'opacity' : 0 });
+
+		$('.london').css({ 'z-index' :  10});
+		$('.newyork').css({ 'z-index' :  0});
+		$('.santiago').css({ 'z-index' : 0 });
+		$('.chicago').css({ 'z-index' : 0 });
+
+
 	});
 
 	function change(type){
 		if(type == 'newyork'){
-			$('.newyork').show();
-			$('.london').hide();
-			$('.santiago').hide();
-			$('.chicago').hide()
+			$('.newyork').css({ 'opacity' : 1 });
+			$('.london').css({ 'opacity' : 0 });
+			$('.santiago').css({ 'opacity' : 0 });
+			$('.chicago').css({ 'opacity' : 0 });
+
+			$('.london').css({ 'z-index' :  0});
+			$('.newyork').css({ 'z-index' :  10});
+			$('.santiago').css({ 'z-index' : 0 });
+			$('.chicago').css({ 'z-index' : 0 });
 		}
 		else if(type == 'london'){
-			$('.london').show();
-			$('.newyork').hide();
-			$('.santiago').hide();
-			$('.chicago').hide()
+			$('.london').css({ 'opacity' : 1 });
+			$('.newyork').css({ 'opacity' : 0 });
+			$('.santiago').css({ 'opacity' : 0 });
+			$('.chicago').css({ 'opacity' : 0 });
+
+			$('.london').css({ 'z-index' :  10});
+			$('.newyork').css({ 'z-index' :  0});
+			$('.santiago').css({ 'z-index' : 0 });
+			$('.chicago').css({ 'z-index' : 0 });
 		}
 		else if(type == 'santiago'){
-			$('.santiago').show();
-			$('.newyork').hide();
-			$('.london').hide();
-			$('.chicago').hide()
+			$('.santiago').css({ 'opacity' : 1 });
+			$('.newyork').css({ 'opacity' : 0 });
+			$('.london').css({ 'opacity' : 0 });
+			$('.chicago').css({ 'opacity' : 0 });
+
+			$('.london').css({ 'z-index' :  0});
+			$('.newyork').css({ 'z-index' :  0});
+			$('.santiago').css({ 'z-index' : 10 });
+			$('.chicago').css({ 'z-index' : 0 });
 		}
 		else if(type == 'chicago'){
-			$('.chicago').show();
-			$('.newyork').hide();
-			$('.london').hide();
-			$('.santiago').hide()
+			$('.chicago').css({ 'opacity' : 1 });
+			$('.newyork').css({ 'opacity' : 0 });
+			$('.london').css({ 'opacity' : 0 });
+			$('.santiago').css({ 'opacity' : 0 });
+
+			$('.london').css({ 'z-index' :  0});
+			$('.newyork').css({ 'z-index' :  0});
+			$('.santiago').css({ 'z-index' : 0 });
+			$('.chicago').css({ 'z-index' : 10 });
 		}
 	}
 </script>
