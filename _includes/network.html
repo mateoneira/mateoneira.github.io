@@ -1,0 +1,64 @@
+
+<div style="text-align: center;">
+	<button type="button" class="btn btn-primary" onclick="change('london')"  style="text-align:center">London</button>
+	<button type="button" class="btn btn-primary" onclick="change('newyork')"  style="text-align:center">New York</button>
+	<button type="button" class="btn btn-primary" onclick="change('chicago')"  style="text-align:center">Chicago</button>
+	<button type="button" class="btn btn-primary" onclick="change('santiago')"  style="text-align:center">Santiago</button>
+</div>		
+<div>
+
+<div class="newyork" style="display:block;overflow: hidden;">
+	{% include new_york.html %} 
+</div>
+
+
+<div class="london" style="display:block;overflow: hidden;">
+	{% include london.html %} 
+</div>
+
+<div class="santiago" style="display:block;overflow: hidden;">
+	{% include santiago.html %} 
+</div>
+
+<div class="chicago" style="display:block;overflow: hidden;">
+	{% include chicago.html %} 
+</div>
+
+
+<script type="text/javascript">
+
+	$(document).ready(function() {
+		$('.newyork').hide();
+		$('.santiago').hide();
+		$('.chicago').hide();
+	});
+
+	function change(type){
+		if(type == 'newyork'){
+			$('.newyork').show();
+			$('.london').hide();
+			$('.santiago').hide();
+			$('.chicago').hide()
+		}
+		else if(type == 'london'){
+			$('.london').show();
+			$('.newyork').hide();
+			$('.santiago').hide();
+			$('.chicago').hide()
+		}
+		else if(type == 'santiago'){
+			$('.santiago').show();
+			$('.newyork').hide();
+			$('.london').hide();
+			$('.chicago').hide()
+		}
+		else if(type == 'chicago'){
+			$('.chicago').show();
+			$('.newyork').hide();
+			$('.london').hide();
+			$('.santiago').hide()
+		}
+
+	}
+</script>
+
