@@ -1,0 +1,2403 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="double" for="edge" id="d3" />
+  <key attr.name="name" attr.type="string" for="node" id="d2" />
+  <key attr.name="x" attr.type="double" for="node" id="d1" />
+  <key attr.name="y" attr.type="double" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="30177_london">
+      <data key="d0">41.780536</data>
+      <data key="d1">-87.630952</data>
+      <data key="d2">63rd</data>
+    </node>
+    <node id="30267_london">
+      <data key="d0">41.983504</data>
+      <data key="d1">-87.65884</data>
+      <data key="d2">Bryn Mawr</data>
+    </node>
+    <node id="30150_london">
+      <data key="d0">41.969139</data>
+      <data key="d1">-87.658493</data>
+      <data key="d2">Lawrence</data>
+    </node>
+    <node id="30283_london">
+      <data key="d0">41.966163</data>
+      <data key="d1">-87.688502</data>
+      <data key="d2">Western-Brown</data>
+    </node>
+    <node id="30125_london">
+      <data key="d0">41.910655</data>
+      <data key="d1">-87.649177</data>
+      <data key="d2">North/Clybourn</data>
+    </node>
+    <node id="30198_london">
+      <data key="d0">41.929728</data>
+      <data key="d1">-87.708541</data>
+      <data key="d2">Logan Square</data>
+    </node>
+    <node id="30110_london">
+      <data key="d0">41.878153</data>
+      <data key="d1">-87.627596</data>
+      <data key="d2">Jackson-Red</data>
+    </node>
+    <node id="30115_london">
+      <data key="d0">41.909744</data>
+      <data key="d1">-87.677437</data>
+      <data key="d2">Damen-O'Hare</data>
+    </node>
+    <node id="30001_london">
+      <data key="d0">41.870851</data>
+      <data key="d1">-87.776812</data>
+      <data key="d2">Austin-Blue</data>
+    </node>
+    <node id="30119_london">
+      <data key="d0">41.887159</data>
+      <data key="d1">-87.783661</data>
+      <data key="d2">Ridgeland</data>
+    </node>
+    <node id="30195_london">
+      <data key="d0">41.966115</data>
+      <data key="d1">-87.6941</data>
+      <data key="d2">Rockwell</data>
+    </node>
+    <node id="30037_london">
+      <data key="d0">41.831191</data>
+      <data key="d1">-87.630636</data>
+      <data key="d2">Sox-35th</data>
+    </node>
+    <node id="30199_london">
+      <data key="d0">41.871551</data>
+      <data key="d1">-87.66953</data>
+      <data key="d2">Polk</data>
+    </node>
+    <node id="30191_london">
+      <data key="d0">41.768367</data>
+      <data key="d1">-87.625724</data>
+      <data key="d2">69th</data>
+    </node>
+    <node id="30051_london">
+      <data key="d0">41.88574</data>
+      <data key="d1">-87.627835</data>
+      <data key="d2">State/Lake</data>
+    </node>
+    <node id="30230_london">
+      <data key="d0">41.973453</data>
+      <data key="d1">-87.65853</data>
+      <data key="d2">Argyle</data>
+    </node>
+    <node id="30160_london">
+      <data key="d0">41.983507</data>
+      <data key="d1">-87.859388</data>
+      <data key="d2">Rosemont</data>
+    </node>
+    <node id="30046_london">
+      <data key="d0">41.750419</data>
+      <data key="d1">-87.625112</data>
+      <data key="d2">79th</data>
+    </node>
+    <node id="30264_london">
+      <data key="d0">41.886988</data>
+      <data key="d1">-87.793783</data>
+      <data key="d2">Oak Park-Green</data>
+    </node>
+    <node id="30007_london">
+      <data key="d0">41.878723</data>
+      <data key="d1">-87.63374</data>
+      <data key="d2">Quincy/Wells</data>
+    </node>
+    <node id="30154_london">
+      <data key="d0">41.880703</data>
+      <data key="d1">-87.629378</data>
+      <data key="d2">Monroe-Blue</data>
+    </node>
+    <node id="30096_london">
+      <data key="d0">41.891189</data>
+      <data key="d1">-87.647578</data>
+      <data key="d2">Grand-Blue</data>
+    </node>
+    <node id="30224_london">
+      <data key="d0">41.79542</data>
+      <data key="d1">-87.631157</data>
+      <data key="d2">Garfield-Red</data>
+    </node>
+    <node id="30381_london">
+      <data key="d0">41.853115</data>
+      <data key="d1">-87.626402</data>
+      <data key="d2">Cermak-McCormick Place</data>
+    </node>
+    <node id="30078_london">
+      <data key="d0">42.058282</data>
+      <data key="d1">-87.683337</data>
+      <data key="d2">Noyes</data>
+    </node>
+    <node id="30246_london">
+      <data key="d0">41.816462</data>
+      <data key="d1">-87.619021</data>
+      <data key="d2">43rd</data>
+    </node>
+    <node id="30257_london">
+      <data key="d0">41.939751</data>
+      <data key="d1">-87.65338</data>
+      <data key="d2">Belmont</data>
+    </node>
+    <node id="30284_london">
+      <data key="d0">41.966163</data>
+      <data key="d1">-87.688502</data>
+      <data key="d2">Western-Brown</data>
+    </node>
+    <node id="30030_london">
+      <data key="d0">41.8768</data>
+      <data key="d1">-87.631739</data>
+      <data key="d2">LaSalle/Van Buren</data>
+    </node>
+    <node id="30152_london">
+      <data key="d0">41.853839</data>
+      <data key="d1">-87.714842</data>
+      <data key="d2">Central Park</data>
+    </node>
+    <node id="30140_london">
+      <data key="d0">41.780309</data>
+      <data key="d1">-87.605857</data>
+      <data key="d2">East 63rd-Cottage Grove</data>
+    </node>
+    <node id="30167_london">
+      <data key="d0">41.966046</data>
+      <data key="d1">-87.701644</data>
+      <data key="d2">Francisco</data>
+    </node>
+    <node id="30221_london">
+      <data key="d0">41.885678</data>
+      <data key="d1">-87.641782</data>
+      <data key="d2">Clinton-Green</data>
+    </node>
+    <node id="30145_london">
+      <data key="d0">41.98227</data>
+      <data key="d1">-87.8089</data>
+      <data key="d2">Harlem-O'Hare</data>
+    </node>
+    <node id="30069_london">
+      <data key="d0">41.875474</data>
+      <data key="d1">-87.649707</data>
+      <data key="d2">UIC-Halsted</data>
+    </node>
+    <node id="30083_london">
+      <data key="d0">41.85182</data>
+      <data key="d1">-87.745336</data>
+      <data key="d2">Cicero-Cermak</data>
+    </node>
+    <node id="30276_london">
+      <data key="d0">41.735372</data>
+      <data key="d1">-87.624717</data>
+      <data key="d2">87th</data>
+    </node>
+    <node id="30153_london">
+      <data key="d0">41.880703</data>
+      <data key="d1">-87.629378</data>
+      <data key="d2">Monroe-Blue</data>
+    </node>
+    <node id="30204_london">
+      <data key="d0">42.073153</data>
+      <data key="d1">-87.69073</data>
+      <data key="d2">Linden</data>
+    </node>
+    <node id="30151_london">
+      <data key="d0">41.853839</data>
+      <data key="d1">-87.714842</data>
+      <data key="d2">Central Park</data>
+    </node>
+    <node id="30186_london">
+      <data key="d0">41.799756</data>
+      <data key="d1">-87.724493</data>
+      <data key="d2">Pulaski-Orange</data>
+    </node>
+    <node id="30197_london">
+      <data key="d0">41.929728</data>
+      <data key="d1">-87.708541</data>
+      <data key="d2">Logan Square</data>
+    </node>
+    <node id="30164_london">
+      <data key="d0">42.027612</data>
+      <data key="d1">-87.678329</data>
+      <data key="d2">South Boulevard</data>
+    </node>
+    <node id="30269_london">
+      <data key="d0">41.867368</data>
+      <data key="d1">-87.627402</data>
+      <data key="d2">Roosevelt (Subway)</data>
+    </node>
+    <node id="30245_london">
+      <data key="d0">41.816462</data>
+      <data key="d1">-87.619021</data>
+      <data key="d2">43rd</data>
+    </node>
+    <node id="30091_london">
+      <data key="d0">41.888969</data>
+      <data key="d1">-87.633924</data>
+      <data key="d2">Merchandise Mart</data>
+    </node>
+    <node id="30120_london">
+      <data key="d0">41.887159</data>
+      <data key="d1">-87.783661</data>
+      <data key="d2">Ridgeland</data>
+    </node>
+    <node id="30036_london">
+      <data key="d0">41.831191</data>
+      <data key="d1">-87.630636</data>
+      <data key="d2">Sox-35th</data>
+    </node>
+    <node id="30228_london">
+      <data key="d0">42.015876</data>
+      <data key="d1">-87.669092</data>
+      <data key="d2">Jarvis</data>
+    </node>
+    <node id="30130_london">
+      <data key="d0">41.916157</data>
+      <data key="d1">-87.687364</data>
+      <data key="d2">Western-O'Hare</data>
+    </node>
+    <node id="30021_london">
+      <data key="d0">42.008362</data>
+      <data key="d1">-87.665909</data>
+      <data key="d2">Morse</data>
+    </node>
+    <node id="30382_london">
+      <data key="d0">41.853115</data>
+      <data key="d1">-87.626402</data>
+      <data key="d2">Cermak-McCormick Place</data>
+    </node>
+    <node id="30077_london">
+      <data key="d0">41.874257</data>
+      <data key="d1">-87.817318</data>
+      <data key="d2">Forest Park</data>
+    </node>
+    <node id="30113_london">
+      <data key="d0">41.85177331</data>
+      <data key="d1">-87.75669201</data>
+      <data key="d2">54th/Cermak</data>
+    </node>
+    <node id="30138_london">
+      <data key="d0">41.89681</data>
+      <data key="d1">-87.635924</data>
+      <data key="d2">Chicago-Brown</data>
+    </node>
+    <node id="30206_london">
+      <data key="d0">41.839234</data>
+      <data key="d1">-87.665317</data>
+      <data key="d2">Ashland-Orange</data>
+    </node>
+    <node id="30185_london">
+      <data key="d0">41.799756</data>
+      <data key="d1">-87.724493</data>
+      <data key="d2">Pulaski-Orange</data>
+    </node>
+    <node id="30256_london">
+      <data key="d0">41.939751</data>
+      <data key="d1">-87.65338</data>
+      <data key="d2">Belmont</data>
+    </node>
+    <node id="30292_london">
+      <data key="d0">41.884904</data>
+      <data key="d1">-87.716523</data>
+      <data key="d2">Conservatory</data>
+    </node>
+    <node id="30187_london">
+      <data key="d0">41.871574</data>
+      <data key="d1">-87.745154</data>
+      <data key="d2">Cicero-Forest Park</data>
+    </node>
+    <node id="30210_london">
+      <data key="d0">41.809209</data>
+      <data key="d1">-87.618826</data>
+      <data key="d2">47th-Green</data>
+    </node>
+    <node id="30026_london">
+      <data key="d0">42.038951</data>
+      <data key="d1">-87.751919</data>
+      <data key="d2">Dempster-Skokie</data>
+    </node>
+    <node id="30149_london">
+      <data key="d0">41.969139</data>
+      <data key="d1">-87.658493</data>
+      <data key="d2">Lawrence</data>
+    </node>
+    <node id="30270_london">
+      <data key="d0">41.867368</data>
+      <data key="d1">-87.627402</data>
+      <data key="d2">Roosevelt (Subway)</data>
+    </node>
+    <node id="30232_london">
+      <data key="d0">41.936033</data>
+      <data key="d1">-87.653266</data>
+      <data key="d2">Wellington</data>
+    </node>
+    <node id="30044_london">
+      <data key="d0">41.984246</data>
+      <data key="d1">-87.838028</data>
+      <data key="d2">Cumberland</data>
+    </node>
+    <node id="30106_london">
+      <data key="d0">41.964273</data>
+      <data key="d1">-87.657588</data>
+      <data key="d2">Wilson</data>
+    </node>
+    <node id="30070_london">
+      <data key="d0">41.943744</data>
+      <data key="d1">-87.663619</data>
+      <data key="d2">Southport</data>
+    </node>
+    <node id="30287_london">
+      <data key="d0">41.961756</data>
+      <data key="d1">-87.675047</data>
+      <data key="d2">Montrose-Brown</data>
+    </node>
+    <node id="30072_london">
+      <data key="d0">41.883164</data>
+      <data key="d1">-87.62944</data>
+      <data key="d2">Washington-Blue</data>
+    </node>
+    <node id="30275_london">
+      <data key="d0">41.735372</data>
+      <data key="d1">-87.624717</data>
+      <data key="d2">87th</data>
+    </node>
+    <node id="30213_london">
+      <data key="d0">41.831677</data>
+      <data key="d1">-87.625826</data>
+      <data key="d2">35-Bronzeville-IIT</data>
+    </node>
+    <node id="30226_london">
+      <data key="d0">41.965996</data>
+      <data key="d1">-87.708821</data>
+      <data key="d2">Kedzie-Brown</data>
+    </node>
+    <node id="30065_london">
+      <data key="d0">41.891665</data>
+      <data key="d1">-87.628021</data>
+      <data key="d2">Grand-Red</data>
+    </node>
+    <node id="30223_london">
+      <data key="d0">41.79542</data>
+      <data key="d1">-87.631157</data>
+      <data key="d2">Garfield-Red</data>
+    </node>
+    <node id="30064_london">
+      <data key="d0">41.891665</data>
+      <data key="d1">-87.628021</data>
+      <data key="d2">Grand-Red</data>
+    </node>
+    <node id="30158_london">
+      <data key="d0">41.875706</data>
+      <data key="d1">-87.673932</data>
+      <data key="d2">Illinois Medical District</data>
+    </node>
+    <node id="30179_london">
+      <data key="d0">41.873797</data>
+      <data key="d1">-87.725663</data>
+      <data key="d2">Pulaski-Forest Park</data>
+    </node>
+    <node id="30266_london">
+      <data key="d0">41.88422</data>
+      <data key="d1">-87.696234</data>
+      <data key="d2">California-Green</data>
+    </node>
+    <node id="30029_london">
+      <data key="d0">41.853732</data>
+      <data key="d1">-87.724311</data>
+      <data key="d2">Pulaski-Cermak</data>
+    </node>
+    <node id="30011_london">
+      <data key="d0">42.04771</data>
+      <data key="d1">-87.683543</data>
+      <data key="d2">Davis</data>
+    </node>
+    <node id="30059_london">
+      <data key="d0">41.821732</data>
+      <data key="d1">-87.621371</data>
+      <data key="d2">Indiana</data>
+    </node>
+    <node id="30122_london">
+      <data key="d0">41.90392</data>
+      <data key="d1">-87.631412</data>
+      <data key="d2">Clark/Division</data>
+    </node>
+    <node id="30260_london">
+      <data key="d0">41.961539</data>
+      <data key="d1">-87.743574</data>
+      <data key="d2">Montrose-Blue</data>
+    </node>
+    <node id="30054_london">
+      <data key="d0">41.887389</data>
+      <data key="d1">-87.76565</data>
+      <data key="d2">Central-Green</data>
+    </node>
+    <node id="30172_london">
+      <data key="d0">41.97766526</data>
+      <data key="d1">-87.90422307</data>
+      <data key="d2">O'Hare</data>
+    </node>
+    <node id="30041_london">
+      <data key="d0">41.854517</data>
+      <data key="d1">-87.675975</data>
+      <data key="d2">Damen-Cermak</data>
+    </node>
+    <node id="30202_london">
+      <data key="d0">41.853964</data>
+      <data key="d1">-87.705408</data>
+      <data key="d2">Kedzie-Cermak</data>
+    </node>
+    <node id="30027_london">
+      <data key="d0">42.038951</data>
+      <data key="d1">-87.751919</data>
+      <data key="d2">Dempster-Skokie</data>
+    </node>
+    <node id="30271_london">
+      <data key="d0">41.896075</data>
+      <data key="d1">-87.655214</data>
+      <data key="d2">Chicago-Blue</data>
+    </node>
+    <node id="30227_london">
+      <data key="d0">42.015876</data>
+      <data key="d1">-87.669092</data>
+      <data key="d2">Jarvis</data>
+    </node>
+    <node id="30105_london">
+      <data key="d0">41.964273</data>
+      <data key="d1">-87.657588</data>
+      <data key="d2">Wilson</data>
+    </node>
+    <node id="30296_london">
+      <data key="d0">41.88557676</data>
+      <data key="d1">-87.65212993</data>
+      <data key="d2">Morgan</data>
+    </node>
+    <node id="30288_london">
+      <data key="d0">41.961756</data>
+      <data key="d1">-87.675047</data>
+      <data key="d2">Montrose-Brown</data>
+    </node>
+    <node id="30100_london">
+      <data key="d0">41.795172</data>
+      <data key="d1">-87.618327</data>
+      <data key="d2">Garfield-Green</data>
+    </node>
+    <node id="30093_london">
+      <data key="d0">41.87592</data>
+      <data key="d1">-87.659458</data>
+      <data key="d2">Racine</data>
+    </node>
+    <node id="30205_london">
+      <data key="d0">41.839234</data>
+      <data key="d1">-87.665317</data>
+      <data key="d2">Ashland-Orange</data>
+    </node>
+    <node id="30148_london">
+      <data key="d0">41.993664</data>
+      <data key="d1">-87.659202</data>
+      <data key="d2">Granville</data>
+    </node>
+    <node id="30004_london">
+      <data key="d0">41.886848</data>
+      <data key="d1">-87.803176</data>
+      <data key="d2">Harlem-Green</data>
+    </node>
+    <node id="30178_london">
+      <data key="d0">41.780536</data>
+      <data key="d1">-87.630952</data>
+      <data key="d2">63rd</data>
+    </node>
+    <node id="30006_london">
+      <data key="d0">41.885412</data>
+      <data key="d1">-87.725404</data>
+      <data key="d2">Pulaski-Green</data>
+    </node>
+    <node id="30166_london">
+      <data key="d0">41.876862</data>
+      <data key="d1">-87.628196</data>
+      <data key="d2">Harold Washington Library</data>
+    </node>
+    <node id="30053_london">
+      <data key="d0">42.033456</data>
+      <data key="d1">-87.679538</data>
+      <data key="d2">Main</data>
+    </node>
+    <node id="30144_london">
+      <data key="d0">41.854225</data>
+      <data key="d1">-87.685129</data>
+      <data key="d2">Western-Cermak</data>
+    </node>
+    <node id="30163_london">
+      <data key="d0">42.027612</data>
+      <data key="d1">-87.678329</data>
+      <data key="d2">South Boulevard</data>
+    </node>
+    <node id="30111_london">
+      <data key="d0">41.921939</data>
+      <data key="d1">-87.69689</data>
+      <data key="d2">California-O'Hare</data>
+    </node>
+    <node id="30291_london">
+      <data key="d0">41.884904</data>
+      <data key="d1">-87.716523</data>
+      <data key="d2">Conservatory</data>
+    </node>
+    <node id="30215_london">
+      <data key="d0">41.84678</data>
+      <data key="d1">-87.648088</data>
+      <data key="d2">Halsted-Orange</data>
+    </node>
+    <node id="30067_london">
+      <data key="d0">41.977984</data>
+      <data key="d1">-87.658668</data>
+      <data key="d2">Berwyn</data>
+    </node>
+    <node id="30295_london">
+      <data key="d0">41.88557676</data>
+      <data key="d1">-87.65212993</data>
+      <data key="d2">Morgan</data>
+    </node>
+    <node id="30018_london">
+      <data key="d0">41.966286</data>
+      <data key="d1">-87.678639</data>
+      <data key="d2">Damen-Brown</data>
+    </node>
+    <node id="30274_london">
+      <data key="d0">41.947428</data>
+      <data key="d1">-87.653626</data>
+      <data key="d2">Addison-Red</data>
+    </node>
+    <node id="30099_london">
+      <data key="d0">41.795172</data>
+      <data key="d1">-87.618327</data>
+      <data key="d2">Garfield-Green</data>
+    </node>
+    <node id="30229_london">
+      <data key="d0">41.973453</data>
+      <data key="d1">-87.65853</data>
+      <data key="d2">Argyle</data>
+    </node>
+    <node id="30050_london">
+      <data key="d0">41.88574</data>
+      <data key="d1">-87.627835</data>
+      <data key="d2">State/Lake</data>
+    </node>
+    <node id="30107_london">
+      <data key="d0">41.952925</data>
+      <data key="d1">-87.729229</data>
+      <data key="d2">Irving Park-Blue</data>
+    </node>
+    <node id="30090_london">
+      <data key="d0">41.888969</data>
+      <data key="d1">-87.633924</data>
+      <data key="d2">Merchandise Mart</data>
+    </node>
+    <node id="30208_london">
+      <data key="d0">41.884321</data>
+      <data key="d1">-87.706155</data>
+      <data key="d2">Kedzie-Green</data>
+    </node>
+    <node id="30180_london">
+      <data key="d0">41.873797</data>
+      <data key="d1">-87.725663</data>
+      <data key="d2">Pulaski-Forest Park</data>
+    </node>
+    <node id="30263_london">
+      <data key="d0">41.886988</data>
+      <data key="d1">-87.793783</data>
+      <data key="d2">Oak Park-Green</data>
+    </node>
+    <node id="30273_london">
+      <data key="d0">41.947428</data>
+      <data key="d1">-87.653626</data>
+      <data key="d2">Addison-Red</data>
+    </node>
+    <node id="30010_london">
+      <data key="d0">42.04771</data>
+      <data key="d1">-87.683543</data>
+      <data key="d2">Davis</data>
+    </node>
+    <node id="30194_london">
+      <data key="d0">41.853206</data>
+      <data key="d1">-87.630968</data>
+      <data key="d2">Cermak-Chinatown</data>
+    </node>
+    <node id="30285_london">
+      <data key="d0">41.874039</data>
+      <data key="d1">-87.627479</data>
+      <data key="d2">Harrison</data>
+    </node>
+    <node id="30176_london">
+      <data key="d0">42.019063</data>
+      <data key="d1">-87.672892</data>
+      <data key="d2">Howard</data>
+    </node>
+    <node id="30131_london">
+      <data key="d0">41.879507</data>
+      <data key="d1">-87.626037</data>
+      <data key="d2">Adams/Wabash</data>
+    </node>
+    <node id="30156_london">
+      <data key="d0">41.910409</data>
+      <data key="d1">-87.639302</data>
+      <data key="d2">Sedgwick</data>
+    </node>
+    <node id="30019_london">
+      <data key="d0">41.966286</data>
+      <data key="d1">-87.678639</data>
+      <data key="d2">Damen-Brown</data>
+    </node>
+    <node id="30134_london">
+      <data key="d0">42.041655</data>
+      <data key="d1">-87.681602</data>
+      <data key="d2">Dempster</data>
+    </node>
+    <node id="30058_london">
+      <data key="d0">41.821732</data>
+      <data key="d1">-87.621371</data>
+      <data key="d2">Indiana</data>
+    </node>
+    <node id="30139_london">
+      <data key="d0">41.780309</data>
+      <data key="d1">-87.605857</data>
+      <data key="d2">East 63rd-Cottage Grove</data>
+    </node>
+    <node id="30084_london">
+      <data key="d0">41.875539</data>
+      <data key="d1">-87.640984</data>
+      <data key="d2">Clinton-Blue</data>
+    </node>
+    <node id="30081_london">
+      <data key="d0">41.867405</data>
+      <data key="d1">-87.62659</data>
+      <data key="d2">Roosevelt (Elevated)</data>
+    </node>
+    <node id="30116_london">
+      <data key="d0">41.909744</data>
+      <data key="d1">-87.677437</data>
+      <data key="d2">Damen-O'Hare</data>
+    </node>
+    <node id="30005_london">
+      <data key="d0">41.885412</data>
+      <data key="d1">-87.725404</data>
+      <data key="d2">Pulaski-Green</data>
+    </node>
+    <node id="30031_london">
+      <data key="d0">41.8768</data>
+      <data key="d1">-87.631739</data>
+      <data key="d2">LaSalle/Van Buren</data>
+    </node>
+    <node id="30181_london">
+      <data key="d0">41.78661</data>
+      <data key="d1">-87.737875</data>
+      <data key="d2">Midway</data>
+    </node>
+    <node id="30033_london">
+      <data key="d0">41.885269</data>
+      <data key="d1">-87.666969</data>
+      <data key="d2">Ashland-Lake</data>
+    </node>
+    <node id="30236_london">
+      <data key="d0">41.925051</data>
+      <data key="d1">-87.652866</data>
+      <data key="d2">Fullerton</data>
+    </node>
+    <node id="30009_london">
+      <data key="d0">41.886519</data>
+      <data key="d1">-87.744698</data>
+      <data key="d2">Cicero-Green</data>
+    </node>
+    <node id="30022_london">
+      <data key="d0">41.829353</data>
+      <data key="d1">-87.680622</data>
+      <data key="d2">35th/Archer</data>
+    </node>
+    <node id="30128_london">
+      <data key="d0">41.918217</data>
+      <data key="d1">-87.652644</data>
+      <data key="d2">Armitage</data>
+    </node>
+    <node id="30235_london">
+      <data key="d0">41.925051</data>
+      <data key="d1">-87.652866</data>
+      <data key="d2">Fullerton</data>
+    </node>
+    <node id="30108_london">
+      <data key="d0">41.952925</data>
+      <data key="d1">-87.729229</data>
+      <data key="d2">Irving Park-Blue</data>
+    </node>
+    <node id="30286_london">
+      <data key="d0">41.874039</data>
+      <data key="d1">-87.627479</data>
+      <data key="d2">Harrison</data>
+    </node>
+    <node id="30282_london">
+      <data key="d0">41.954521</data>
+      <data key="d1">-87.674868</data>
+      <data key="d2">Irving Park-Brown</data>
+    </node>
+    <node id="30043_london">
+      <data key="d0">41.875478</data>
+      <data key="d1">-87.688436</data>
+      <data key="d2">Western-Forest Park</data>
+    </node>
+    <node id="30086_london">
+      <data key="d0">41.854109</data>
+      <data key="d1">-87.694774</data>
+      <data key="d2">California-Cermak</data>
+    </node>
+    <node id="30201_london">
+      <data key="d0">41.853964</data>
+      <data key="d1">-87.705408</data>
+      <data key="d2">Kedzie-Cermak</data>
+    </node>
+    <node id="30159_london">
+      <data key="d0">41.983507</data>
+      <data key="d1">-87.859388</data>
+      <data key="d2">Rosemont</data>
+    </node>
+    <node id="30374_london">
+      <data key="d0">41.885737</data>
+      <data key="d1">-87.630886</data>
+      <data key="d2">Clark/Lake (Subway)</data>
+    </node>
+    <node id="30063_london">
+      <data key="d0">41.903355</data>
+      <data key="d1">-87.666496</data>
+      <data key="d2">Division</data>
+    </node>
+    <node id="30121_london">
+      <data key="d0">41.90392</data>
+      <data key="d1">-87.631412</data>
+      <data key="d2">Clark/Division</data>
+    </node>
+    <node id="30155_london">
+      <data key="d0">41.910409</data>
+      <data key="d1">-87.639302</data>
+      <data key="d2">Sedgwick</data>
+    </node>
+    <node id="30060_london">
+      <data key="d0">41.804546</data>
+      <data key="d1">-87.684019</data>
+      <data key="d2">Western-Orange</data>
+    </node>
+    <node id="30003_london">
+      <data key="d0">41.886848</data>
+      <data key="d1">-87.803176</data>
+      <data key="d2">Harlem-Green</data>
+    </node>
+    <node id="30169_london">
+      <data key="d0">41.990259</data>
+      <data key="d1">-87.659076</data>
+      <data key="d2">Thorndale</data>
+    </node>
+    <node id="30143_london">
+      <data key="d0">41.854225</data>
+      <data key="d1">-87.685129</data>
+      <data key="d2">Western-Cermak</data>
+    </node>
+    <node id="30261_london">
+      <data key="d0">41.875568</data>
+      <data key="d1">-87.631722</data>
+      <data key="d2">LaSalle</data>
+    </node>
+    <node id="30075_london">
+      <data key="d0">41.885737</data>
+      <data key="d1">-87.630886</data>
+      <data key="d2">Clark/Lake (Elevated)</data>
+    </node>
+    <node id="30217_london">
+      <data key="d0">41.78013</data>
+      <data key="d1">-87.615546</data>
+      <data key="d2">King Drive</data>
+    </node>
+    <node id="30052_london">
+      <data key="d0">42.033456</data>
+      <data key="d1">-87.679538</data>
+      <data key="d2">Main</data>
+    </node>
+    <node id="30109_london">
+      <data key="d0">41.878153</data>
+      <data key="d1">-87.627596</data>
+      <data key="d2">Jackson-Red</data>
+    </node>
+    <node id="30055_london">
+      <data key="d0">41.887389</data>
+      <data key="d1">-87.76565</data>
+      <data key="d2">Central-Green</data>
+    </node>
+    <node id="30118_london">
+      <data key="d0">41.853751</data>
+      <data key="d1">-87.733258</data>
+      <data key="d2">Kostner</data>
+    </node>
+    <node id="30104_london">
+      <data key="d0">41.932732</data>
+      <data key="d1">-87.653131</data>
+      <data key="d2">Diversey</data>
+    </node>
+    <node id="30242_london">
+      <data key="d0">42.063987</data>
+      <data key="d1">-87.685617</data>
+      <data key="d2">Central-Purple</data>
+    </node>
+    <node id="30193_london">
+      <data key="d0">41.853206</data>
+      <data key="d1">-87.630968</data>
+      <data key="d2">Cermak-Chinatown</data>
+    </node>
+    <node id="30089_london">
+      <data key="d0">41.722377</data>
+      <data key="d1">-87.624342</data>
+      <data key="d2">95th</data>
+    </node>
+    <node id="30247_london">
+      <data key="d0">41.970634</data>
+      <data key="d1">-87.760892</data>
+      <data key="d2">Jefferson Park</data>
+    </node>
+    <node id="30079_london">
+      <data key="d0">42.058282</data>
+      <data key="d1">-87.683337</data>
+      <data key="d2">Noyes</data>
+    </node>
+    <node id="30279_london">
+      <data key="d0">41.896671</data>
+      <data key="d1">-87.628176</data>
+      <data key="d2">Chicago-Red</data>
+    </node>
+    <node id="30253_london">
+      <data key="d0">41.943623</data>
+      <data key="d1">-87.670907</data>
+      <data key="d2">Paulina</data>
+    </node>
+    <node id="30212_london">
+      <data key="d0">41.880745</data>
+      <data key="d1">-87.627696</data>
+      <data key="d2">Monroe-Red</data>
+    </node>
+    <node id="30281_london">
+      <data key="d0">41.954521</data>
+      <data key="d1">-87.674868</data>
+      <data key="d2">Irving Park-Brown</data>
+    </node>
+    <node id="30196_london">
+      <data key="d0">41.966115</data>
+      <data key="d1">-87.6941</data>
+      <data key="d2">Rockwell</data>
+    </node>
+    <node id="30225_london">
+      <data key="d0">41.965996</data>
+      <data key="d1">-87.708821</data>
+      <data key="d2">Kedzie-Brown</data>
+    </node>
+    <node id="30039_london">
+      <data key="d0">41.884431</data>
+      <data key="d1">-87.626149</data>
+      <data key="d2">Randolph/Wabash</data>
+    </node>
+    <node id="30147_london">
+      <data key="d0">41.993664</data>
+      <data key="d1">-87.659202</data>
+      <data key="d2">Granville</data>
+    </node>
+    <node id="30162_london">
+      <data key="d0">41.857908</data>
+      <data key="d1">-87.669147</data>
+      <data key="d2">18th</data>
+    </node>
+    <node id="30189_london">
+      <data key="d0">41.87349</data>
+      <data key="d1">-87.806961</data>
+      <data key="d2">Harlem-Forest Park</data>
+    </node>
+    <node id="30088_london">
+      <data key="d0">41.722377</data>
+      <data key="d1">-87.624342</data>
+      <data key="d2">95th</data>
+    </node>
+    <node id="30057_london">
+      <data key="d0">41.77886</data>
+      <data key="d1">-87.663766</data>
+      <data key="d2">Ashland/63rd</data>
+    </node>
+    <node id="30082_london">
+      <data key="d0">41.85182</data>
+      <data key="d1">-87.745336</data>
+      <data key="d2">Cicero-Cermak</data>
+    </node>
+    <node id="30278_london">
+      <data key="d0">41.947028</data>
+      <data key="d1">-87.674642</data>
+      <data key="d2">Addison-Brown</data>
+    </node>
+    <node id="30133_london">
+      <data key="d0">42.041655</data>
+      <data key="d1">-87.681602</data>
+      <data key="d2">Dempster</data>
+    </node>
+    <node id="30255_london">
+      <data key="d0">41.939751</data>
+      <data key="d1">-87.65338</data>
+      <data key="d2">Belmont</data>
+    </node>
+    <node id="30073_london">
+      <data key="d0">41.883164</data>
+      <data key="d1">-87.62944</data>
+      <data key="d2">Washington-Blue</data>
+    </node>
+    <node id="30023_london">
+      <data key="d0">41.829353</data>
+      <data key="d1">-87.680622</data>
+      <data key="d2">35th/Archer</data>
+    </node>
+    <node id="30129_london">
+      <data key="d0">41.916157</data>
+      <data key="d1">-87.687364</data>
+      <data key="d2">Western-O'Hare</data>
+    </node>
+    <node id="30209_london">
+      <data key="d0">41.809209</data>
+      <data key="d1">-87.618826</data>
+      <data key="d2">47th-Green</data>
+    </node>
+    <node id="30103_london">
+      <data key="d0">41.932732</data>
+      <data key="d1">-87.653131</data>
+      <data key="d2">Diversey</data>
+    </node>
+    <node id="30034_london">
+      <data key="d0">41.872108</data>
+      <data key="d1">-87.791602</data>
+      <data key="d2">Oak Park-Blue</data>
+    </node>
+    <node id="30066_london">
+      <data key="d0">41.977984</data>
+      <data key="d1">-87.658668</data>
+      <data key="d2">Berwyn</data>
+    </node>
+    <node id="30076_london">
+      <data key="d0">41.874257</data>
+      <data key="d1">-87.817318</data>
+      <data key="d2">Forest Park</data>
+    </node>
+    <node id="30061_london">
+      <data key="d0">41.804546</data>
+      <data key="d1">-87.684019</data>
+      <data key="d2">Western-Orange</data>
+    </node>
+    <node id="30192_london">
+      <data key="d0">41.768367</data>
+      <data key="d1">-87.625724</data>
+      <data key="d2">69th</data>
+    </node>
+    <node id="30168_london">
+      <data key="d0">41.966046</data>
+      <data key="d1">-87.701644</data>
+      <data key="d2">Francisco</data>
+    </node>
+    <node id="30239_london">
+      <data key="d0">41.94738</data>
+      <data key="d1">-87.71906</data>
+      <data key="d2">Addison-Blue</data>
+    </node>
+    <node id="30250_london">
+      <data key="d0">41.967901</data>
+      <data key="d1">-87.713065</data>
+      <data key="d2">Kimball</data>
+    </node>
+    <node id="30042_london">
+      <data key="d0">41.875478</data>
+      <data key="d1">-87.688436</data>
+      <data key="d2">Western-Forest Park</data>
+    </node>
+    <node id="30157_london">
+      <data key="d0">41.875706</data>
+      <data key="d1">-87.673932</data>
+      <data key="d2">Illinois Medical District</data>
+    </node>
+    <node id="30062_london">
+      <data key="d0">41.903355</data>
+      <data key="d1">-87.666496</data>
+      <data key="d2">Division</data>
+    </node>
+    <node id="30251_london">
+      <data key="d0">42.001073</data>
+      <data key="d1">-87.661061</data>
+      <data key="d2">Loyola</data>
+    </node>
+    <node id="30161_london">
+      <data key="d0">41.857908</data>
+      <data key="d1">-87.669147</data>
+      <data key="d2">18th</data>
+    </node>
+    <node id="30259_london">
+      <data key="d0">41.961539</data>
+      <data key="d1">-87.743574</data>
+      <data key="d2">Montrose-Blue</data>
+    </node>
+    <node id="30032_london">
+      <data key="d0">41.885269</data>
+      <data key="d1">-87.666969</data>
+      <data key="d2">Ashland-Lake</data>
+    </node>
+    <node id="30248_london">
+      <data key="d0">41.970634</data>
+      <data key="d1">-87.760892</data>
+      <data key="d2">Jefferson Park</data>
+    </node>
+    <node id="30085_london">
+      <data key="d0">41.875539</data>
+      <data key="d1">-87.640984</data>
+      <data key="d2">Clinton-Blue</data>
+    </node>
+    <node id="30297_london">
+      <data key="d0">42.02624348</data>
+      <data key="d1">-87.74722084</data>
+      <data key="d2">Oakton-Skokie</data>
+    </node>
+    <node id="30258_london">
+      <data key="d0">41.939751</data>
+      <data key="d1">-87.65338</data>
+      <data key="d2">Belmont</data>
+    </node>
+    <node id="30238_london">
+      <data key="d0">41.810318</data>
+      <data key="d1">-87.63094</data>
+      <data key="d2">47th-Red</data>
+    </node>
+    <node id="30017_london">
+      <data key="d0">41.953775</data>
+      <data key="d1">-87.654929</data>
+      <data key="d2">Sheridan</data>
+    </node>
+    <node id="30233_london">
+      <data key="d0">41.925051</data>
+      <data key="d1">-87.652866</data>
+      <data key="d2">Fullerton</data>
+    </node>
+    <node id="30218_london">
+      <data key="d0">41.78013</data>
+      <data key="d1">-87.615546</data>
+      <data key="d2">King Drive</data>
+    </node>
+    <node id="30035_london">
+      <data key="d0">41.872108</data>
+      <data key="d1">-87.791602</data>
+      <data key="d2">Oak Park-Blue</data>
+    </node>
+    <node id="30015_london">
+      <data key="d0">41.878183</data>
+      <data key="d1">-87.629296</data>
+      <data key="d2">Jackson-Blue</data>
+    </node>
+    <node id="30174_london">
+      <data key="d0">42.019063</data>
+      <data key="d1">-87.672892</data>
+      <data key="d2">Howard</data>
+    </node>
+    <node id="30171_london">
+      <data key="d0">41.97766526</data>
+      <data key="d1">-87.90422307</data>
+      <data key="d2">O'Hare</data>
+    </node>
+    <node id="30008_london">
+      <data key="d0">41.878723</data>
+      <data key="d1">-87.63374</data>
+      <data key="d2">Quincy/Wells</data>
+    </node>
+    <node id="30094_london">
+      <data key="d0">41.886519</data>
+      <data key="d1">-87.744698</data>
+      <data key="d2">Cicero-Green</data>
+    </node>
+    <node id="30234_london">
+      <data key="d0">41.925051</data>
+      <data key="d1">-87.652866</data>
+      <data key="d2">Fullerton</data>
+    </node>
+    <node id="30298_london">
+      <data key="d0">42.02624348</data>
+      <data key="d1">-87.74722084</data>
+      <data key="d2">Oakton-Skokie</data>
+    </node>
+    <node id="30214_london">
+      <data key="d0">41.831677</data>
+      <data key="d1">-87.625826</data>
+      <data key="d2">35-Bronzeville-IIT</data>
+    </node>
+    <node id="30136_london">
+      <data key="d0">41.887163</data>
+      <data key="d1">-87.754986</data>
+      <data key="d2">Laramie</data>
+    </node>
+    <node id="30025_london">
+      <data key="d0">41.80209</data>
+      <data key="d1">-87.618487</data>
+      <data key="d2">51st</data>
+    </node>
+    <node id="30068_london">
+      <data key="d0">41.875474</data>
+      <data key="d1">-87.649707</data>
+      <data key="d2">UIC-Halsted</data>
+    </node>
+    <node id="30220_london">
+      <data key="d0">41.804236</data>
+      <data key="d1">-87.704406</data>
+      <data key="d2">Kedzie-Orange</data>
+    </node>
+    <node id="30375_london">
+      <data key="d0">41.885737</data>
+      <data key="d1">-87.630886</data>
+      <data key="d2">Clark/Lake (Subway)</data>
+    </node>
+    <node id="30114_london">
+      <data key="d0">41.85177331</data>
+      <data key="d1">-87.75669201</data>
+      <data key="d2">54th/Cermak</data>
+    </node>
+    <node id="30207_london">
+      <data key="d0">41.884321</data>
+      <data key="d1">-87.706155</data>
+      <data key="d2">Kedzie-Green</data>
+    </node>
+    <node id="30200_london">
+      <data key="d0">41.871551</data>
+      <data key="d1">-87.66953</data>
+      <data key="d2">Polk</data>
+    </node>
+    <node id="30183_london">
+      <data key="d0">41.778943</data>
+      <data key="d1">-87.644244</data>
+      <data key="d2">Halsted-Green</data>
+    </node>
+    <node id="30165_london">
+      <data key="d0">41.876862</data>
+      <data key="d1">-87.628196</data>
+      <data key="d2">Harold Washington Library</data>
+    </node>
+    <node id="30074_london">
+      <data key="d0">41.885737</data>
+      <data key="d1">-87.630886</data>
+      <data key="d2">Clark/Lake (Elevated)</data>
+    </node>
+    <node id="30146_london">
+      <data key="d0">41.98227</data>
+      <data key="d1">-87.8089</data>
+      <data key="d2">Harlem-O'Hare</data>
+    </node>
+    <node id="30231_london">
+      <data key="d0">41.936033</data>
+      <data key="d1">-87.653266</data>
+      <data key="d2">Wellington</data>
+    </node>
+    <node id="30294_london">
+      <data key="d0">41.953775</data>
+      <data key="d1">-87.654929</data>
+      <data key="d2">Sheridan</data>
+    </node>
+    <node id="30127_london">
+      <data key="d0">41.918217</data>
+      <data key="d1">-87.652644</data>
+      <data key="d2">Armitage</data>
+    </node>
+    <node id="30020_london">
+      <data key="d0">42.008362</data>
+      <data key="d1">-87.665909</data>
+      <data key="d2">Morse</data>
+    </node>
+    <node id="30132_london">
+      <data key="d0">41.879507</data>
+      <data key="d1">-87.626037</data>
+      <data key="d2">Adams/Wabash</data>
+    </node>
+    <node id="30243_london">
+      <data key="d0">41.887293</data>
+      <data key="d1">-87.774135</data>
+      <data key="d2">Austin-Green</data>
+    </node>
+    <node id="30268_london">
+      <data key="d0">41.983504</data>
+      <data key="d1">-87.65884</data>
+      <data key="d2">Bryn Mawr</data>
+    </node>
+    <node id="30211_london">
+      <data key="d0">41.880745</data>
+      <data key="d1">-87.627696</data>
+      <data key="d2">Monroe-Red</data>
+    </node>
+    <node id="30126_london">
+      <data key="d0">41.910655</data>
+      <data key="d1">-87.649177</data>
+      <data key="d2">North/Clybourn</data>
+    </node>
+    <node id="30092_london">
+      <data key="d0">41.87592</data>
+      <data key="d1">-87.659458</data>
+      <data key="d2">Racine</data>
+    </node>
+    <node id="30101_london">
+      <data key="d0">42.05416</data>
+      <data key="d1">-87.68356</data>
+      <data key="d2">Foster</data>
+    </node>
+    <node id="30240_london">
+      <data key="d0">41.94738</data>
+      <data key="d1">-87.71906</data>
+      <data key="d2">Addison-Blue</data>
+    </node>
+    <node id="30184_london">
+      <data key="d0">41.778943</data>
+      <data key="d1">-87.644244</data>
+      <data key="d2">Halsted-Green</data>
+    </node>
+    <node id="30048_london">
+      <data key="d0">41.874341</data>
+      <data key="d1">-87.70604</data>
+      <data key="d2">Kedzie-Homan</data>
+    </node>
+    <node id="30071_london">
+      <data key="d0">41.943744</data>
+      <data key="d1">-87.663619</data>
+      <data key="d2">Southport</data>
+    </node>
+    <node id="30280_london">
+      <data key="d0">41.896671</data>
+      <data key="d1">-87.628176</data>
+      <data key="d2">Chicago-Red</data>
+    </node>
+    <node id="30190_london">
+      <data key="d0">41.87349</data>
+      <data key="d1">-87.806961</data>
+      <data key="d2">Harlem-Forest Park</data>
+    </node>
+    <node id="30038_london">
+      <data key="d0">41.884431</data>
+      <data key="d1">-87.626149</data>
+      <data key="d2">Randolph/Wabash</data>
+    </node>
+    <node id="30141_london">
+      <data key="d0">41.882695</data>
+      <data key="d1">-87.63378</data>
+      <data key="d2">Washington/Wells</data>
+    </node>
+    <node id="30047_london">
+      <data key="d0">41.750419</data>
+      <data key="d1">-87.625112</data>
+      <data key="d2">79th</data>
+    </node>
+    <node id="30188_london">
+      <data key="d0">41.871574</data>
+      <data key="d1">-87.745154</data>
+      <data key="d2">Cicero-Forest Park</data>
+    </node>
+    <node id="30087_london">
+      <data key="d0">41.854109</data>
+      <data key="d1">-87.694774</data>
+      <data key="d2">California-Cermak</data>
+    </node>
+    <node id="30290_london">
+      <data key="d0">41.884809</data>
+      <data key="d1">-87.627813</data>
+      <data key="d2">Lake</data>
+    </node>
+    <node id="30173_london">
+      <data key="d0">42.019063</data>
+      <data key="d1">-87.672892</data>
+      <data key="d2">Howard</data>
+    </node>
+    <node id="30135_london">
+      <data key="d0">41.887163</data>
+      <data key="d1">-87.754986</data>
+      <data key="d2">Laramie</data>
+    </node>
+    <node id="30237_london">
+      <data key="d0">41.810318</data>
+      <data key="d1">-87.63094</data>
+      <data key="d2">47th-Red</data>
+    </node>
+    <node id="30241_london">
+      <data key="d0">42.063987</data>
+      <data key="d1">-87.685617</data>
+      <data key="d2">Central-Purple</data>
+    </node>
+    <node id="30137_london">
+      <data key="d0">41.89681</data>
+      <data key="d1">-87.635924</data>
+      <data key="d2">Chicago-Brown</data>
+    </node>
+    <node id="30203_london">
+      <data key="d0">42.073153</data>
+      <data key="d1">-87.69073</data>
+      <data key="d2">Linden</data>
+    </node>
+    <node id="30142_london">
+      <data key="d0">41.882695</data>
+      <data key="d1">-87.63378</data>
+      <data key="d2">Washington/Wells</data>
+    </node>
+    <node id="30095_london">
+      <data key="d0">41.891189</data>
+      <data key="d1">-87.647578</data>
+      <data key="d2">Grand-Blue</data>
+    </node>
+    <node id="30102_london">
+      <data key="d0">42.05416</data>
+      <data key="d1">-87.68356</data>
+      <data key="d2">Foster</data>
+    </node>
+    <node id="30244_london">
+      <data key="d0">41.887293</data>
+      <data key="d1">-87.774135</data>
+      <data key="d2">Austin-Green</data>
+    </node>
+    <node id="30012_london">
+      <data key="d0">41.938132</data>
+      <data key="d1">-87.712359</data>
+      <data key="d2">Belmont-Blue</data>
+    </node>
+    <node id="30252_london">
+      <data key="d0">42.001073</data>
+      <data key="d1">-87.661061</data>
+      <data key="d2">Loyola</data>
+    </node>
+    <node id="30056_london">
+      <data key="d0">41.77886</data>
+      <data key="d1">-87.663766</data>
+      <data key="d2">Ashland/63rd</data>
+    </node>
+    <node id="30249_london">
+      <data key="d0">41.967901</data>
+      <data key="d1">-87.713065</data>
+      <data key="d2">Kimball</data>
+    </node>
+    <node id="30182_london">
+      <data key="d0">41.78661</data>
+      <data key="d1">-87.737875</data>
+      <data key="d2">Midway</data>
+    </node>
+    <node id="30002_london">
+      <data key="d0">41.870851</data>
+      <data key="d1">-87.776812</data>
+      <data key="d2">Austin-Blue</data>
+    </node>
+    <node id="30024_london">
+      <data key="d0">41.80209</data>
+      <data key="d1">-87.618487</data>
+      <data key="d2">51st</data>
+    </node>
+    <node id="30272_london">
+      <data key="d0">41.896075</data>
+      <data key="d1">-87.655214</data>
+      <data key="d2">Chicago-Blue</data>
+    </node>
+    <node id="30216_london">
+      <data key="d0">41.84678</data>
+      <data key="d1">-87.648088</data>
+      <data key="d2">Halsted-Orange</data>
+    </node>
+    <node id="30222_london">
+      <data key="d0">41.885678</data>
+      <data key="d1">-87.641782</data>
+      <data key="d2">Clinton-Green</data>
+    </node>
+    <node id="30277_london">
+      <data key="d0">41.947028</data>
+      <data key="d1">-87.674642</data>
+      <data key="d2">Addison-Brown</data>
+    </node>
+    <node id="30014_london">
+      <data key="d0">41.878183</data>
+      <data key="d1">-87.629296</data>
+      <data key="d2">Jackson-Blue</data>
+    </node>
+    <node id="30262_london">
+      <data key="d0">41.875568</data>
+      <data key="d1">-87.631722</data>
+      <data key="d2">LaSalle</data>
+    </node>
+    <node id="30112_london">
+      <data key="d0">41.921939</data>
+      <data key="d1">-87.69689</data>
+      <data key="d2">California-O'Hare</data>
+    </node>
+    <node id="30289_london">
+      <data key="d0">41.884809</data>
+      <data key="d1">-87.627813</data>
+      <data key="d2">Lake</data>
+    </node>
+    <node id="30254_london">
+      <data key="d0">41.943623</data>
+      <data key="d1">-87.670907</data>
+      <data key="d2">Paulina</data>
+    </node>
+    <node id="30117_london">
+      <data key="d0">41.853751</data>
+      <data key="d1">-87.733258</data>
+      <data key="d2">Kostner</data>
+    </node>
+    <node id="30080_london">
+      <data key="d0">41.867405</data>
+      <data key="d1">-87.62659</data>
+      <data key="d2">Roosevelt (Elevated)</data>
+    </node>
+    <node id="30049_london">
+      <data key="d0">41.874341</data>
+      <data key="d1">-87.70604</data>
+      <data key="d2">Kedzie-Homan</data>
+    </node>
+    <node id="30016_london">
+      <data key="d0">41.953775</data>
+      <data key="d1">-87.654929</data>
+      <data key="d2">Sheridan</data>
+    </node>
+    <node id="30013_london">
+      <data key="d0">41.938132</data>
+      <data key="d1">-87.712359</data>
+      <data key="d2">Belmont-Blue</data>
+    </node>
+    <node id="30028_london">
+      <data key="d0">41.853732</data>
+      <data key="d1">-87.724311</data>
+      <data key="d2">Pulaski-Cermak</data>
+    </node>
+    <node id="30175_london">
+      <data key="d0">42.019063</data>
+      <data key="d1">-87.672892</data>
+      <data key="d2">Howard</data>
+    </node>
+    <node id="30040_london">
+      <data key="d0">41.854517</data>
+      <data key="d1">-87.675975</data>
+      <data key="d2">Damen-Cermak</data>
+    </node>
+    <node id="30219_london">
+      <data key="d0">41.804236</data>
+      <data key="d1">-87.704406</data>
+      <data key="d2">Kedzie-Orange</data>
+    </node>
+    <node id="30045_london">
+      <data key="d0">41.984246</data>
+      <data key="d1">-87.838028</data>
+      <data key="d2">Cumberland</data>
+    </node>
+    <node id="30170_london">
+      <data key="d0">41.990259</data>
+      <data key="d1">-87.659076</data>
+      <data key="d2">Thorndale</data>
+    </node>
+    <node id="30265_london">
+      <data key="d0">41.88422</data>
+      <data key="d1">-87.696234</data>
+      <data key="d2">California-Green</data>
+    </node>
+    <edge source="30177_london" target="30223_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30177_london" target="30191_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30267_london" target="30169_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30267_london" target="30066_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30150_london" target="30230_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30150_london" target="30106_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30283_london" target="30018_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30283_london" target="30195_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30125_london" target="30233_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30125_london" target="30121_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30198_london" target="30112_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30198_london" target="30013_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30110_london" target="30286_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30110_london" target="30212_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30115_london" target="30062_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30115_london" target="30129_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30001_london" target="30034_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30001_london" target="30187_london">
+      <data key="d3">3.5</data>
+    </edge>
+    <edge source="30119_london" target="30263_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30119_london" target="30243_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30195_london" target="30167_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30037_london" target="30238_london">
+      <data key="d3">3.0</data>
+    </edge>
+    <edge source="30037_london" target="30194_london">
+      <data key="d3">3.0</data>
+    </edge>
+    <edge source="30199_london" target="30161_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30199_london" target="30032_london">
+      <data key="d3">3.5</data>
+    </edge>
+    <edge source="30191_london" target="30046_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30051_london" target="30075_london">
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="30051_london" target="30038_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30230_london" target="30067_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30160_london" target="30172_london">
+      <data key="d3">5.5</data>
+    </edge>
+    <edge source="30160_london" target="30045_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30046_london" target="30275_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30264_london" target="30004_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30264_london" target="30120_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30007_london" target="30031_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30007_london" target="30141_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30154_london" target="30073_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30154_london" target="30015_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30096_london" target="30374_london">
+      <data key="d3">3.0</data>
+    </edge>
+    <edge source="30096_london" target="30272_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30224_london" target="30238_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30224_london" target="30178_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30381_london" target="30080_london">
+      <data key="d3">3.0</data>
+    </edge>
+    <edge source="30381_london" target="30213_london">
+      <data key="d3">3.0</data>
+    </edge>
+    <edge source="30381_london" target="30269_london">
+      <data key="d3">4.0</data>
+    </edge>
+    <edge source="30078_london" target="30101_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30078_london" target="30241_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30246_london" target="30059_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30246_london" target="30210_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30257_london" target="30231_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30257_london" target="30070_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30257_london" target="30175_london">
+      <data key="d3">13.0</data>
+    </edge>
+    <edge source="30284_london" target="30019_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30284_london" target="30196_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30030_london" target="30008_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30030_london" target="30165_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30152_london" target="30029_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30152_london" target="30202_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30140_london" target="30218_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30167_london" target="30225_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30221_london" target="30295_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30221_london" target="30074_london">
+      <data key="d3">3.0</data>
+    </edge>
+    <edge source="30145_london" target="30247_london">
+      <data key="d3">4.5</data>
+    </edge>
+    <edge source="30145_london" target="30044_london">
+      <data key="d3">3.0</data>
+    </edge>
+    <edge source="30069_london" target="30093_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30069_london" target="30085_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30083_london" target="30114_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30083_london" target="30118_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30276_london" target="30047_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30276_london" target="30089_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30153_london" target="30072_london">
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="30153_london" target="30014_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30204_london" target="30242_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30204_london" target="30203_london">
+      <data key="d3">11.0</data>
+    </edge>
+    <edge source="30151_london" target="30201_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30151_london" target="30028_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30186_london" target="30182_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30186_london" target="30220_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30197_london" target="30012_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30197_london" target="30111_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30164_london" target="30053_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30164_london" target="30176_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30269_london" target="30285_london">
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="30269_london" target="30193_london">
+      <data key="d3">3.0</data>
+    </edge>
+    <edge source="30245_london" target="30209_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30245_london" target="30058_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30091_london" target="30138_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30091_london" target="30142_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30091_london" target="30074_london">
+      <data key="d3">3.0</data>
+    </edge>
+    <edge source="30120_london" target="30244_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30036_london" target="30237_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30036_london" target="30193_london">
+      <data key="d3">3.0</data>
+    </edge>
+    <edge source="30228_london" target="30174_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30228_london" target="30021_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30130_london" target="30112_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30130_london" target="30116_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30021_london" target="30252_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30382_london" target="30081_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30382_london" target="30270_london">
+      <data key="d3">4.0</data>
+    </edge>
+    <edge source="30382_london" target="30214_london">
+      <data key="d3">3.5</data>
+    </edge>
+    <edge source="30077_london" target="30190_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30113_london" target="30082_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30138_london" target="30156_london">
+      <data key="d3">4.5</data>
+    </edge>
+    <edge source="30206_london" target="30216_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30206_london" target="30023_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30185_london" target="30219_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30185_london" target="30181_london">
+      <data key="d3">3.0</data>
+    </edge>
+    <edge source="30256_london" target="30274_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30256_london" target="30234_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30292_london" target="30208_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30292_london" target="30006_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30187_london" target="30179_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30210_london" target="30025_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30026_london" target="30297_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30026_london" target="30027_london">
+      <data key="d3">7.0</data>
+    </edge>
+    <edge source="30149_london" target="30105_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30149_london" target="30229_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30270_london" target="30286_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30270_london" target="30194_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30232_london" target="30258_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30232_london" target="30104_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30044_london" target="30159_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30106_london" target="30017_london">
+      <data key="d3">3.5</data>
+    </edge>
+    <edge source="30106_london" target="30294_london">
+      <data key="d3">3.5</data>
+    </edge>
+    <edge source="30106_london" target="30176_london">
+      <data key="d3">7.5</data>
+    </edge>
+    <edge source="30070_london" target="30253_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30287_london" target="30281_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30287_london" target="30018_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30072_london" target="30375_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30275_london" target="30088_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30213_london" target="30058_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30226_london" target="30168_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30226_london" target="30250_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30065_london" target="30280_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30065_london" target="30290_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30223_london" target="30237_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30064_london" target="30289_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30064_london" target="30279_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30158_london" target="30093_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30158_london" target="30043_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30179_london" target="30048_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30266_london" target="30208_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30266_london" target="30033_london">
+      <data key="d3">3.0</data>
+    </edge>
+    <edge source="30029_london" target="30118_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30011_london" target="30102_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30011_london" target="30134_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30059_london" target="30214_london">
+      <data key="d3">3.0</data>
+    </edge>
+    <edge source="30122_london" target="30280_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30122_london" target="30126_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30260_london" target="30108_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30260_london" target="30248_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30054_london" target="30135_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30054_london" target="30243_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30041_london" target="30162_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30041_london" target="30144_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30202_london" target="30087_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30027_london" target="30298_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30271_london" target="30062_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30271_london" target="30095_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30227_london" target="30173_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30227_london" target="30020_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30105_london" target="30016_london">
+      <data key="d3">3.5</data>
+    </edge>
+    <edge source="30296_london" target="30222_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30296_london" target="30033_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30288_london" target="30019_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30288_london" target="30282_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30100_london" target="30217_london">
+      <data key="d3">3.5</data>
+    </edge>
+    <edge source="30100_london" target="30025_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30100_london" target="30184_london">
+      <data key="d3">6.5</data>
+    </edge>
+    <edge source="30205_london" target="30215_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30205_london" target="30022_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30148_london" target="30252_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30148_london" target="30170_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30178_london" target="30192_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30006_london" target="30009_london">
+      <data key="d3">3.5</data>
+    </edge>
+    <edge source="30166_london" target="30031_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30166_london" target="30080_london">
+      <data key="d3">4.0</data>
+    </edge>
+    <edge source="30166_london" target="30132_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30053_london" target="30134_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30144_london" target="30087_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30163_london" target="30052_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30163_london" target="30175_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30111_london" target="30129_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30291_london" target="30207_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30291_london" target="30005_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30215_london" target="30080_london">
+      <data key="d3">4.5</data>
+    </edge>
+    <edge source="30067_london" target="30268_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30295_london" target="30032_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30274_london" target="30017_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30099_london" target="30183_london">
+      <data key="d3">7.0</data>
+    </edge>
+    <edge source="30099_london" target="30024_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30099_london" target="30218_london">
+      <data key="d3">3.5</data>
+    </edge>
+    <edge source="30229_london" target="30066_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30050_london" target="30039_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30050_london" target="30074_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30107_london" target="30239_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30107_london" target="30259_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30090_london" target="30075_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30090_london" target="30137_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30090_london" target="30141_london">
+      <data key="d3">3.0</data>
+    </edge>
+    <edge source="30180_london" target="30188_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30180_london" target="30049_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30263_london" target="30003_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30273_london" target="30255_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30273_london" target="30016_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30010_london" target="30101_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30010_london" target="30133_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30285_london" target="30109_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30176_london" target="30298_london">
+      <data key="d3">7.0</data>
+    </edge>
+    <edge source="30176_london" target="30258_london">
+      <data key="d3">14.0</data>
+    </edge>
+    <edge source="30176_london" target="30175_london">
+      <data key="d3">7.0</data>
+    </edge>
+    <edge source="30131_london" target="30080_london">
+      <data key="d3">3.0</data>
+    </edge>
+    <edge source="30131_london" target="30165_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30131_london" target="30038_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30156_london" target="30128_london">
+      <data key="d3">3.5</data>
+    </edge>
+    <edge source="30139_london" target="30217_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30084_london" target="30068_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30084_london" target="30261_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30081_london" target="30216_london">
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="30081_london" target="30132_london">
+      <data key="d3">3.0</data>
+    </edge>
+    <edge source="30116_london" target="30063_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30005_london" target="30094_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30033_london" target="30200_london">
+      <data key="d3">3.0</data>
+    </edge>
+    <edge source="30236_london" target="30128_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30236_london" target="30104_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30009_london" target="30136_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30022_london" target="30060_london">
+      <data key="d3">4.0</data>
+    </edge>
+    <edge source="30235_london" target="30103_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30235_london" target="30127_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30108_london" target="30240_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30282_london" target="30278_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30043_london" target="30049_london">
+      <data key="d3">3.5</data>
+    </edge>
+    <edge source="30086_london" target="30201_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30086_london" target="30143_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30159_london" target="30171_london">
+      <data key="d3">5.0</data>
+    </edge>
+    <edge source="30374_london" target="30073_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30063_london" target="30272_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30121_london" target="30279_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30155_london" target="30137_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30155_london" target="30127_london">
+      <data key="d3">4.5</data>
+    </edge>
+    <edge source="30060_london" target="30219_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30169_london" target="30147_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30143_london" target="30040_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30261_london" target="30014_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30075_london" target="30222_london">
+      <data key="d3">3.5</data>
+    </edge>
+    <edge source="30052_london" target="30133_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30109_london" target="30211_london">
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="30055_london" target="30136_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30055_london" target="30244_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30242_london" target="30079_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30247_london" target="30259_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30079_london" target="30102_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30253_london" target="30277_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30212_london" target="30290_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30281_london" target="30277_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30196_london" target="30168_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30225_london" target="30249_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30039_london" target="30132_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30147_london" target="30251_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30162_london" target="30200_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30189_london" target="30034_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30189_london" target="30076_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30057_london" target="30184_london">
+      <data key="d3">3.0</data>
+    </edge>
+    <edge source="30082_london" target="30117_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30278_london" target="30254_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30255_london" target="30233_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30023_london" target="30061_london">
+      <data key="d3">4.0</data>
+    </edge>
+    <edge source="30209_london" target="30024_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30103_london" target="30231_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30061_london" target="30220_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30192_london" target="30047_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30239_london" target="30012_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30042_london" target="30048_london">
+      <data key="d3">3.0</data>
+    </edge>
+    <edge source="30042_london" target="30157_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30157_london" target="30092_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30251_london" target="30020_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30161_london" target="30040_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30032_london" target="30265_london">
+      <data key="d3">3.5</data>
+    </edge>
+    <edge source="30248_london" target="30146_london">
+      <data key="d3">4.5</data>
+    </edge>
+    <edge source="30085_london" target="30262_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30297_london" target="30175_london">
+      <data key="d3">6.5</data>
+    </edge>
+    <edge source="30258_london" target="30071_london">
+      <data key="d3">3.0</data>
+    </edge>
+    <edge source="30258_london" target="30294_london">
+      <data key="d3">4.5</data>
+    </edge>
+    <edge source="30035_london" target="30002_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30035_london" target="30190_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30015_london" target="30262_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30008_london" target="30142_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30094_london" target="30135_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30234_london" target="30126_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30068_london" target="30092_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30375_london" target="30095_london">
+      <data key="d3">3.0</data>
+    </edge>
+    <edge source="30207_london" target="30265_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30183_london" target="30056_london">
+      <data key="d3">3.0</data>
+    </edge>
+    <edge source="30074_london" target="30141_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30146_london" target="30045_london">
+      <data key="d3">3.5</data>
+    </edge>
+    <edge source="30268_london" target="30170_london">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="30211_london" target="30289_london">
+      <data key="d3">2.5</data>
+    </edge>
+    <edge source="30240_london" target="30013_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30071_london" target="30254_london">
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="30141_london" target="30222_london">
+      <data key="d3">3.0</data>
+    </edge>
+    <edge source="30188_london" target="30002_london">
+      <data key="d3">3.5</data>
+    </edge>
+    <edge source="30241_london" target="30203_london">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="30117_london" target="30028_london">
+      <data key="d3">1.5</data>
+    </edge>
+  </graph>
+</graphml>

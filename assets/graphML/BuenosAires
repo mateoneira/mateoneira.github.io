@@ -1,0 +1,1333 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="double" for="edge" id="d3" />
+  <key attr.name="name" attr.type="string" for="node" id="d2" />
+  <key attr.name="x" attr.type="double" for="node" id="d1" />
+  <key attr.name="y" attr.type="double" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="1130S_subte_de_buenos_aires">
+      <data key="d0">-34.6316321391</data>
+      <data key="d1">-58.4425248206</data>
+      <data key="d2">Emilio Mitre</data>
+    </node>
+    <node id="1065S_subte_de_buenos_aires">
+      <data key="d0">-34.6151114394</data>
+      <data key="d1">-58.4292858792</data>
+      <data key="d2">RÃ­o de Janeiro</data>
+    </node>
+    <node id="1127S_subte_de_buenos_aires">
+      <data key="d0">-34.6255450585</data>
+      <data key="d1">-58.4166280925</data>
+      <data key="d2">Boedo</data>
+    </node>
+    <node id="1129S_subte_de_buenos_aires">
+      <data key="d0">-34.6280843394</data>
+      <data key="d1">-58.434297815</data>
+      <data key="d2">JosÃ© MarÃ­a Moreno</data>
+    </node>
+    <node id="1162E_subte_de_buenos_aires">
+      <data key="d0">-34.5880625754</data>
+      <data key="d1">-58.3980447943</data>
+      <data key="d2">Las Heras</data>
+    </node>
+    <node id="1076S_subte_de_buenos_aires">
+      <data key="d0">-34.6086951095</data>
+      <data key="d1">-58.3714932203</data>
+      <data key="d2">Plaza de Mayo</data>
+    </node>
+    <node id="1083N_subte_de_buenos_aires">
+      <data key="d0">-34.6021565158</data>
+      <data key="d1">-58.4310221671</data>
+      <data key="d2">Angel Gallardo</data>
+    </node>
+    <node id="1089S_subte_de_buenos_aires">
+      <data key="d0">-34.6044575277</data>
+      <data key="d1">-58.3928456158</data>
+      <data key="d2">Callao</data>
+    </node>
+    <node id="1064N_subte_de_buenos_aires">
+      <data key="d0">-34.6180360124</data>
+      <data key="d1">-58.4358622134</data>
+      <data key="d2">Acoyte</data>
+    </node>
+    <node id="1115N_subte_de_buenos_aires">
+      <data key="d0">-34.599602642</data>
+      <data key="d1">-58.3922401071</data>
+      <data key="d2">Callao</data>
+    </node>
+    <node id="1131S_subte_de_buenos_aires">
+      <data key="d0">-34.6362501218</data>
+      <data key="d1">-58.4503984452</data>
+      <data key="d2">Medalla Milagrosa</data>
+    </node>
+    <node id="1119S_subte_de_buenos_aires">
+      <data key="d0">-34.6095753808</data>
+      <data key="d1">-58.3740493655</data>
+      <data key="d2">BolÃ­var</data>
+    </node>
+    <node id="1103N_subte_de_buenos_aires">
+      <data key="d0">-34.5559875724</data>
+      <data key="d1">-58.4620781243</data>
+      <data key="d2">Congreso de TucumÃ¡n</data>
+    </node>
+    <node id="1095E_subte_de_buenos_aires">
+      <data key="d0">-34.6226762706</data>
+      <data key="d1">-58.3799515665</data>
+      <data key="d2">San Juan</data>
+    </node>
+    <node id="1060N_subte_de_buenos_aires">
+      <data key="d0">-34.629054502</data>
+      <data key="d1">-58.4635363438</data>
+      <data key="d2">San JosÃ© de Flores</data>
+    </node>
+    <node id="1103S_subte_de_buenos_aires">
+      <data key="d0">-34.5559875724</data>
+      <data key="d1">-58.4620781243</data>
+      <data key="d2">Congreso de TucumÃ¡n</data>
+    </node>
+    <node id="1063N_subte_de_buenos_aires">
+      <data key="d0">-34.6204601924</data>
+      <data key="d1">-58.441400975</data>
+      <data key="d2">Primera Junta</data>
+    </node>
+    <node id="1104S_subte_de_buenos_aires">
+      <data key="d0">-34.5624104021</data>
+      <data key="d1">-58.4562805295</data>
+      <data key="d2">Juramento</data>
+    </node>
+    <node id="1064S_subte_de_buenos_aires">
+      <data key="d0">-34.6180360124</data>
+      <data key="d1">-58.4358622134</data>
+      <data key="d2">Acoyte</data>
+    </node>
+    <node id="1109N_subte_de_buenos_aires">
+      <data key="d0">-34.5816609461</data>
+      <data key="d1">-58.4209786356</data>
+      <data key="d2">Plaza Italia</data>
+    </node>
+    <node id="1124N_subte_de_buenos_aires">
+      <data key="d0">-34.6231337179</data>
+      <data key="d1">-58.3971116692</data>
+      <data key="d2">Pichincha</data>
+    </node>
+    <node id="1113N_subte_de_buenos_aires">
+      <data key="d0">-34.5949881378</data>
+      <data key="d1">-58.4032264352</data>
+      <data key="d2">PueyrredÃ³n</data>
+    </node>
+    <node id="1075N_subte_de_buenos_aires">
+      <data key="d0">-34.6085593432</data>
+      <data key="d1">-58.3745630084</data>
+      <data key="d2">PerÃº</data>
+    </node>
+    <node id="1080S_subte_de_buenos_aires">
+      <data key="d0">-34.584319159</data>
+      <data key="d1">-58.4656763076</data>
+      <data key="d2">Tronador - Villa OrtÃºzar</data>
+    </node>
+    <node id="1074S_subte_de_buenos_aires">
+      <data key="d0">-34.6088379321</data>
+      <data key="d1">-58.3785024077</data>
+      <data key="d2">Piedras</data>
+    </node>
+    <node id="1091S_subte_de_buenos_aires">
+      <data key="d0">-34.6037013861</data>
+      <data key="d1">-58.3813785016</data>
+      <data key="d2">Carlos Pellegrini</data>
+    </node>
+    <node id="1112N_subte_de_buenos_aires">
+      <data key="d0">-34.5916982181</data>
+      <data key="d1">-58.4070928395</data>
+      <data key="d2">AgÃ¼ero</data>
+    </node>
+    <node id="1106N_subte_de_buenos_aires">
+      <data key="d0">-34.5702465061</data>
+      <data key="d1">-58.4443366527</data>
+      <data key="d2">Olleros</data>
+    </node>
+    <node id="1096E_subte_de_buenos_aires">
+      <data key="d0">-34.6180602924</data>
+      <data key="d1">-58.380236216</data>
+      <data key="d2">Independencia</data>
+    </node>
+    <node id="1081N_subte_de_buenos_aires">
+      <data key="d0">-34.5875652079</data>
+      <data key="d1">-58.4540972114</data>
+      <data key="d2">Federico Lacroze</data>
+    </node>
+    <node id="1133N_subte_de_buenos_aires">
+      <data key="d0">-34.6427700319</data>
+      <data key="d1">-58.461445123</data>
+      <data key="d2">Plaza de los Virreyes</data>
+    </node>
+    <node id="1096O_subte_de_buenos_aires">
+      <data key="d0">-34.6180602924</data>
+      <data key="d1">-58.380236216</data>
+      <data key="d2">Independencia</data>
+    </node>
+    <node id="1140E_subte_de_buenos_aires">
+      <data key="d0">-34.6091476643</data>
+      <data key="d1">-58.406046778</data>
+      <data key="d2">Once</data>
+    </node>
+    <node id="1059N_subte_de_buenos_aires">
+      <data key="d0">-34.6309225914</data>
+      <data key="d1">-58.4704332055</data>
+      <data key="d2">San Pedrito</data>
+    </node>
+    <node id="1137E_subte_de_buenos_aires">
+      <data key="d0">-34.6293511888</data>
+      <data key="d1">-58.4009867907</data>
+      <data key="d2">InclÃ¡n</data>
+    </node>
+    <node id="1135E_subte_de_buenos_aires">
+      <data key="d0">-34.6384602626</data>
+      <data key="d1">-58.4063284099</data>
+      <data key="d2">Parque Patricios</data>
+    </node>
+    <node id="1126S_subte_de_buenos_aires">
+      <data key="d0">-34.6246817846</data>
+      <data key="d1">-58.4096174687</data>
+      <data key="d2">General Urquiza</data>
+    </node>
+    <node id="1092S_subte_de_buenos_aires">
+      <data key="d0">-34.6033017864</data>
+      <data key="d1">-58.3745348453</data>
+      <data key="d2">Florida</data>
+    </node>
+    <node id="1062N_subte_de_buenos_aires">
+      <data key="d0">-34.6235718471</data>
+      <data key="d1">-58.4487877787</data>
+      <data key="d2">PuÃ¡n</data>
+    </node>
+    <node id="1138O_subte_de_buenos_aires">
+      <data key="d0">-34.6231163667</data>
+      <data key="d1">-58.4023222011</data>
+      <data key="d2">Humberto 1</data>
+    </node>
+    <node id="1063S_subte_de_buenos_aires">
+      <data key="d0">-34.6204601924</data>
+      <data key="d1">-58.441400975</data>
+      <data key="d2">Primera Junta</data>
+    </node>
+    <node id="1082S_subte_de_buenos_aires">
+      <data key="d0">-34.5916926974</data>
+      <data key="d1">-58.4476183355</data>
+      <data key="d2">Dorrego</data>
+    </node>
+    <node id="1093N_subte_de_buenos_aires">
+      <data key="d0">-34.6029673134</data>
+      <data key="d1">-58.3699563145</data>
+      <data key="d2">Leandro N. Alem</data>
+    </node>
+    <node id="1060S_subte_de_buenos_aires">
+      <data key="d0">-34.629054502</data>
+      <data key="d1">-58.4635363438</data>
+      <data key="d2">San JosÃ© de Flores</data>
+    </node>
+    <node id="1085N_subte_de_buenos_aires">
+      <data key="d0">-34.6031395175</data>
+      <data key="d1">-58.4213031828</data>
+      <data key="d2">Medrano</data>
+    </node>
+    <node id="1121N_subte_de_buenos_aires">
+      <data key="d0">-34.6180017974</data>
+      <data key="d1">-58.3809044211</data>
+      <data key="d2">Independencia</data>
+    </node>
+    <node id="1131N_subte_de_buenos_aires">
+      <data key="d0">-34.6362501218</data>
+      <data key="d1">-58.4503984452</data>
+      <data key="d2">Medalla Milagrosa</data>
+    </node>
+    <node id="1087S_subte_de_buenos_aires">
+      <data key="d0">-34.6046131706</data>
+      <data key="d1">-58.4052340687</data>
+      <data key="d2">PueyrredÃ³n</data>
+    </node>
+    <node id="1072N_subte_de_buenos_aires">
+      <data key="d0">-34.6094169894</data>
+      <data key="d1">-58.3866681531</data>
+      <data key="d2">SÃ¡enz PeÃ±a</data>
+    </node>
+    <node id="1107S_subte_de_buenos_aires">
+      <data key="d0">-34.5752058022</data>
+      <data key="d1">-58.4347262978</data>
+      <data key="d2">Ministro Carranza</data>
+    </node>
+    <node id="1119N_subte_de_buenos_aires">
+      <data key="d0">-34.6095753808</data>
+      <data key="d1">-58.3740493655</data>
+      <data key="d2">BolÃ­var</data>
+    </node>
+    <node id="1118N_subte_de_buenos_aires">
+      <data key="d0">-34.607624421</data>
+      <data key="d1">-58.3742572367</data>
+      <data key="d2">Catedral</data>
+    </node>
+    <node id="1070N_subte_de_buenos_aires">
+      <data key="d0">-34.6096644444</data>
+      <data key="d1">-58.398340314</data>
+      <data key="d2">Pasco</data>
+    </node>
+    <node id="1075S_subte_de_buenos_aires">
+      <data key="d0">-34.6085593432</data>
+      <data key="d1">-58.3745630084</data>
+      <data key="d2">PerÃº</data>
+    </node>
+    <node id="1088N_subte_de_buenos_aires">
+      <data key="d0">-34.6046231057</data>
+      <data key="d1">-58.3993573486</data>
+      <data key="d2">Pasteur</data>
+    </node>
+    <node id="1161E_subte_de_buenos_aires">
+      <data key="d0">-34.5948565889</data>
+      <data key="d1">-58.4024596541</data>
+      <data key="d2">Santa Fe</data>
+    </node>
+    <node id="1117S_subte_de_buenos_aires">
+      <data key="d0">-34.6043482456</data>
+      <data key="d1">-58.3803518863</data>
+      <data key="d2">9 de Julio</data>
+    </node>
+    <node id="1162O_subte_de_buenos_aires">
+      <data key="d0">-34.5880625754</data>
+      <data key="d1">-58.3980447943</data>
+      <data key="d2">Las Heras</data>
+    </node>
+    <node id="1120S_subte_de_buenos_aires">
+      <data key="d0">-34.6134103924</data>
+      <data key="d1">-58.3782202004</data>
+      <data key="d2">Belgrano</data>
+    </node>
+    <node id="1134O_subte_de_buenos_aires">
+      <data key="d0">-34.6417527397</data>
+      <data key="d1">-58.4126731753</data>
+      <data key="d2">Hospitales</data>
+    </node>
+    <node id="1067S_subte_de_buenos_aires">
+      <data key="d0">-34.6108110606</data>
+      <data key="d1">-58.4151528775</data>
+      <data key="d2">Loria</data>
+    </node>
+    <node id="1071S_subte_de_buenos_aires">
+      <data key="d0">-34.609241487</data>
+      <data key="d1">-58.3926706015</data>
+      <data key="d2">Congreso</data>
+    </node>
+    <node id="1111S_subte_de_buenos_aires">
+      <data key="d0">-34.5882585658</data>
+      <data key="d1">-58.411264345</data>
+      <data key="d2">Bulnes</data>
+    </node>
+    <node id="1138E_subte_de_buenos_aires">
+      <data key="d0">-34.6231163667</data>
+      <data key="d1">-58.4023222011</data>
+      <data key="d2">Humberto 1</data>
+    </node>
+    <node id="1080N_subte_de_buenos_aires">
+      <data key="d0">-34.584319159</data>
+      <data key="d1">-58.4656763076</data>
+      <data key="d2">Tronador - Villa OrtÃºzar</data>
+    </node>
+    <node id="1123S_subte_de_buenos_aires">
+      <data key="d0">-34.6227595957</data>
+      <data key="d1">-58.3915145694</data>
+      <data key="d2">Entre RÃ­os</data>
+    </node>
+    <node id="1085S_subte_de_buenos_aires">
+      <data key="d0">-34.6031395175</data>
+      <data key="d1">-58.4213031828</data>
+      <data key="d2">Medrano</data>
+    </node>
+    <node id="1066N_subte_de_buenos_aires">
+      <data key="d0">-34.6117636069</data>
+      <data key="d1">-58.421728313</data>
+      <data key="d2">Castro Barros</data>
+    </node>
+    <node id="1068S_subte_de_buenos_aires">
+      <data key="d0">-34.609688</data>
+      <data key="d1">-58.4068138897</data>
+      <data key="d2">Plaza Miserere</data>
+    </node>
+    <node id="1090S_subte_de_buenos_aires">
+      <data key="d0">-34.6040463419</data>
+      <data key="d1">-58.387106359</data>
+      <data key="d2">Uruguay</data>
+    </node>
+    <node id="1120N_subte_de_buenos_aires">
+      <data key="d0">-34.6134103924</data>
+      <data key="d1">-58.3782202004</data>
+      <data key="d2">Belgrano</data>
+    </node>
+    <node id="1098O_subte_de_buenos_aires">
+      <data key="d0">-34.6089909258</data>
+      <data key="d1">-58.3806814627</data>
+      <data key="d2">Avenida de Mayo</data>
+    </node>
+    <node id="1090N_subte_de_buenos_aires">
+      <data key="d0">-34.6040463419</data>
+      <data key="d1">-58.387106359</data>
+      <data key="d2">Uruguay</data>
+    </node>
+    <node id="1100E_subte_de_buenos_aires">
+      <data key="d0">-34.6017762243</data>
+      <data key="d1">-58.3781155944</data>
+      <data key="d2">Lavalle</data>
+    </node>
+    <node id="1107N_subte_de_buenos_aires">
+      <data key="d0">-34.5752058022</data>
+      <data key="d1">-58.4347262978</data>
+      <data key="d2">Ministro Carranza</data>
+    </node>
+    <node id="1102O_subte_de_buenos_aires">
+      <data key="d0">-34.5918737562</data>
+      <data key="d1">-58.374748081</data>
+      <data key="d2">Retiro</data>
+    </node>
+    <node id="1105S_subte_de_buenos_aires">
+      <data key="d0">-34.5662675923</data>
+      <data key="d1">-58.4519688785</data>
+      <data key="d2">JosÃ© HernÃ¡ndez</data>
+    </node>
+    <node id="1073N_subte_de_buenos_aires">
+      <data key="d0">-34.6091057215</data>
+      <data key="d1">-58.3825211228</data>
+      <data key="d2">Lima</data>
+    </node>
+    <node id="1110S_subte_de_buenos_aires">
+      <data key="d0">-34.5851853363</data>
+      <data key="d1">-58.4158247709</data>
+      <data key="d2">Scalabrini Ortiz</data>
+    </node>
+    <node id="1122S_subte_de_buenos_aires">
+      <data key="d0">-34.6223672611</data>
+      <data key="d1">-58.3853924275</data>
+      <data key="d2">San JosÃ©</data>
+    </node>
+    <node id="1067N_subte_de_buenos_aires">
+      <data key="d0">-34.6108110606</data>
+      <data key="d1">-58.4151528775</data>
+      <data key="d2">Loria</data>
+    </node>
+    <node id="1098E_subte_de_buenos_aires">
+      <data key="d0">-34.6089909258</data>
+      <data key="d1">-58.3806814627</data>
+      <data key="d2">Avenida de Mayo</data>
+    </node>
+    <node id="1128N_subte_de_buenos_aires">
+      <data key="d0">-34.6268362281</data>
+      <data key="d1">-58.4256108106</data>
+      <data key="d2">La Plata</data>
+    </node>
+    <node id="1139E_subte_de_buenos_aires">
+      <data key="d0">-34.6152271185</data>
+      <data key="d1">-58.4047586472</data>
+      <data key="d2">Venezuela</data>
+    </node>
+    <node id="1133S_subte_de_buenos_aires">
+      <data key="d0">-34.6427700319</data>
+      <data key="d1">-58.461445123</data>
+      <data key="d2">Plaza de los Virreyes</data>
+    </node>
+    <node id="1074N_subte_de_buenos_aires">
+      <data key="d0">-34.6088379321</data>
+      <data key="d1">-58.3785024077</data>
+      <data key="d2">Piedras</data>
+    </node>
+    <node id="1084N_subte_de_buenos_aires">
+      <data key="d0">-34.599048473</data>
+      <data key="d1">-58.4396749734</data>
+      <data key="d2">Malabia</data>
+    </node>
+    <node id="1125N_subte_de_buenos_aires">
+      <data key="d0">-34.623878647</data>
+      <data key="d1">-58.4028294683</data>
+      <data key="d2">Jujuy</data>
+    </node>
+    <node id="1104N_subte_de_buenos_aires">
+      <data key="d0">-34.5624104021</data>
+      <data key="d1">-58.4562805295</data>
+      <data key="d2">Juramento</data>
+    </node>
+    <node id="1097O_subte_de_buenos_aires">
+      <data key="d0">-34.6124346861</data>
+      <data key="d1">-58.3805178479</data>
+      <data key="d2">Moreno</data>
+    </node>
+    <node id="1100O_subte_de_buenos_aires">
+      <data key="d0">-34.6017762243</data>
+      <data key="d1">-58.3781155944</data>
+      <data key="d2">Lavalle</data>
+    </node>
+    <node id="1108S_subte_de_buenos_aires">
+      <data key="d0">-34.5784135609</data>
+      <data key="d1">-58.4258696436</data>
+      <data key="d2">Palermo</data>
+    </node>
+    <node id="1099O_subte_de_buenos_aires">
+      <data key="d0">-34.6047953068</data>
+      <data key="d1">-58.3792354165</data>
+      <data key="d2">Diagonal Norte</data>
+    </node>
+    <node id="1105N_subte_de_buenos_aires">
+      <data key="d0">-34.5662675923</data>
+      <data key="d1">-58.4519688785</data>
+      <data key="d2">JosÃ© HernÃ¡ndez</data>
+    </node>
+    <node id="1141E_subte_de_buenos_aires">
+      <data key="d0">-34.6039238114</data>
+      <data key="d1">-58.4053172171</data>
+      <data key="d2">Corrientes</data>
+    </node>
+    <node id="1086N_subte_de_buenos_aires">
+      <data key="d0">-34.6041031907</data>
+      <data key="d1">-58.4117048979</data>
+      <data key="d2">Carlos Gardel</data>
+    </node>
+    <node id="1083S_subte_de_buenos_aires">
+      <data key="d0">-34.6021565158</data>
+      <data key="d1">-58.4310221671</data>
+      <data key="d2">Angel Gallardo</data>
+    </node>
+    <node id="1091N_subte_de_buenos_aires">
+      <data key="d0">-34.6037013861</data>
+      <data key="d1">-58.3813785016</data>
+      <data key="d2">Carlos Pellegrini</data>
+    </node>
+    <node id="1110N_subte_de_buenos_aires">
+      <data key="d0">-34.5851853363</data>
+      <data key="d1">-58.4158247709</data>
+      <data key="d2">Scalabrini Ortiz</data>
+    </node>
+    <node id="1092N_subte_de_buenos_aires">
+      <data key="d0">-34.6033017864</data>
+      <data key="d1">-58.3745348453</data>
+      <data key="d2">Florida</data>
+    </node>
+    <node id="1112S_subte_de_buenos_aires">
+      <data key="d0">-34.5916982181</data>
+      <data key="d1">-58.4070928395</data>
+      <data key="d2">AgÃ¼ero</data>
+    </node>
+    <node id="1130N_subte_de_buenos_aires">
+      <data key="d0">-34.6316321391</data>
+      <data key="d1">-58.4425248206</data>
+      <data key="d2">Emilio Mitre</data>
+    </node>
+    <node id="1136O_subte_de_buenos_aires">
+      <data key="d0">-34.6352658546</data>
+      <data key="d1">-58.3991588652</data>
+      <data key="d2">Caseros</data>
+    </node>
+    <node id="1079N_subte_de_buenos_aires">
+      <data key="d0">-34.5819414009</data>
+      <data key="d1">-58.4729491173</data>
+      <data key="d2">De Los Incas - Parque Chas</data>
+    </node>
+    <node id="1140O_subte_de_buenos_aires">
+      <data key="d0">-34.6091476643</data>
+      <data key="d1">-58.406046778</data>
+      <data key="d2">Once</data>
+    </node>
+    <node id="1087N_subte_de_buenos_aires">
+      <data key="d0">-34.6046131706</data>
+      <data key="d1">-58.4052340687</data>
+      <data key="d2">PueyrredÃ³n</data>
+    </node>
+    <node id="1068N_subte_de_buenos_aires">
+      <data key="d0">-34.609688</data>
+      <data key="d1">-58.4068138897</data>
+      <data key="d2">Plaza Miserere</data>
+    </node>
+    <node id="1084S_subte_de_buenos_aires">
+      <data key="d0">-34.599048473</data>
+      <data key="d1">-58.4396749734</data>
+      <data key="d2">Malabia</data>
+    </node>
+    <node id="1137O_subte_de_buenos_aires">
+      <data key="d0">-34.6293511888</data>
+      <data key="d1">-58.4009867907</data>
+      <data key="d2">InclÃ¡n</data>
+    </node>
+    <node id="1069S_subte_de_buenos_aires">
+      <data key="d0">-34.6098320129</data>
+      <data key="d1">-58.4007199109</data>
+      <data key="d2">Alberti</data>
+    </node>
+    <node id="1106S_subte_de_buenos_aires">
+      <data key="d0">-34.5702465061</data>
+      <data key="d1">-58.4443366527</data>
+      <data key="d2">Olleros</data>
+    </node>
+    <node id="1089N_subte_de_buenos_aires">
+      <data key="d0">-34.6044575277</data>
+      <data key="d1">-58.3928456158</data>
+      <data key="d2">Callao</data>
+    </node>
+    <node id="1077S_subte_de_buenos_aires">
+      <data key="d0">-34.574011004</data>
+      <data key="d1">-58.4867182375</data>
+      <data key="d2">Juan Manuel de Rosas</data>
+    </node>
+    <node id="1109S_subte_de_buenos_aires">
+      <data key="d0">-34.5816609461</data>
+      <data key="d1">-58.4209786356</data>
+      <data key="d2">Plaza Italia</data>
+    </node>
+    <node id="1160O_subte_de_buenos_aires">
+      <data key="d0">-34.5986861422</data>
+      <data key="d1">-58.403805105</data>
+      <data key="d2">CÃ³rdoba</data>
+    </node>
+    <node id="1099E_subte_de_buenos_aires">
+      <data key="d0">-34.6047953068</data>
+      <data key="d1">-58.3792354165</data>
+      <data key="d2">Diagonal Norte</data>
+    </node>
+    <node id="1082N_subte_de_buenos_aires">
+      <data key="d0">-34.5916926974</data>
+      <data key="d1">-58.4476183355</data>
+      <data key="d2">Dorrego</data>
+    </node>
+    <node id="1118S_subte_de_buenos_aires">
+      <data key="d0">-34.607624421</data>
+      <data key="d1">-58.3742572367</data>
+      <data key="d2">Catedral</data>
+    </node>
+    <node id="1088S_subte_de_buenos_aires">
+      <data key="d0">-34.6046231057</data>
+      <data key="d1">-58.3993573486</data>
+      <data key="d2">Pasteur</data>
+    </node>
+    <node id="1161O_subte_de_buenos_aires">
+      <data key="d0">-34.5948565889</data>
+      <data key="d1">-58.4024596541</data>
+      <data key="d2">Santa Fe</data>
+    </node>
+    <node id="1136E_subte_de_buenos_aires">
+      <data key="d0">-34.6352658546</data>
+      <data key="d1">-58.3991588652</data>
+      <data key="d2">Caseros</data>
+    </node>
+    <node id="1114N_subte_de_buenos_aires">
+      <data key="d0">-34.5997196568</data>
+      <data key="d1">-58.3974335343</data>
+      <data key="d2">Facultad de Medicina</data>
+    </node>
+    <node id="1121S_subte_de_buenos_aires">
+      <data key="d0">-34.6180017974</data>
+      <data key="d1">-58.3809044211</data>
+      <data key="d2">Independencia</data>
+    </node>
+    <node id="1101E_subte_de_buenos_aires">
+      <data key="d0">-34.5948722212</data>
+      <data key="d1">-58.3772566168</data>
+      <data key="d2">General San MartÃ­n</data>
+    </node>
+    <node id="1116S_subte_de_buenos_aires">
+      <data key="d0">-34.6017707052</data>
+      <data key="d1">-58.3844590187</data>
+      <data key="d2">Tribunales</data>
+    </node>
+    <node id="1114S_subte_de_buenos_aires">
+      <data key="d0">-34.5997196568</data>
+      <data key="d1">-58.3974335343</data>
+      <data key="d2">Facultad de Medicina</data>
+    </node>
+    <node id="1113S_subte_de_buenos_aires">
+      <data key="d0">-34.5949881378</data>
+      <data key="d1">-58.4032264352</data>
+      <data key="d2">PueyrredÃ³n</data>
+    </node>
+    <node id="1102E_subte_de_buenos_aires">
+      <data key="d0">-34.5918737562</data>
+      <data key="d1">-58.374748081</data>
+      <data key="d2">Retiro</data>
+    </node>
+    <node id="1115S_subte_de_buenos_aires">
+      <data key="d0">-34.599602642</data>
+      <data key="d1">-58.3922401071</data>
+      <data key="d2">Callao</data>
+    </node>
+    <node id="1129N_subte_de_buenos_aires">
+      <data key="d0">-34.6280843394</data>
+      <data key="d1">-58.434297815</data>
+      <data key="d2">JosÃ© MarÃ­a Moreno</data>
+    </node>
+    <node id="1134E_subte_de_buenos_aires">
+      <data key="d0">-34.6417527397</data>
+      <data key="d1">-58.4126731753</data>
+      <data key="d2">Hospitales</data>
+    </node>
+    <node id="1126N_subte_de_buenos_aires">
+      <data key="d0">-34.6246817846</data>
+      <data key="d1">-58.4096174687</data>
+      <data key="d2">General Urquiza</data>
+    </node>
+    <node id="1071N_subte_de_buenos_aires">
+      <data key="d0">-34.609241487</data>
+      <data key="d1">-58.3926706015</data>
+      <data key="d2">Congreso</data>
+    </node>
+    <node id="1108N_subte_de_buenos_aires">
+      <data key="d0">-34.5784135609</data>
+      <data key="d1">-58.4258696436</data>
+      <data key="d2">Palermo</data>
+    </node>
+    <node id="1122N_subte_de_buenos_aires">
+      <data key="d0">-34.6223672611</data>
+      <data key="d1">-58.3853924275</data>
+      <data key="d2">San JosÃ©</data>
+    </node>
+    <node id="1135O_subte_de_buenos_aires">
+      <data key="d0">-34.6384602626</data>
+      <data key="d1">-58.4063284099</data>
+      <data key="d2">Parque Patricios</data>
+    </node>
+    <node id="1125S_subte_de_buenos_aires">
+      <data key="d0">-34.623878647</data>
+      <data key="d1">-58.4028294683</data>
+      <data key="d2">Jujuy</data>
+    </node>
+    <node id="1078S_subte_de_buenos_aires">
+      <data key="d0">-34.5779983804</data>
+      <data key="d1">-58.4807637332</data>
+      <data key="d2">EcheverrÃ­a</data>
+    </node>
+    <node id="1128S_subte_de_buenos_aires">
+      <data key="d0">-34.6268362281</data>
+      <data key="d1">-58.4256108106</data>
+      <data key="d2">La Plata</data>
+    </node>
+    <node id="1079S_subte_de_buenos_aires">
+      <data key="d0">-34.5819414009</data>
+      <data key="d1">-58.4729491173</data>
+      <data key="d2">De Los Incas - Parque Chas</data>
+    </node>
+    <node id="1094E_subte_de_buenos_aires">
+      <data key="d0">-34.6272765429</data>
+      <data key="d1">-58.3814314752</data>
+      <data key="d2">ConstituciÃ³n</data>
+    </node>
+    <node id="1132S_subte_de_buenos_aires">
+      <data key="d0">-34.6395669643</data>
+      <data key="d1">-58.4578482805</data>
+      <data key="d2">Varela</data>
+    </node>
+    <node id="1160E_subte_de_buenos_aires">
+      <data key="d0">-34.5986861422</data>
+      <data key="d1">-58.403805105</data>
+      <data key="d2">CÃ³rdoba</data>
+    </node>
+    <node id="1086S_subte_de_buenos_aires">
+      <data key="d0">-34.6041031907</data>
+      <data key="d1">-58.4117048979</data>
+      <data key="d2">Carlos Gardel</data>
+    </node>
+    <node id="1076N_subte_de_buenos_aires">
+      <data key="d0">-34.6086951095</data>
+      <data key="d1">-58.3714932203</data>
+      <data key="d2">Plaza de Mayo</data>
+    </node>
+    <node id="1095O_subte_de_buenos_aires">
+      <data key="d0">-34.6226762706</data>
+      <data key="d1">-58.3799515665</data>
+      <data key="d2">San Juan</data>
+    </node>
+    <node id="1078N_subte_de_buenos_aires">
+      <data key="d0">-34.5779983804</data>
+      <data key="d1">-58.4807637332</data>
+      <data key="d2">EcheverrÃ­a</data>
+    </node>
+    <node id="1101O_subte_de_buenos_aires">
+      <data key="d0">-34.5948722212</data>
+      <data key="d1">-58.3772566168</data>
+      <data key="d2">General San MartÃ­n</data>
+    </node>
+    <node id="1081S_subte_de_buenos_aires">
+      <data key="d0">-34.5875652079</data>
+      <data key="d1">-58.4540972114</data>
+      <data key="d2">Federico Lacroze</data>
+    </node>
+    <node id="1094O_subte_de_buenos_aires">
+      <data key="d0">-34.6272765429</data>
+      <data key="d1">-58.3814314752</data>
+      <data key="d2">ConstituciÃ³n</data>
+    </node>
+    <node id="1141O_subte_de_buenos_aires">
+      <data key="d0">-34.6039238114</data>
+      <data key="d1">-58.4053172171</data>
+      <data key="d2">Corrientes</data>
+    </node>
+    <node id="1097E_subte_de_buenos_aires">
+      <data key="d0">-34.6124346861</data>
+      <data key="d1">-58.3805178479</data>
+      <data key="d2">Moreno</data>
+    </node>
+    <node id="1059S_subte_de_buenos_aires">
+      <data key="d0">-34.6309225914</data>
+      <data key="d1">-58.4704332055</data>
+      <data key="d2">San Pedrito</data>
+    </node>
+    <node id="1072S_subte_de_buenos_aires">
+      <data key="d0">-34.6094169894</data>
+      <data key="d1">-58.3866681531</data>
+      <data key="d2">SÃ¡enz PeÃ±a</data>
+    </node>
+    <node id="1111N_subte_de_buenos_aires">
+      <data key="d0">-34.5882585658</data>
+      <data key="d1">-58.411264345</data>
+      <data key="d2">Bulnes</data>
+    </node>
+    <node id="1132N_subte_de_buenos_aires">
+      <data key="d0">-34.6395669643</data>
+      <data key="d1">-58.4578482805</data>
+      <data key="d2">Varela</data>
+    </node>
+    <node id="1116N_subte_de_buenos_aires">
+      <data key="d0">-34.6017707052</data>
+      <data key="d1">-58.3844590187</data>
+      <data key="d2">Tribunales</data>
+    </node>
+    <node id="1065N_subte_de_buenos_aires">
+      <data key="d0">-34.6151114394</data>
+      <data key="d1">-58.4292858792</data>
+      <data key="d2">RÃ­o de Janeiro</data>
+    </node>
+    <node id="1123N_subte_de_buenos_aires">
+      <data key="d0">-34.6227595957</data>
+      <data key="d1">-58.3915145694</data>
+      <data key="d2">Entre RÃ­os</data>
+    </node>
+    <node id="1062S_subte_de_buenos_aires">
+      <data key="d0">-34.6235718471</data>
+      <data key="d1">-58.4487877787</data>
+      <data key="d2">PuÃ¡n</data>
+    </node>
+    <node id="1139O_subte_de_buenos_aires">
+      <data key="d0">-34.6152271185</data>
+      <data key="d1">-58.4047586472</data>
+      <data key="d2">Venezuela</data>
+    </node>
+    <node id="1124S_subte_de_buenos_aires">
+      <data key="d0">-34.6231337179</data>
+      <data key="d1">-58.3971116692</data>
+      <data key="d2">Pichincha</data>
+    </node>
+    <node id="1117N_subte_de_buenos_aires">
+      <data key="d0">-34.6043482456</data>
+      <data key="d1">-58.3803518863</data>
+      <data key="d2">9 de Julio</data>
+    </node>
+    <node id="1061S_subte_de_buenos_aires">
+      <data key="d0">-34.6264223927</data>
+      <data key="d1">-58.456044495</data>
+      <data key="d2">Carabobo</data>
+    </node>
+    <node id="1061N_subte_de_buenos_aires">
+      <data key="d0">-34.6264223927</data>
+      <data key="d1">-58.456044495</data>
+      <data key="d2">Carabobo</data>
+    </node>
+    <node id="1077N_subte_de_buenos_aires">
+      <data key="d0">-34.574011004</data>
+      <data key="d1">-58.4867182375</data>
+      <data key="d2">Juan Manuel de Rosas</data>
+    </node>
+    <node id="1066S_subte_de_buenos_aires">
+      <data key="d0">-34.6117636069</data>
+      <data key="d1">-58.421728313</data>
+      <data key="d2">Castro Barros</data>
+    </node>
+    <node id="1073S_subte_de_buenos_aires">
+      <data key="d0">-34.6091057215</data>
+      <data key="d1">-58.3825211228</data>
+      <data key="d2">Lima</data>
+    </node>
+    <node id="1127N_subte_de_buenos_aires">
+      <data key="d0">-34.6255450585</data>
+      <data key="d1">-58.4166280925</data>
+      <data key="d2">Boedo</data>
+    </node>
+    <node id="1093S_subte_de_buenos_aires">
+      <data key="d0">-34.6029673134</data>
+      <data key="d1">-58.3699563145</data>
+      <data key="d2">Leandro N. Alem</data>
+    </node>
+    <edge source="1130S_subte_de_buenos_aires" target="1131S_subte_de_buenos_aires">
+      <data key="d3">2.15</data>
+    </edge>
+    <edge source="1130S_subte_de_buenos_aires" target="1129S_subte_de_buenos_aires">
+      <data key="d3">2.11666666667</data>
+    </edge>
+    <edge source="1065S_subte_de_buenos_aires" target="1064S_subte_de_buenos_aires">
+      <data key="d3">1.78333333333</data>
+    </edge>
+    <edge source="1065S_subte_de_buenos_aires" target="1066S_subte_de_buenos_aires">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="1127S_subte_de_buenos_aires" target="1128S_subte_de_buenos_aires">
+      <data key="d3">2.01666666667</data>
+    </edge>
+    <edge source="1127S_subte_de_buenos_aires" target="1126S_subte_de_buenos_aires">
+      <data key="d3">1.65</data>
+    </edge>
+    <edge source="1129S_subte_de_buenos_aires" target="1128S_subte_de_buenos_aires">
+      <data key="d3">1.93333333333</data>
+    </edge>
+    <edge source="1162E_subte_de_buenos_aires" target="1161E_subte_de_buenos_aires">
+      <data key="d3">2.28333333333</data>
+    </edge>
+    <edge source="1076S_subte_de_buenos_aires" target="1075S_subte_de_buenos_aires">
+      <data key="d3">0.966666666667</data>
+    </edge>
+    <edge source="1083N_subte_de_buenos_aires" target="1085N_subte_de_buenos_aires">
+      <data key="d3">1.95</data>
+    </edge>
+    <edge source="1083N_subte_de_buenos_aires" target="1084N_subte_de_buenos_aires">
+      <data key="d3">1.93333333333</data>
+    </edge>
+    <edge source="1089S_subte_de_buenos_aires" target="1090S_subte_de_buenos_aires">
+      <data key="d3">1.31666666667</data>
+    </edge>
+    <edge source="1089S_subte_de_buenos_aires" target="1088S_subte_de_buenos_aires">
+      <data key="d3">1.43333333333</data>
+    </edge>
+    <edge source="1064N_subte_de_buenos_aires" target="1065N_subte_de_buenos_aires">
+      <data key="d3">1.78333333333</data>
+    </edge>
+    <edge source="1064N_subte_de_buenos_aires" target="1063N_subte_de_buenos_aires">
+      <data key="d3">1.55</data>
+    </edge>
+    <edge source="1115N_subte_de_buenos_aires" target="1116N_subte_de_buenos_aires">
+      <data key="d3">1.98333333333</data>
+    </edge>
+    <edge source="1115N_subte_de_buenos_aires" target="1114N_subte_de_buenos_aires">
+      <data key="d3">1.3</data>
+    </edge>
+    <edge source="1131S_subte_de_buenos_aires" target="1132S_subte_de_buenos_aires">
+      <data key="d3">1.95</data>
+    </edge>
+    <edge source="1119S_subte_de_buenos_aires" target="1120S_subte_de_buenos_aires">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="1103N_subte_de_buenos_aires" target="1104N_subte_de_buenos_aires">
+      <data key="d3">2.15</data>
+    </edge>
+    <edge source="1095E_subte_de_buenos_aires" target="1094E_subte_de_buenos_aires">
+      <data key="d3">1.65</data>
+    </edge>
+    <edge source="1095E_subte_de_buenos_aires" target="1096E_subte_de_buenos_aires">
+      <data key="d3">1.58333333333</data>
+    </edge>
+    <edge source="1060N_subte_de_buenos_aires" target="1059N_subte_de_buenos_aires">
+      <data key="d3">1.75</data>
+    </edge>
+    <edge source="1060N_subte_de_buenos_aires" target="1061N_subte_de_buenos_aires">
+      <data key="d3">1.93333333333</data>
+    </edge>
+    <edge source="1103S_subte_de_buenos_aires" target="1104S_subte_de_buenos_aires">
+      <data key="d3">2.15</data>
+    </edge>
+    <edge source="1063N_subte_de_buenos_aires" target="1062N_subte_de_buenos_aires">
+      <data key="d3">1.93333333333</data>
+    </edge>
+    <edge source="1104S_subte_de_buenos_aires" target="1105S_subte_de_buenos_aires">
+      <data key="d3">1.51666666667</data>
+    </edge>
+    <edge source="1064S_subte_de_buenos_aires" target="1063S_subte_de_buenos_aires">
+      <data key="d3">1.55</data>
+    </edge>
+    <edge source="1109N_subte_de_buenos_aires" target="1110N_subte_de_buenos_aires">
+      <data key="d3">1.56666666667</data>
+    </edge>
+    <edge source="1109N_subte_de_buenos_aires" target="1108N_subte_de_buenos_aires">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="1124N_subte_de_buenos_aires" target="1125N_subte_de_buenos_aires">
+      <data key="d3">1.56666666667</data>
+    </edge>
+    <edge source="1124N_subte_de_buenos_aires" target="1123N_subte_de_buenos_aires">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="1113N_subte_de_buenos_aires" target="1114N_subte_de_buenos_aires">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="1113N_subte_de_buenos_aires" target="1112N_subte_de_buenos_aires">
+      <data key="d3">1.4</data>
+    </edge>
+    <edge source="1075N_subte_de_buenos_aires" target="1074N_subte_de_buenos_aires">
+      <data key="d3">1.13333333333</data>
+    </edge>
+    <edge source="1075N_subte_de_buenos_aires" target="1076N_subte_de_buenos_aires">
+      <data key="d3">0.966666666667</data>
+    </edge>
+    <edge source="1080S_subte_de_buenos_aires" target="1081S_subte_de_buenos_aires">
+      <data key="d3">2.35</data>
+    </edge>
+    <edge source="1080S_subte_de_buenos_aires" target="1079S_subte_de_buenos_aires">
+      <data key="d3">1.65</data>
+    </edge>
+    <edge source="1074S_subte_de_buenos_aires" target="1073S_subte_de_buenos_aires">
+      <data key="d3">1.15</data>
+    </edge>
+    <edge source="1074S_subte_de_buenos_aires" target="1075S_subte_de_buenos_aires">
+      <data key="d3">1.13333333333</data>
+    </edge>
+    <edge source="1091S_subte_de_buenos_aires" target="1092S_subte_de_buenos_aires">
+      <data key="d3">1.48333333333</data>
+    </edge>
+    <edge source="1091S_subte_de_buenos_aires" target="1090S_subte_de_buenos_aires">
+      <data key="d3">1.31666666667</data>
+    </edge>
+    <edge source="1112N_subte_de_buenos_aires" target="1111N_subte_de_buenos_aires">
+      <data key="d3">1.43333333333</data>
+    </edge>
+    <edge source="1106N_subte_de_buenos_aires" target="1107N_subte_de_buenos_aires">
+      <data key="d3">2.41666666667</data>
+    </edge>
+    <edge source="1106N_subte_de_buenos_aires" target="1105N_subte_de_buenos_aires">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="1096E_subte_de_buenos_aires" target="1097E_subte_de_buenos_aires">
+      <data key="d3">1.81666666667</data>
+    </edge>
+    <edge source="1081N_subte_de_buenos_aires" target="1080N_subte_de_buenos_aires">
+      <data key="d3">2.35</data>
+    </edge>
+    <edge source="1081N_subte_de_buenos_aires" target="1082N_subte_de_buenos_aires">
+      <data key="d3">1.71666666667</data>
+    </edge>
+    <edge source="1133N_subte_de_buenos_aires" target="1132N_subte_de_buenos_aires">
+      <data key="d3">1.68333333333</data>
+    </edge>
+    <edge source="1096O_subte_de_buenos_aires" target="1095O_subte_de_buenos_aires">
+      <data key="d3">1.58333333333</data>
+    </edge>
+    <edge source="1096O_subte_de_buenos_aires" target="1097O_subte_de_buenos_aires">
+      <data key="d3">1.81666666667</data>
+    </edge>
+    <edge source="1140E_subte_de_buenos_aires" target="1141E_subte_de_buenos_aires">
+      <data key="d3">1.63333333333</data>
+    </edge>
+    <edge source="1140E_subte_de_buenos_aires" target="1139E_subte_de_buenos_aires">
+      <data key="d3">1.81666666667</data>
+    </edge>
+    <edge source="1137E_subte_de_buenos_aires" target="1138E_subte_de_buenos_aires">
+      <data key="d3">1.86666666667</data>
+    </edge>
+    <edge source="1137E_subte_de_buenos_aires" target="1136E_subte_de_buenos_aires">
+      <data key="d3">1.81666666667</data>
+    </edge>
+    <edge source="1135E_subte_de_buenos_aires" target="1136E_subte_de_buenos_aires">
+      <data key="d3">2.21666666667</data>
+    </edge>
+    <edge source="1135E_subte_de_buenos_aires" target="1134E_subte_de_buenos_aires">
+      <data key="d3">2.05</data>
+    </edge>
+    <edge source="1126S_subte_de_buenos_aires" target="1125S_subte_de_buenos_aires">
+      <data key="d3">1.6</data>
+    </edge>
+    <edge source="1092S_subte_de_buenos_aires" target="1093S_subte_de_buenos_aires">
+      <data key="d3">1.11666666667</data>
+    </edge>
+    <edge source="1062N_subte_de_buenos_aires" target="1061N_subte_de_buenos_aires">
+      <data key="d3">1.88333333333</data>
+    </edge>
+    <edge source="1138O_subte_de_buenos_aires" target="1137O_subte_de_buenos_aires">
+      <data key="d3">1.86666666667</data>
+    </edge>
+    <edge source="1138O_subte_de_buenos_aires" target="1139O_subte_de_buenos_aires">
+      <data key="d3">2.3</data>
+    </edge>
+    <edge source="1063S_subte_de_buenos_aires" target="1062S_subte_de_buenos_aires">
+      <data key="d3">1.93333333333</data>
+    </edge>
+    <edge source="1082S_subte_de_buenos_aires" target="1084S_subte_de_buenos_aires">
+      <data key="d3">2.3</data>
+    </edge>
+    <edge source="1082S_subte_de_buenos_aires" target="1081S_subte_de_buenos_aires">
+      <data key="d3">1.71666666667</data>
+    </edge>
+    <edge source="1093N_subte_de_buenos_aires" target="1092N_subte_de_buenos_aires">
+      <data key="d3">1.11666666667</data>
+    </edge>
+    <edge source="1060S_subte_de_buenos_aires" target="1061S_subte_de_buenos_aires">
+      <data key="d3">1.93333333333</data>
+    </edge>
+    <edge source="1060S_subte_de_buenos_aires" target="1059S_subte_de_buenos_aires">
+      <data key="d3">1.75</data>
+    </edge>
+    <edge source="1085N_subte_de_buenos_aires" target="1086N_subte_de_buenos_aires">
+      <data key="d3">1.95</data>
+    </edge>
+    <edge source="1121N_subte_de_buenos_aires" target="1122N_subte_de_buenos_aires">
+      <data key="d3">2.41666666667</data>
+    </edge>
+    <edge source="1121N_subte_de_buenos_aires" target="1120N_subte_de_buenos_aires">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="1131N_subte_de_buenos_aires" target="1132N_subte_de_buenos_aires">
+      <data key="d3">1.31666666667</data>
+    </edge>
+    <edge source="1131N_subte_de_buenos_aires" target="1130N_subte_de_buenos_aires">
+      <data key="d3">1.98333333333</data>
+    </edge>
+    <edge source="1087S_subte_de_buenos_aires" target="1086S_subte_de_buenos_aires">
+      <data key="d3">1.46666666667</data>
+    </edge>
+    <edge source="1087S_subte_de_buenos_aires" target="1088S_subte_de_buenos_aires">
+      <data key="d3">1.33333333333</data>
+    </edge>
+    <edge source="1072N_subte_de_buenos_aires" target="1071N_subte_de_buenos_aires">
+      <data key="d3">1.53333333333</data>
+    </edge>
+    <edge source="1072N_subte_de_buenos_aires" target="1073N_subte_de_buenos_aires">
+      <data key="d3">1.16666666667</data>
+    </edge>
+    <edge source="1107S_subte_de_buenos_aires" target="1106S_subte_de_buenos_aires">
+      <data key="d3">2.41666666667</data>
+    </edge>
+    <edge source="1107S_subte_de_buenos_aires" target="1108S_subte_de_buenos_aires">
+      <data key="d3">2.13333333333</data>
+    </edge>
+    <edge source="1119N_subte_de_buenos_aires" target="1120N_subte_de_buenos_aires">
+      <data key="d3">1.51666666667</data>
+    </edge>
+    <edge source="1118N_subte_de_buenos_aires" target="1117N_subte_de_buenos_aires">
+      <data key="d3">1.68333333333</data>
+    </edge>
+    <edge source="1070N_subte_de_buenos_aires" target="1068N_subte_de_buenos_aires">
+      <data key="d3">1.71666666667</data>
+    </edge>
+    <edge source="1070N_subte_de_buenos_aires" target="1071N_subte_de_buenos_aires">
+      <data key="d3">1.45</data>
+    </edge>
+    <edge source="1088N_subte_de_buenos_aires" target="1089N_subte_de_buenos_aires">
+      <data key="d3">1.43333333333</data>
+    </edge>
+    <edge source="1088N_subte_de_buenos_aires" target="1087N_subte_de_buenos_aires">
+      <data key="d3">1.33333333333</data>
+    </edge>
+    <edge source="1161E_subte_de_buenos_aires" target="1160E_subte_de_buenos_aires">
+      <data key="d3">1.31666666667</data>
+    </edge>
+    <edge source="1117S_subte_de_buenos_aires" target="1118S_subte_de_buenos_aires">
+      <data key="d3">1.68333333333</data>
+    </edge>
+    <edge source="1117S_subte_de_buenos_aires" target="1116S_subte_de_buenos_aires">
+      <data key="d3">1.31666666667</data>
+    </edge>
+    <edge source="1162O_subte_de_buenos_aires" target="1161O_subte_de_buenos_aires">
+      <data key="d3">2.28333333333</data>
+    </edge>
+    <edge source="1120S_subte_de_buenos_aires" target="1121S_subte_de_buenos_aires">
+      <data key="d3">1.53333333333</data>
+    </edge>
+    <edge source="1134O_subte_de_buenos_aires" target="1135O_subte_de_buenos_aires">
+      <data key="d3">2.05</data>
+    </edge>
+    <edge source="1067S_subte_de_buenos_aires" target="1068S_subte_de_buenos_aires">
+      <data key="d3">2.28333333333</data>
+    </edge>
+    <edge source="1067S_subte_de_buenos_aires" target="1066S_subte_de_buenos_aires">
+      <data key="d3">1.65</data>
+    </edge>
+    <edge source="1071S_subte_de_buenos_aires" target="1069S_subte_de_buenos_aires">
+      <data key="d3">1.9</data>
+    </edge>
+    <edge source="1071S_subte_de_buenos_aires" target="1072S_subte_de_buenos_aires">
+      <data key="d3">1.53333333333</data>
+    </edge>
+    <edge source="1111S_subte_de_buenos_aires" target="1112S_subte_de_buenos_aires">
+      <data key="d3">1.43333333333</data>
+    </edge>
+    <edge source="1111S_subte_de_buenos_aires" target="1110S_subte_de_buenos_aires">
+      <data key="d3">1.45</data>
+    </edge>
+    <edge source="1138E_subte_de_buenos_aires" target="1139E_subte_de_buenos_aires">
+      <data key="d3">2.3</data>
+    </edge>
+    <edge source="1080N_subte_de_buenos_aires" target="1079N_subte_de_buenos_aires">
+      <data key="d3">1.65</data>
+    </edge>
+    <edge source="1123S_subte_de_buenos_aires" target="1122S_subte_de_buenos_aires">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="1123S_subte_de_buenos_aires" target="1124S_subte_de_buenos_aires">
+      <data key="d3">1.38333333333</data>
+    </edge>
+    <edge source="1085S_subte_de_buenos_aires" target="1086S_subte_de_buenos_aires">
+      <data key="d3">1.95</data>
+    </edge>
+    <edge source="1085S_subte_de_buenos_aires" target="1083S_subte_de_buenos_aires">
+      <data key="d3">1.95</data>
+    </edge>
+    <edge source="1066N_subte_de_buenos_aires" target="1067N_subte_de_buenos_aires">
+      <data key="d3">1.65</data>
+    </edge>
+    <edge source="1066N_subte_de_buenos_aires" target="1065N_subte_de_buenos_aires">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="1068S_subte_de_buenos_aires" target="1069S_subte_de_buenos_aires">
+      <data key="d3">1.26666666667</data>
+    </edge>
+    <edge source="1098O_subte_de_buenos_aires" target="1099O_subte_de_buenos_aires">
+      <data key="d3">1.66666666667</data>
+    </edge>
+    <edge source="1098O_subte_de_buenos_aires" target="1097O_subte_de_buenos_aires">
+      <data key="d3">1.3</data>
+    </edge>
+    <edge source="1090N_subte_de_buenos_aires" target="1089N_subte_de_buenos_aires">
+      <data key="d3">1.31666666667</data>
+    </edge>
+    <edge source="1090N_subte_de_buenos_aires" target="1091N_subte_de_buenos_aires">
+      <data key="d3">1.31666666667</data>
+    </edge>
+    <edge source="1100E_subte_de_buenos_aires" target="1099E_subte_de_buenos_aires">
+      <data key="d3">1.35</data>
+    </edge>
+    <edge source="1100E_subte_de_buenos_aires" target="1101E_subte_de_buenos_aires">
+      <data key="d3">2.25</data>
+    </edge>
+    <edge source="1107N_subte_de_buenos_aires" target="1108N_subte_de_buenos_aires">
+      <data key="d3">2.13333333333</data>
+    </edge>
+    <edge source="1102O_subte_de_buenos_aires" target="1101O_subte_de_buenos_aires">
+      <data key="d3">1.3</data>
+    </edge>
+    <edge source="1105S_subte_de_buenos_aires" target="1106S_subte_de_buenos_aires">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="1073N_subte_de_buenos_aires" target="1074N_subte_de_buenos_aires">
+      <data key="d3">1.15</data>
+    </edge>
+    <edge source="1110S_subte_de_buenos_aires" target="1109S_subte_de_buenos_aires">
+      <data key="d3">1.56666666667</data>
+    </edge>
+    <edge source="1122S_subte_de_buenos_aires" target="1121S_subte_de_buenos_aires">
+      <data key="d3">1.8</data>
+    </edge>
+    <edge source="1067N_subte_de_buenos_aires" target="1068N_subte_de_buenos_aires">
+      <data key="d3">2.28333333333</data>
+    </edge>
+    <edge source="1098E_subte_de_buenos_aires" target="1097E_subte_de_buenos_aires">
+      <data key="d3">1.3</data>
+    </edge>
+    <edge source="1098E_subte_de_buenos_aires" target="1099E_subte_de_buenos_aires">
+      <data key="d3">1.66666666667</data>
+    </edge>
+    <edge source="1128N_subte_de_buenos_aires" target="1129N_subte_de_buenos_aires">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="1128N_subte_de_buenos_aires" target="1127N_subte_de_buenos_aires">
+      <data key="d3">1.4</data>
+    </edge>
+    <edge source="1133S_subte_de_buenos_aires" target="1132S_subte_de_buenos_aires">
+      <data key="d3">1.33333333333</data>
+    </edge>
+    <edge source="1084N_subte_de_buenos_aires" target="1082N_subte_de_buenos_aires">
+      <data key="d3">2.3</data>
+    </edge>
+    <edge source="1125N_subte_de_buenos_aires" target="1126N_subte_de_buenos_aires">
+      <data key="d3">1.45</data>
+    </edge>
+    <edge source="1104N_subte_de_buenos_aires" target="1105N_subte_de_buenos_aires">
+      <data key="d3">1.51666666667</data>
+    </edge>
+    <edge source="1100O_subte_de_buenos_aires" target="1101O_subte_de_buenos_aires">
+      <data key="d3">2.25</data>
+    </edge>
+    <edge source="1100O_subte_de_buenos_aires" target="1099O_subte_de_buenos_aires">
+      <data key="d3">1.35</data>
+    </edge>
+    <edge source="1108S_subte_de_buenos_aires" target="1109S_subte_de_buenos_aires">
+      <data key="d3">1.5</data>
+    </edge>
+    <edge source="1141E_subte_de_buenos_aires" target="1160E_subte_de_buenos_aires">
+      <data key="d3">1.63333333333</data>
+    </edge>
+    <edge source="1086N_subte_de_buenos_aires" target="1087N_subte_de_buenos_aires">
+      <data key="d3">1.46666666667</data>
+    </edge>
+    <edge source="1083S_subte_de_buenos_aires" target="1084S_subte_de_buenos_aires">
+      <data key="d3">1.93333333333</data>
+    </edge>
+    <edge source="1091N_subte_de_buenos_aires" target="1092N_subte_de_buenos_aires">
+      <data key="d3">1.48333333333</data>
+    </edge>
+    <edge source="1110N_subte_de_buenos_aires" target="1111N_subte_de_buenos_aires">
+      <data key="d3">1.45</data>
+    </edge>
+    <edge source="1112S_subte_de_buenos_aires" target="1113S_subte_de_buenos_aires">
+      <data key="d3">1.4</data>
+    </edge>
+    <edge source="1130N_subte_de_buenos_aires" target="1129N_subte_de_buenos_aires">
+      <data key="d3">1.3</data>
+    </edge>
+    <edge source="1136O_subte_de_buenos_aires" target="1135O_subte_de_buenos_aires">
+      <data key="d3">2.21666666667</data>
+    </edge>
+    <edge source="1136O_subte_de_buenos_aires" target="1137O_subte_de_buenos_aires">
+      <data key="d3">1.81666666667</data>
+    </edge>
+    <edge source="1079N_subte_de_buenos_aires" target="1078N_subte_de_buenos_aires">
+      <data key="d3">1.91666666667</data>
+    </edge>
+    <edge source="1140O_subte_de_buenos_aires" target="1139O_subte_de_buenos_aires">
+      <data key="d3">1.81666666667</data>
+    </edge>
+    <edge source="1140O_subte_de_buenos_aires" target="1141O_subte_de_buenos_aires">
+      <data key="d3">1.63333333333</data>
+    </edge>
+    <edge source="1077S_subte_de_buenos_aires" target="1078S_subte_de_buenos_aires">
+      <data key="d3">1.61666666667</data>
+    </edge>
+    <edge source="1160O_subte_de_buenos_aires" target="1161O_subte_de_buenos_aires">
+      <data key="d3">1.31666666667</data>
+    </edge>
+    <edge source="1160O_subte_de_buenos_aires" target="1141O_subte_de_buenos_aires">
+      <data key="d3">1.63333333333</data>
+    </edge>
+    <edge source="1101E_subte_de_buenos_aires" target="1102E_subte_de_buenos_aires">
+      <data key="d3">1.3</data>
+    </edge>
+    <edge source="1116S_subte_de_buenos_aires" target="1115S_subte_de_buenos_aires">
+      <data key="d3">1.98333333333</data>
+    </edge>
+    <edge source="1114S_subte_de_buenos_aires" target="1113S_subte_de_buenos_aires">
+      <data key="d3">2.0</data>
+    </edge>
+    <edge source="1114S_subte_de_buenos_aires" target="1115S_subte_de_buenos_aires">
+      <data key="d3">1.3</data>
+    </edge>
+    <edge source="1126N_subte_de_buenos_aires" target="1127N_subte_de_buenos_aires">
+      <data key="d3">1.43333333333</data>
+    </edge>
+    <edge source="1122N_subte_de_buenos_aires" target="1123N_subte_de_buenos_aires">
+      <data key="d3">2.13333333333</data>
+    </edge>
+    <edge source="1125S_subte_de_buenos_aires" target="1124S_subte_de_buenos_aires">
+      <data key="d3">1.4</data>
+    </edge>
+    <edge source="1078S_subte_de_buenos_aires" target="1079S_subte_de_buenos_aires">
+      <data key="d3">1.91666666667</data>
+    </edge>
+    <edge source="1095O_subte_de_buenos_aires" target="1094O_subte_de_buenos_aires">
+      <data key="d3">1.65</data>
+    </edge>
+    <edge source="1078N_subte_de_buenos_aires" target="1077N_subte_de_buenos_aires">
+      <data key="d3">1.61666666667</data>
+    </edge>
+    <edge source="1072S_subte_de_buenos_aires" target="1073S_subte_de_buenos_aires">
+      <data key="d3">1.16666666667</data>
+    </edge>
+    <edge source="1116N_subte_de_buenos_aires" target="1117N_subte_de_buenos_aires">
+      <data key="d3">1.31666666667</data>
+    </edge>
+    <edge source="1062S_subte_de_buenos_aires" target="1061S_subte_de_buenos_aires">
+      <data key="d3">1.88333333333</data>
+    </edge>
+  </graph>
+</graphml>
