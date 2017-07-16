@@ -56,7 +56,7 @@ General Transit Feed Specification [GTFS](https://developers.google.com/transit/
 
 The GTFS for the cities visualized here were retrieved from [transitland](https://transit.land){:target="_blank"}. To construct the networks a python script was developed that takes advantage of the functions provided by [urbanaccess tool](https://udst.github.io/urbanaccess/index.html){:target="_blank"} and [networkx](http://networkx.readthedocs.io/en/latest/){:target="_blank"}. The GTFS feeds were read, converted into a time-weighted graph based on the time-tables provided in the feeds, and the three network properties (degree, closeness, and betweenness) were derived. The edges and nodes along with their attributes were saved as geoJSON files to be visualized using [leaflet](http://leafletjs.com/){:target="_blank"}. 
 
-The travel time weighted graphs can be accessed [here]({{site.url}}/assets/graphML.zip){:target="_blank"} as graphml files.
+The travel time weighted graphs can be downloaded as a ZIP [here]({{site.url}}/assets/graphML.zip) as graphml files.
 
 For an other similar project, check out [Tyler Green's transit app](https://gtfs-graph.herokuapp.com/rank/boston/){:target="_blank"}
 
