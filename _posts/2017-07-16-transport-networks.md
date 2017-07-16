@@ -11,7 +11,7 @@ excerpt: Networks that are constrained by some geometry and are embedded in two-
 
 
 <h3><b>Understanding Systems Through Networks</b></h3>
-Different characteristic of complex systems arise as a result of the interactions between its constituent elements. Network science studies these interactions and their connections, dynamics, and processes providing a system-level representation which can be based on logical relations. observed correlations, physical connections, etc. Modelling systems in terms of their network structure can help understand, predict, and optimize their real-world behaviour.
+Different characteristic of complex systems arise as a result of the interactions between its constituent elements. Network science studies these interactions and their connections, dynamics, and processes providing a system-level representation which can be based on logical relations, observed correlations, physical connections, etc. Modelling systems in terms of their network structure can help understand, predict, and optimize their real-world behaviour.
 
 Network science builds upon graph theory, a branch of discrete mathematics. A graph is an abstract representation of a set of elements and the connection between them. Elements are represented by a vertices ($$v$$), also called nodes, and edges ($$e$$), also refered to as links. A graph, $$ G = (V,E) $$, can be encoded in a adjacency matrix $$A$$, such that:
 <div style="text-align: center;">
@@ -29,7 +29,7 @@ $$
 
 Graphs can be weighted, meaning that their edges have a weight attribute to quantify some value, such as importance or impedance, between connected vertices. The weighted distance between two vertices is the sum of the weights of the path's edges. 
 
-Network science is the study of typically real-world graphs, such as social networks, the internet, protein interactions, power grids, among many more. The connection topology of networks can lie between completely random or completely regular, but many social, technological, and biological networks lie somewhere in between these two extremes, tipically exhibiting 'small-world' properties. 
+Network science is the study of typically real-world graphs, such as social networks, the internet, protein interactions, power grids, among many more. The connection topology of networks can lie between completely random or completely regular, but many social, technological, and biological networks lie somewhere in between these two extremes, exhibiting 'small-world' properties. 
 
 There are a number of measures that can be calculated from a network, such as the diameter (longest shortest path), average path length, density (connectance), centrality measures, communities, etc. Here we will only focus on three measures of centrality, as this can give us key measures of the topological properties of our system. These are:
 <ul>
