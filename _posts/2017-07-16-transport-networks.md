@@ -13,7 +13,7 @@ excerpt: Networks that are constrained by some geometry and are embedded in two-
 <h3><b>Understanding Systems Through Networks</b></h3>
 Different characteristic of complex systems arise as a result of the interactions between its constituent elements. Network science studies these interactions and their connections, dynamics, and processes providing a system-level representation which can be based on logical relations, observed correlations, physical connections, etc. Modelling systems in terms of their network structure can help understand, predict, and optimize their real-world behaviour.
 
-Network science builds upon graph theory, a branch of discrete mathematics. A graph is an abstract representation of a set of elements and the connection between them. Elements are represented by a vertices ($$v$$), also called nodes, and edges ($$e$$), also refered to as links. A graph, $$ G = (V,E) $$, can be encoded in a adjacency matrix $$A$$, such that:
+Network science builds upon graph theory, a branch of discrete mathematics. A graph is an abstract representation of a set of elements and the connection between them. Elements are represented by a vertices ($$v$$), also called nodes, and edges ($$e$$), also referred to as links. A graph, $$ G = (V,E) $$, can be encoded in a adjacency matrix $$A$$, such that:
 <div style="text-align: center;">
 <small>
 $$
@@ -41,7 +41,7 @@ There are a number of measures that can be calculated from a network, such as th
 	</small></li>
 </ul>
 
-For a more indepth view of networks and their applications check out: [Networks: An Introduction](http://www-personal.umich.edu/~mejn/networks-an-introduction/){:target="_pageblank"}. by Mark Newman.
+For a more in-depth view of networks and their applications check out: [Networks: An Introduction](http://www-personal.umich.edu/~mejn/networks-an-introduction/){:target="_pageblank"}. by Mark Newman.
 
 <h3><b>Transport Systems as Networks</b></h3>
 Networks that are constrained by some geometry and are embedded in two-or three dimensional space can be thought of as spatial networks. The constraints that space imposes can have important effects on their topological properties and in the processes which take place on them.
