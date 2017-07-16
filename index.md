@@ -7,12 +7,19 @@ layout: home
 <h2><b>ABOUT</b></h2>
 I am a grad student at the [Centre for Advanced Spatial Analysis in UCL](http://mscsmartcities.org/){:target="_blank"}, studying spatial data science, geospatial analytics, and complexity. Prior to this, I worked as a junior researcher at [llactaLAB](https://llactalab.ucuenca.edu.ec/){:target="_blank"}. 
 
-My research interest broadly revolves around cities as systems of interaction. Particulary looking at multilayered social networks embedded in time and space to understand the influence of urban morphology on behaviour and its relationship to sustainability and resilience. 
+My interest broadly revolves around cities as systems of interaction. Particulary looking at multilayered social networks embedded in time and space to understand the influence of urban morphology on behaviour and its relationship to sustainability and resilience. 
 
 You can find my full resume [here]({{site.url}}/assets/cv_mneira.pdf).
 <hr>
 <br>
 <h2><b>PROJECTS</b></h2>
+<h2>Analyzing Transport Networks</h2> 
+Interactive Web tool to explore centrality measures of the metro systems of London, New York, Chicago, and Santiago de Chile. The time-weighted graphs were constructed using publicly available GTFS data and visualized using javascript. Click on the image to view the tool, along with a more indepth description.
+<a href="{{site.url}}/transport_networks/">
+<img src="{{site.url}}/assets/transport_network.gif">
+</a>
+<br>
+<br>
 <h2>placeSpace</h2> 
 [placeSpace](http://placespace.org/){:target="_blank"} is an interactive online platform that enables users to visualize and explore amenity location and distribution in London. The platform originates from the need to interpret and assess the complexity of cities in terms of agglomeration economies.
 <iframe src="https://player.vimeo.com/video/224066364?loop=1&title=0&portrait=0" style="width:100%;height:500px;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
