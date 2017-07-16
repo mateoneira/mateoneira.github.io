@@ -46,9 +46,9 @@ For a more indepth view of networks and their applications check out: [Networks:
 <h3><b>Transport Systems as Networks</b></h3>
 Networks that are constrained by some geometry and are embedded in two-or three dimensional space can be thought of as spatial networks. The constraints that space imposes can have important effects on their topological properties and in the processes which take place on them.
 
-Urban Transport systems are temporal, spatial, and multilayered, and have a long history in network analysis. One of the simplest abstractions of these systems is representing stops as nodes and physical links between then as edges, called the primal graph. There are other ways of representing such systems, such as L and P-spaces, or Dual-graphs. Here we will be representing the metro systems as primal graphs weighted by travel time between stations.
+Urban Transport systems are temporal, spatial, and multilayered, and have a long history in network analysis. One of the simplest abstractions of these systems is representing stops as nodes and physical links between them as edges; the primal graph. There are other ways of representing these systems, such as L and P-spaces, or Dual-graphs. Here we will be representing the metro systems as primal graphs weighted by travel time between stations.
 
-One of the advantages of using this network representation is that it allows us to define critical nodes in these systems. Critical nodes are those that not only bridge two clusters in the newtork, but also allow rapid flow between physically distant areas. 
+One of the advantages of using this network representation is that it allows us to define critical nodes in these systems. Critical nodes are those that not only bridge two clusters in the network, but also allow rapid flow between physically distant areas. 
 
 <h3><b>Constructing a Graph from GTFS data</b></h3>
 
