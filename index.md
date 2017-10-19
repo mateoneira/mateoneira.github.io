@@ -5,9 +5,11 @@
 layout: home
 ---
 <h2><b>ABOUT</b></h2>
-I am a grad student at the [Centre for Advanced Spatial Analysis in UCL](http://mscsmartcities.org/){:target="_blank"}, studying spatial data science, geospatial analytics, and complexity. Prior to this, I worked as a junior researcher at [llactaLAB](https://llactalab.ucuenca.edu.ec/){:target="_blank"}. 
+Data Scientist and Developer at [SignalBox](http://www.signalbox.tech/), working on technology for data analysis and algorithm development for positioning and context detection on mobile devices targeted to work on transport systems. 
 
-My interest broadly revolves around cities as systems of interaction. Particulary looking at multilayered social networks embedded in time and space to understand the influence of urban morphology on behaviour and its relationship to sustainability and resilience. 
+I am also pursuing an MSc. at the [Centre for Advanced Spatial Analysis in UCL](http://mscsmartcities.org/){:target="_blank"}, studying spatial data science, geospatial analytics, and complexity. Prior to this, I worked as a junior researcher at [llactaLAB](https://llactalab.ucuenca.edu.ec/){:target="_blank"}. 
+
+My interest broadly revolves around cities as systems of interaction, looking at coupled transport systems and their influence of patterns of interactions, particularly temporal-weighted multilayered transport networks and their relation to urban morphology, sustainability, and resilience. 
 
 You can find my full resume [here]({{site.url}}/assets/cv_mneira.pdf).
 <hr>
