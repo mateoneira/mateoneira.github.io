@@ -5,7 +5,7 @@
 layout: home
 ---
 <h2><b>ABOUT</b></h2>
-Data Scientist and Developer at [SignalBox](http://www.signalbox.tech/), working on technology for data analysis and algorithm development for positioning and context detection on mobile devices targeted to work on transport systems. 
+Data Scientist and Developer at [SignalBox](http://www.signalbox.tech/), working on data analytics and algorithmic development for positioning and context detection on transport networks.
 
 I am also pursuing an MSc. at the [Centre for Advanced Spatial Analysis in UCL](http://mscsmartcities.org/){:target="_blank"}, studying spatial data science, geospatial analytics, and complexity. Prior to this, I worked as a junior researcher at [llactaLAB](https://llactalab.ucuenca.edu.ec/){:target="_blank"}. 
 
