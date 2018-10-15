@@ -5,11 +5,11 @@
 layout: home
 ---
 <h2><b>ABOUT</b></h2>
-Doctoral researcher at [Centre for Advanced Spatial Analysis](https://www.ucl.ac.uk/bartlett/casa/) through the [Alan Turing Institute](https://www.turing.ac.uk/) doctoral programme. Mateo is interested in the application of data science and artificial intelligence on the built environment. 
+Mateo is a Doctoral Researcher at [Centre for Advanced Spatial Analysis](https://www.ucl.ac.uk/bartlett/casa/) through the [Alan Turing Institute](https://www.turing.ac.uk/) doctoral programme. Mateo is interested in the application of data science and artificial intelligence on the built environment. 
 
 He is an architect with a **MSc in Smart Cities and Urban Analytics** from UCL, and works at the architectural practice [Foster + Partners](https://www.fosterandpartners.com/) where he implements novel frameworks and methods to understand cities and urbanisation to inform design strategies. 
 
-Previously, Mateo worked as a spatial algorithm reseacher at **SignalBox**, developing on positioning and context detection algorithms for transport networks using realtime transport data and mobile signals.
+Previously, Mateo worked as a spatial algorithm reseacher at **SignalBox**, developing positioning and context detection algorithms for transport networks using realtime transport data and mobile signals.
 
 His interests revolve around cities as systems of interaction, particularly how urban dynamics shape and are shaped by collective behaviour.
 
