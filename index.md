@@ -11,8 +11,7 @@ He is an architect with a **MSc in Smart Cities and Urban Analytics** from UCL, 
 
 Previously, Mateo worked as a spatial algorithm reseacher at **SignalBox**, developing positioning and context detection algorithms for transport networks using realtime transport data and mobile signals.
 
-His interests revolve around cities as systems of interaction, particularly how urban dynamics shape and are shaped by collective behaviour.
-
+His interests revolve around cities as systems of interaction, particularly how urban dynamics shape and are shaped by collective behaviour.My research seaks to understand and model hidden relationships between connectivity, complexity, and resilience for coupled socio-physical systems.
 
 You can find my full resume [here]({{site.url}}/assets/cv_mneira.pdf).
 <hr>
