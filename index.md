@@ -9,7 +9,7 @@ Hey! I'm Mateo, an Associate Data Scientist at [Foster and Partners](https://www
 
 At Foster and Partners, I've led data-driven projects that influence urban design and analytics, with my tools and insights featured at international conferences. Previously, I also worked at [SignalBox](https://www.signalbox.io/) developing algorithms for transport networks.
 
-Currently, my work intersects data science, network science, and machine learning, aiming to enhance urban sustainability and growth patterns through innovative models and algorithms. I am deeply interested in leveraging AI to tackle complex urban challenges, aiming to integrate sophisticated data analysis into actionable insights for urban development.
+Currently, my work deals with **Complex Networks, Data Science** and their application to the study and modeling of social and urban systems.I am deeply interested in leveraging AI to tackle complex urban challenges, aiming to integrate sophisticated data analysis into actionable insights for urban development.
 
 
 <!-- Mateo is a Doctoral Researcher at [Centre for Advanced Spatial Analysis](https://www.ucl.ac.uk/bartlett/casa/) through the [Alan Turing Institute](https://www.turing.ac.uk/) doctoral programme. Mateo is interested in the application of data science and artificial intelligence on the built environment. 
