@@ -5,7 +5,7 @@
 layout: home
 ---
 <!-- <h2><b>ABOUT</b></h2> -->
-Hey! I'm Mateo, an Associate Data Scientist at [Foster and Partners](https://www.fosterandpartners.com/). I completed my PhD at the [Centre for Advanced Spatial Analysis](https://www.ucl.ac.uk/bartlett/casa/), part of the [Alan Turing Institute](https://www.turing.ac.uk/) doctoral program, where I focused on quantifying urban segregation and human behaviour in cities using advanced network analysis and information theory.
+Hey! I'm Mateo, an Associate Partner and Data Scientist at [Foster and Partners](https://www.fosterandpartners.com/). I completed my PhD at the [Centre for Advanced Spatial Analysis](https://www.ucl.ac.uk/bartlett/casa/), as part of the [Alan Turing Institute](https://www.turing.ac.uk/) doctoral program, where I focused on quantifying urban segregation and human behaviour in cities using advanced network analysis and information theory.
 
 At Foster and Partners, I've led data-driven projects that influence urban design and analytics, with my tools and insights featured at international conferences. Previously, I also worked at [SignalBox](https://www.signalbox.io/) developing algorithms for transport networks.
 
