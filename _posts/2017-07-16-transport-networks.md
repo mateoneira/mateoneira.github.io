@@ -41,7 +41,7 @@ There are a number of measures that can be calculated from a network, such as th
 	</small></li>
 </ul>
 
-For a more in-depth view of networks and their applications check out: [Networks: An Introduction](http://www-personal.umich.edu/~mejn/networks-an-introduction/){:target="_pageblank"}. by Mark Newman.
+For a more in-depth view of networks and their applications check out: [Networks: An Introduction](https://www-personal.umich.edu/~mejn/networks-an-introduction/){:target="_pageblank"}. by Mark Newman.
 
 <h3><b>Transport Systems as Networks</b></h3>
 Networks that are constrained by some geometry and are embedded in two-or three dimensional space can be thought of as spatial networks. The constraints that space imposes can have important effects on their topological properties and in the processes which take place on them.
@@ -54,7 +54,7 @@ One of the advantages of using this network representation is that it allows us 
 
 General Transit Feed Specification [GTFS](https://developers.google.com/transit/gtfs/){:target="_blank"} is a standard format to desseminate transit geospatial and timetable data. It was developed by the Tri-County Metropolitan Transportation District of Oregon and Google. A GTFS feed is composed of a series of comma-seperated text files relating to stops, routes, trips, and in some cases fare information. These files are stored together in a ZIP file.
 
-The GTFS for the cities visualized here were retrieved from [transitland](https://transit.land){:target="_blank"}. To construct the networks a python script was developed that takes advantage of the functions provided by [urbanaccess tool](https://udst.github.io/urbanaccess/index.html){:target="_blank"} and [networkx](http://networkx.readthedocs.io/en/latest/){:target="_blank"}. The GTFS feeds were read, converted into a time-weighted graph based on the time-tables provided in the feeds, and the three network properties (degree, closeness, and betweenness) were derived. The edges and nodes along with their attributes were saved as geoJSON files to be visualized using [leaflet](http://leafletjs.com/){:target="_blank"}. 
+The GTFS for the cities visualized here were retrieved from [transitland](https://transit.land){:target="_blank"}. To construct the networks a python script was developed that takes advantage of the functions provided by [urbanaccess tool](https://udst.github.io/urbanaccess/index.html){:target="_blank"} and [networkx](https://networkx.readthedocs.io/en/latest/){:target="_blank"}. The GTFS feeds were read, converted into a time-weighted graph based on the time-tables provided in the feeds, and the three network properties (degree, closeness, and betweenness) were derived. The edges and nodes along with their attributes were saved as geoJSON files to be visualized using [leaflet](https://leafletjs.com/){:target="_blank"}. 
 
 The travel time weighted graphs can be downloaded as a ZIP containing graphml files [here]({{site.url}}/assets/graphML.zip).
 
