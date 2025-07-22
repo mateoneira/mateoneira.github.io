@@ -9,7 +9,7 @@ Hey! I'm Mateo, an Associate Partner and Data Scientist at [Foster and Partners]
 
 At Foster and Partners, I've led data-driven projects that influence urban design and analytics, with my tools and insights featured at international conferences. Previously, I also worked at [SignalBox](https://www.signalbox.io/) developing algorithms for transport networks.
 
-Currently, my work deals with **Complex Networks, Data Science** and their application to the study and modeling of social and urban systems.I am deeply interested in leveraging AI to tackle complex urban challenges, aiming to integrate sophisticated data analysis into actionable insights for urban development.
+Currently, my work deals with **Complex Networks, Data Science** and their application to the study and modeling of social and urban systems. I am deeply interested in leveraging AI to tackle complex urban challenges, aiming to integrate sophisticated data analysis into actionable insights for urban development.
 
 
 <!-- Mateo is a Doctoral Researcher at [Centre for Advanced Spatial Analysis](https://www.ucl.ac.uk/bartlett/casa/) through the [Alan Turing Institute](https://www.turing.ac.uk/) doctoral programme. Mateo is interested in the application of data science and artificial intelligence on the built environment. 
@@ -36,7 +36,7 @@ Interactive Web tool to explore centrality measures of the metro systems of Lond
 <iframe src="https://player.vimeo.com/video/224066364?loop=1&title=0&portrait=0" style="width:100%;height:500px;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <br>
 <h2>urbanPulse</h2>
-Our collective activities in the city unfold in time and space in a repeating fashion. These cyclic patterns of actions and interactions create a particular rythm, an urban 'Pulse' influenced by socio-cultural and physical aspects of our environment. 
+Our collective activities in the city unfold in time and space in a repeating fashion. These cyclic patterns of actions and interactions create a particular rhythm, an urban 'Pulse' influenced by socio-cultural and physical aspects of our environment.
 
-Increasingly people use online networks to interact, and even though these interactions are virtual, they take place in physical space. By retreiving the digital traces they leave behind we can visualize these cyclic spatio-temporal patterns in a city. 
+Increasingly people use online networks to interact, and even though these interactions are virtual, they take place in physical space. By retrieving the digital traces they leave behind we can visualize these cyclic spatio-temporal patterns in a city.
 <iframe src="https://player.vimeo.com/video/223309049?autoplay=0&loop=1&title=0&portrait=0&background=1" style="width:100%;height:500px;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
