@@ -24,6 +24,10 @@ github_username:  mateoneira
 
 # Build settings
 markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  input: GFM
+  hard_wrap: false
 theme: minima
 plugins:
   - jekyll-feed

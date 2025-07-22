@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 
 # gem "rails"
-gem 'csv', '~> 3.2'
-gem "jekyll", "~> 4.3"
+gem 'csv', '~> 3.3'
+gem "jekyll", "~> 4.4"
 gem "minima"
 gem "jekyll-feed"
