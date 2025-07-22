@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /spatial-interaction-models/
-excerpt: this is a test.
+excerpt: An in-depth exploration of spatial interaction models, covering their theoretical foundations, mathematical formulation, and practical applications in urban planning. This article includes interactive visualizations to build intuition about how these models predict human mobility patterns in cities.
 ---
 
 **Title: The Art and Science of Estimating Mobility Flows**  
