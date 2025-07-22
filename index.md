@@ -2,12 +2,11 @@
 layout: home
 ---
 
-Hey! I'm Mateo, an Associate Partner and Data Scientist at [Foster and Partners](https://www.fosterandpartners.com/). I'm also a Honorary Research Fellow at UCL. I completed my PhD at the [Centre for Advanced Spatial Analysis](https://www.ucl.ac.uk/bartlett/casa/), as part of the [Alan Turing Institute](https://www.turing.ac.uk/) doctoral program, where I focused on quantifying urban segregation and human behaviour in cities using advanced network analysis and information theory.
+Hey! I'm Mateo, an Associate Partner and Data Scientist at [Foster and Partners](https://www.fosterandpartners.com/). I also hold an Honorary Research Fellowship at UCL, stemming from my PhD at the [Centre for Advanced Spatial Analysis](https://www.ucl.ac.uk/bartlett/casa/), as part of the [Alan Turing Institute](https://www.turing.ac.uk/) doctoral program, where my research focused on quantifying urban segregation and human behaviour in cities using advanced network analysis and information theory.
 
-At Foster and Partners, I've led data-driven projects that influence urban design and analytics, with my tools and insights featured at international conferences. Previously, I also worked at [SignalBox](https://www.signalbox.io/) developing algorithms for transport networks.
+At Foster and Partners, I've led the design, development, and deployment of data-driven and machine learning initiatives that influence urban design and analytics. My contributions have resulted in actionable insights and production-grade tools, which have been showcased at international conferences. Previously, I also worked at [SignalBox](https://www.signalbox.io/) developing algorithms for transport networks.
 
-Currently, my work deals with **Complex Networks, Data Science** and their application to the study and modeling of social and urban systems. I am deeply interested in leveraging AI to tackle complex urban challenges, aiming to integrate sophisticated data analysis into actionable insights for urban development.
-
+My current work is at the intersection of **Complex Networks, Data Science, and Machine Learning**, specifically applied to the modeling of social and urban systems. I am passionate about designing, building, and deploying robust AI/ML solutions to address complex urban challenges, transforming sophisticated data analysis into scalable and actionable insights for sustainable urban development.
 
 You can find my full resume [here]({{site.url}}/assets/cv_mneira.pdf).
 <hr>
