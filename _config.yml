@@ -16,7 +16,7 @@
 title: Mateo Neira
 email: mateo.neira@hey.com
 description: > # this means to ignore newlines until "baseurl:"
-  [Spatial Data Science, Urban Analytics, Networks]
+  [Data Science, Machine Learning, and Urban Analytics]
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mateoneira.com" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: mateoneira
