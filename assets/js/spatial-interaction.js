@@ -37,10 +37,11 @@ class SpatialInteractionViz {
     // Calculate the distance between two cells
     calculateDistance(originIdx, destIdx) {
         // Convert indices to grid coordinates
-        const originRow = originIdx;
+        // Origins are arranged vertically (rows 1-4), destinations horizontally (cols 1-4)
+        const originRow = originIdx + 1; // +1 because first row is destinations
         const originCol = 0;
         const destRow = 0;
-        const destCol = destIdx;
+        const destCol = destIdx + 1; // +1 because first col is origins
 
         // Calculate Euclidean distance
         return Math.sqrt(
@@ -53,10 +54,11 @@ class SpatialInteractionViz {
     calculateFlows() {
         this.flows = [];
 
-        for (let i = 0; i < this.gridSize; i++) {
-            const origin = this.origins[i];
-            for (let j = 0; j < this.gridSize; j++) {
-                const destination = this.destinations[j];
+        // Only calculate flows for the inner grid (excluding headers)
+        for (let i = 0; i < this.gridSize - 1; i++) {
+            for (let j = 0; j < this.gridSize - 1; j++) {
+                const origin = this.origins[i + 1]; // +1 to skip header
+                const destination = this.destinations[j + 1]; // +1 to skip header
 
                 // Skip if origin or destination is 0
                 if (origin === 0 || destination === 0) {
@@ -302,10 +304,10 @@ class SpatialInteractionViz {
                 }
                 else {
                     // Flow cells (internal grid)
-                    const originIdx = row;
-                    const destIdx = col;
-                    const flowIdx = (originIdx - 1) * this.gridSize + (destIdx - 1);
-                    const flowValue = this.flows[flowIdx];
+                    const originIdx = row - 1; // -1 because first row is destinations
+                    const destIdx = col - 1;   // -1 because first col is origins
+                    const flowIdx = originIdx * (this.gridSize - 1) + destIdx;
+                    const flowValue = this.flows[flowIdx] || 0;
                     const opacity = Math.min(0.9, flowValue / maxFlow);
 
                     // Background color based on flow intensity
