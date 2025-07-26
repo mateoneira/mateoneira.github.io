@@ -1,8 +1,7 @@
 ---
 layout: default
-permalink: /transport_networks/
-excerpt: Networks that are constrained by some geometry and are embedded in two-or three dimensional space can be thought of as spatial networks. The constraints that space imposes can have important effects on their topological properties and in the processes which take place on them. Here we explore centrality measures of the metro systems of London, New York, Chicago, and Santiago de Chile. The time-weighted graphs were constructed using publicly available GTFS data and visualized using javascript. 
-
+permalink: /coupled-systems/
+excerpt: 
 ---
 
 <h2><b>Measuring Robustness of Transport Systems</b></h2>
