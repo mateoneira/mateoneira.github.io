@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /rl_navigation/
+permalink: /drl_navigation/
 excerpt: Navigation Using Deep Reinforcement Learning
 ---
 

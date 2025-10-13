@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /rl_continuous_control/
+permalink: /drl_continuous_control/
 excerpt: Continuous Control Using Deep Reinforcement Learning
 ---
 
