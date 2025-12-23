@@ -2,14 +2,27 @@
 layout: home
 ---
 
-Hey! I'm Mateo, an Associate Partner and Data Scientist at [Foster and Partners](https://www.fosterandpartners.com/). I also hold an Honorary Research Fellowship at UCL, stemming from my PhD at the [Centre for Advanced Spatial Analysis](https://www.ucl.ac.uk/bartlett/casa/), as part of the [Alan Turing Institute](https://www.turing.ac.uk/) doctoral program, where my research focused on quantifying urban segregation and human behaviour in cities using advanced network analysis and information theory.
+Hi, I'm Mateo. 
 
-At Foster and Partners, I've led the design, development, and deployment of data-driven and machine learning initiatives that influence urban design and analytics. My contributions have resulted in actionable insights and production-grade tools, which have been showcased at international conferences. Previously, I also worked at [SignalBox](https://www.signalbox.io/) developing algorithms for transport networks.
+<h1>I build ML systems for complex environments.</h1>
 
-My current work is at the intersection of **Complex Networks, Data Science, and Machine Learning**, specifically applied to the modeling of social and urban systems. I am passionate about designing, building, and deploying robust AI/ML solutions to address complex urban challenges, transforming sophisticated data analysis into scalable and actionable insights for sustainable urban development.
+I’m a **Senior Machine Learning Engineer** at [Vu.City](https://www.vu.city/) and an **Honorary Research Fellow** at [UCL](https://www.ucl.ac.uk/bartlett/casa/).
 
-You can find my full resume [here]({{site.url}}/assets/cv_mneira.pdf).
-<hr>
+I specialize in **spatial** and **graph-structured data**, moving between academic research and production engineering. My work focuses on turning high-dimensional, messy data into models and systems that can survive contact with the real world.
+
+
+I have a research background in **Network Science and Urban Analytics** (PhD, [UCL](https://www.ucl.ac.uk/bartlett/casa/) / [Alan Turing Institute](https://www.turing.ac.uk/)), where I studied how network structure and information shape human behaviour in cities. Since then, I’ve spent much of my time bridging the gap between research and production: designing, building, and deploying data and ML systems inside practice-driven environments.
+
+I have spent my career applying that rigor to industry. Previously, as an Associate Partner at [Foster and Partners](https://www.fosterandpartners.com/), I led the deployment of data-driven tools that influenced urban design at scale. Before that, I developed transport algorithms at [SignalBox](https://www.signalbox.io/).
+
+My work is defined by synthesis: taking ideas from papers, prototypes, or whiteboards and translating them into **robust, scalable systems** across data pipelines, modelling, and product integration. I’m comfortable operating end-to-end, from experimental work to engineering decisions and stakeholder alignment.
+
+I’m especially interested in problems involving:
+- spatial and graph-structured data  
+- long feedback loops and real-world constraints  
+- systems where technical choices meaningfully shape decisions  
+
+<!-- <hr>
 <br>
 <h2><b>PROJECTS</b></h2>
 <h2>Analyzing Transport Networks</h2> 
@@ -27,4 +40,4 @@ Interactive Web tool to explore centrality measures of the metro systems of Lond
 Our collective activities in the city unfold in time and space in a repeating fashion. These cyclic patterns of actions and interactions create a particular rhythm, an urban 'Pulse' influenced by socio-cultural and physical aspects of our environment.
 
 Increasingly people use online networks to interact, and even though these interactions are virtual, they take place in physical space. By retrieving the digital traces they leave behind we can visualize these cyclic spatio-temporal patterns in a city.
-<iframe src="https://player.vimeo.com/video/223309049?autoplay=0&loop=1&title=0&portrait=0&background=1" style="width:100%;height:500px;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/223309049?autoplay=0&loop=1&title=0&portrait=0&background=1" style="width:100%;height:500px;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
