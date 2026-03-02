@@ -8,7 +8,7 @@ Hi, I'm Mateo.
 
 I’m a **Senior Machine Learning Engineer** at [Vu.City](https://www.vu.city/) and an **Honorary Research Fellow** at [UCL](https://www.ucl.ac.uk/bartlett/casa/).
 
-I specialize in **spatial** and **graph-structured data**, moving between academic research and production engineering. My work focuses on turning high-dimensional, messy data into models and systems that can survive contact with the real world.
+I specialize in **spatial** and **graph-structured data**, moving between academic research and production engineering. I build models that don't fall apart the second they hit production, even when the underlying data is a total disaster.
 
 
 I have a research background in **Network Science and Urban Analytics** (PhD, [UCL](https://www.ucl.ac.uk/bartlett/casa/) / [Alan Turing Institute](https://www.turing.ac.uk/)), where I studied how network structure and information shape human behaviour in cities. Since then, I’ve spent much of my time bridging the gap between research and production: designing, building, and deploying data and ML systems inside practice-driven environments.
@@ -22,22 +22,22 @@ I’m especially interested in problems involving:
 - long feedback loops and real-world constraints  
 - systems where technical choices meaningfully shape decisions  
 
-<!-- <hr>
-<br>
-<h2><b>PROJECTS</b></h2>
-<h2>Analyzing Transport Networks</h2> 
-Interactive Web tool to explore centrality measures of the metro systems of London, New York, Chicago, and Santiago de Chile. The time-weighted graphs were constructed using publicly available GTFS data and visualized using javascript. Click on the image to view the tool, along with a more indepth description.
-<a href="{{site.url}}/transport_networks/">
-<img src="{{site.url}}/assets/transport_network.gif">
-</a>
-<br>
-<br>
-<h2>placeSpace</h2> 
-[placeSpace](https://placespace.mateoneira.com/){:target="_blank"} is an interactive online platform that enables users to visualize and explore amenity location and distribution in London. The platform originates from the need to interpret and assess the complexity of cities in terms of agglomeration economies.
-<iframe src="https://player.vimeo.com/video/224066364?loop=1&title=0&portrait=0" style="width:100%;height:500px;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<br>
-<h2>urbanPulse</h2>
-Our collective activities in the city unfold in time and space in a repeating fashion. These cyclic patterns of actions and interactions create a particular rhythm, an urban 'Pulse' influenced by socio-cultural and physical aspects of our environment.
+<div class="writing-section">
+<h2 class="writing-heading">WRITING</h2>
 
-Increasingly people use online networks to interact, and even though these interactions are virtual, they take place in physical space. By retrieving the digital traces they leave behind we can visualize these cyclic spatio-temporal patterns in a city.
-<iframe src="https://player.vimeo.com/video/223309049?autoplay=0&loop=1&title=0&portrait=0&background=1" style="width:100%;height:500px;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+<div class="post-card">
+<h3 class="post-card-title"><a href="{{site.url}}/the-alpha-blending-problem/">The Alpha-Blending Problem: Semantic Segmentation in 3D Gaussian Splatting</a></h3>
+<p class="post-card-description">A survey of why making 3D Gaussian Splatting semantically meaningful is harder than it looks. Covers the core technical challenge — alpha-blending ambiguity at object boundaries — and the three paradigms that have emerged across the CVPR, ECCV, and ICCV 2024–25 literature: feature-field distillation, 2D-to-3D lifting, and identity-centric methods.</p>
+</div>
+
+<div class="post-card">
+<h3 class="post-card-title"><a href="{{site.url}}/spatial-interaction-models/">Spatial Interaction Models</a></h3>
+<p class="post-card-description">An in-depth exploration of spatial interaction models with interactive visualizations, covering their theoretical foundations, mathematical formulation, and practical applications in urban planning.</p>
+</div>
+
+<div class="post-card">
+<h3 class="post-card-title"><a href="{{site.url}}/transport_networks/">Transport Networks</a></h3>
+<p class="post-card-description">Interactive exploration of centrality measures of the metro systems of London, New York, Chicago, and Santiago de Chile. Time-weighted graphs constructed from publicly available GTFS data.</p>
+</div>
+
+</div>
