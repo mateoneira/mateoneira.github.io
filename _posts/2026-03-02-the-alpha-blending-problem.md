@@ -1,20 +1,23 @@
 ---
 layout: default
 permalink: /the-alpha-blending-problem/
-excerpt: 3D Gaussian Splatting achieves real-time novel view synthesis by representing scenes as millions of alpha-blended ellipsoids. Making this representation semantically meaningful turns out to be surprisingly hard. This post surveys the core technical challenge — the alpha-blending problem — and the three paradigms that have emerged to address it across the CVPR, ECCV, and ICCV 2024–25 literature.
+excerpt: 3D Gaussian Splatting achieves real-time novel view synthesis by representing scenes as millions of alpha-blended ellipsoids. Making this representation semantically meaningful turns out to be surprisingly hard. This post surveys the core technical challenge, the alpha-blending problem, and the three paradigms that have emerged to address it across the CVPR, ECCV, and ICCV 2024–25 literature.
 ---
 
 <h2><b>The Alpha-Blending Problem: Semantic Segmentation in 3D Gaussian Splatting</b></h2>
 
-[3D Gaussian Splatting](https://arxiv.org/abs/2308.04079) (3DGS; [Kerbl et al., 2023](https://arxiv.org/abs/2308.04079)) is often introduced as a real-time rendering technique. More precisely, it is a *scene representation*: an explicit collection of 3D Gaussians, optimised from posed photographs, that can be rendered via differentiable alpha-compositing. The rendering problem is largely solved — real-time framerates at photorealistic quality. The open problem is making the representation *semantic*: attaching object labels, language features, or instance IDs to individual Gaussians so that the 3D scene can be queried, segmented, and understood.
+[3D Gaussian Splatting](https://arxiv.org/abs/2308.04079) (3DGS) is often introduced as a real-time rendering technique. More precisely, it is a *scene representation*: an explicit collection of 3D Gaussians, optimised from posed photographs, that can be rendered via differentiable alpha-compositing. The rendering problem is largely solved, reaching real-time framerates at photorealistic quality. The open problem is making the representation *semantic*: attaching object labels, language features, or instance IDs to individual Gaussians so that the 3D scene can be queried, segmented, and understood.
 
 This turns out to be harder than it looks, for a specific and identifiable reason. The same alpha-blending operation that makes rendering fast and differentiable also makes semantic assignment fundamentally ambiguous at object boundaries. Every semantic 3DGS method published in 2024–25 can be understood as a different strategy for resolving this ambiguity.
 
-This post covers: (1) the 3DGS representation and its rendering equation, (2) the alpha-blending problem and its three failure modes, (3) a taxonomy of approaches across three paradigms — feature-field distillation, 2D-to-3D lifting, and identity-centric methods, (4) the per-scene optimisation bottleneck, and (5) open challenges at urban scale.
+This post covers: (1) the 3DGS representation and its rendering equation, (2) the alpha-blending problem and its three failure modes, (3) a taxonomy of approaches across three paradigms: feature-field distillation, 2D-to-3D lifting, and identity-centric methods, (4) the per-scene optimisation bottleneck, and (5) open challenges at urban scale.
 
 <h3><b>Background: 3D Gaussian Splatting</b></h3>
 
-**From NeRF to 3DGS.** Neural Radiance Fields ([Mildenhall et al., 2020](https://arxiv.org/abs/2003.08934)) encode a scene as a continuous function — an MLP mapping a 5D input (3D position + 2D viewing direction) to colour and density. Rendering requires ray-marching through this function at many sample points per pixel, resulting in slow training and inference. The scene has no explicit geometry; extracting a mesh requires running Marching Cubes over a voxel grid of density queries.
+I won't go into a deep dive into 3DGS, that is not the purpose of this post. For the curious ones, there is a great blog post that goes into all the details by [Aras](https://aras-p.info/blog/2023/09/05/Gaussian-Splatting-is-pretty-cool/). 
+
+**From NeRF to 3DGS.** 
+3DGS was born as a response to the shortcomings of [Neural Radiance Fields](https://arxiv.org/abs/2003.08934). Neural Radiance Fields encode a scene as a continuous function. Basically an MLP mapping a 5D input (3D position + 2D viewing direction) to colour and density. Rendering requires ray-marching through this function at many sample points per pixel, resulting in slow training and inference. The scene has no explicit geometry; extracting a mesh requires running Marching Cubes over a voxel grid of density queries.
 
 3DGS replaces the implicit MLP with an *explicit* set of 3D Gaussians. Each primitive is defined by:
 
@@ -23,11 +26,13 @@ This post covers: (1) the 3DGS representation and its rendering equation, (2) th
 - An opacity $$\alpha \in [0, 1]$$
 - View-dependent colour encoded via **spherical harmonics** (SH) coefficients — the directional analogue of Fourier series, allowing each Gaussian to change appearance with viewing angle
 
-**Rendering.** To produce an image, each 3D Gaussian is projected onto the image plane (a 3D Gaussian projects to a 2D Gaussian analytically), sorted by depth, and composited front-to-back via alpha-blending. The pipeline is fully differentiable, enabling gradient-based optimisation of all Gaussian parameters against posed photographs. Starting from a sparse Structure-from-Motion point cloud, a typical scene converges in minutes and renders at real-time framerates.
+**Rendering.** 
+To produce an image, each 3D Gaussian is projected onto the image plane (a 3D Gaussian projects to a 2D Gaussian analytically), sorted by depth, and composited front-to-back via alpha-blending. The pipeline is fully differentiable, enabling gradient-based optimisation of all Gaussian parameters against posed photographs. Starting from a sparse Structure-from-Motion point cloud, a typical scene converges in minutes and renders at real-time framerates.
 
-**Adaptive density control.** During optimisation, the system clones Gaussians in under-reconstructed regions (high positional gradient, small scale) and splits Gaussians that are too large and span multiple structures. This allows the representation to allocate capacity where the scene needs it — fewer Gaussians on flat walls, more on high-frequency textures.
+**Adaptive density control.** 
+During optimisation, the system clones Gaussians in under-reconstructed regions (high positional gradient, small scale) and splits Gaussians that are too large and span multiple structures. This allows the representation to allocate capacity where the scene needs it. Fewer Gaussians on flat walls, more on high-frequency textures.
 
-The result is a scene represented by 1–6 million oriented ellipsoids. It is neither a mesh nor an implicit function, but a cloud of soft, overlapping primitives — and this property is precisely what makes semantics difficult.
+The result is a scene represented by 1–6 million oriented ellipsoids. It is neither a mesh nor an implicit function, but a cloud of soft, overlapping primitives, and this property is precisely what makes semantics difficult.
 
 <h3><b>The Alpha-Blending Problem</b></h3>
 
@@ -35,29 +40,32 @@ The 3DGS rendering equation computes each pixel's colour as:
 
 $$C = \sum_{i \in \mathcal{N}} c_i \alpha_i \prod_{j < i}(1 - \alpha_j)$$
 
-where $$c_i$$ is the colour of the $$i$$-th Gaussian, $$\alpha_i$$ is its opacity after projection, and $$\prod_{j<i}(1 - \alpha_j)$$ is the accumulated transmittance — the fraction of light not yet absorbed by closer Gaussians. This soft, differentiable compositing produces anti-aliased renders. It is also the source of essentially every difficulty in making Gaussians semantically meaningful.
+where $$c_i$$ is the colour of the $$i$$-th Gaussian, $$\alpha_i$$ is its opacity after projection, and $$\prod_{j<i}(1 - \alpha_j)$$ is the accumulated transmittance (the fraction of light not yet absorbed by closer Gaussians). This soft, differentiable compositing produces anti-aliased renders. It is also the source of essentially every difficulty in making Gaussians semantically meaningful.
 
-At an object boundary, multiple Gaussians from different objects contribute to the same pixel with different alpha-weights. The pixel's colour is correct (it is the right weighted blend), but the pixel has no single object assignment — only a continuous mixture.
+At an object boundary, multiple Gaussians from different objects contribute to the same pixel with different alpha-weights. The pixel's colour is correct (it is the right weighted blend), but the pixel has no single object assignment, only a continuous mixture.
 
 This creates three concrete failure modes:
 
-**1. Feature averaging.** If a semantic feature vector is stored per Gaussian and rendered using the same alpha-compositing equation, the rendered feature at a boundary pixel is a weighted average of features from different objects. CLIP features from a building and a tree, for example, do not average to anything semantically meaningful. Discriminability at instance boundaries — exactly where it is most needed — is destroyed by the blending operation.
+**1. Feature averaging.** 
+If a semantic feature vector is stored per Gaussian and rendered using the same alpha-compositing equation, the rendered feature at a boundary pixel is a weighted average of features from different objects. CLIP features from a building and a tree, for example, do not average to anything semantically meaningful. Discriminability at instance boundaries is destroyed by the blending operation.
 
-**2. Multi-view inconsistency.** Gaussian opacities and depth orderings change with camera position. The same Gaussian may be a minor contributor from one viewpoint and the dominant one from another. When 2D segmentation masks (e.g. from [SAM](https://arxiv.org/abs/2304.02643); [Kirillov et al., 2023](https://arxiv.org/abs/2304.02643)) are used as supervision, different views can assign contradictory labels to the same Gaussian.
+**2. Multi-view inconsistency.** 
+Gaussian opacities and depth orderings change with camera position. The same Gaussian may be a minor contributor from one viewpoint and the dominant one from another. When 2D segmentation masks (e.g. from [SAM](https://arxiv.org/abs/2304.02643)) are used as supervision, different views can assign contradictory labels to the same Gaussian.
 
-**3. Occluded Gaussian undersupervision.** Gaussians that are consistently occluded by foreground objects receive near-zero gradient signal during semantic training. Their semantic labels remain effectively unconstrained. When queried from a novel viewpoint where these Gaussians become visible, their labels are undefined.
+**3. Occluded Gaussian undersupervision.** 
+Gaussians that are consistently occluded by foreground objects receive near-zero gradient signal during semantic training. Their semantic labels remain effectively unconstrained. When queried from a novel viewpoint where these Gaussians become visible, their labels are undefined.
 
-All semantic 3DGS methods published in 2024–25 address the same underlying question: how to assign discrete, reliable meaning to primitives whose rendered contribution is inherently continuous and mixed. Three main paradigms have emerged.
+All semantic 3DGS methods published in 2024–25 address the same underlying question: how to assign discrete, reliable meaning to primitives whose rendered contribution is inherently continuous and mixed. All methods can be classified into three main paradigms.
 
 <h3><b>Paradigm 1: Feature-Field Distillation</b></h3>
 
 The feature-field approach augments each Gaussian with a learned semantic feature vector, trained to match 2D features from a pre-trained "teacher" model (CLIP, SAM, LSeg). At inference, the feature field is rendered into a 2D feature map via the standard alpha-compositing equation, then decoded for downstream tasks.
 
-**LangSplat** ([Qin et al., CVPR 2024](https://arxiv.org/abs/2312.09245)) builds a 3D language field using OpenCLIP features compressed through a per-scene autoencoder. The resulting representation supports open-vocabulary text queries in 3D — querying "red chair" produces a relevance map over the rendered feature field. On the LERF benchmark, LangSplat achieves 51.4 mIoU (up from 37.4 for the NeRF-based LERF baseline) while running ~200x faster at query time.
+[LangSplat](https://langsplat.github.io/) builds a 3D language field using OpenCLIP features compressed through a per-scene autoencoder. The resulting representation supports open-vocabulary text queries in 3D. So querying "red chair" produces a relevance map over the rendered feature field. On the 3D-OVS dataset, LangSplat achieves 93.4 mIoU (up from 54.8 for the NeRF-based LERF baseline) while running ~200x faster at query time.
 
-**Feature 3DGS** ([Zhou et al., CVPR 2024](https://arxiv.org/abs/2312.03203)) generalises this into a framework with a parallel N-dimensional Gaussian rasterizer that renders RGB and semantic features jointly under a combined loss $$\mathcal{L} = \mathcal{L}_{rgb} + \gamma \mathcal{L}_f$$. A lightweight convolutional speed-up module upsamples low-dimensional rendered features to the teacher's full dimension. On Replica: mIoU 0.787 at 14.55 FPS with the speed-up module enabled.
+[Feature 3DGS](https://arxiv.org/abs/2312.03203) generalises this into a framework with a parallel N-dimensional Gaussian rasterizer that renders RGB and semantic features jointly under a combined loss $$\mathcal{L} = \mathcal{L}_{rgb} + \gamma \mathcal{L}_f$$. A lightweight convolutional speed-up module upsamples low-dimensional rendered features to the teacher's full dimension. On Replica: mIoU 0.782 at 14.55 FPS with the speed-up module enabled.
 
-**DF-3DGS** ([Li et al., CVPR 2025](https://arxiv.org/abs/2411.12657)) decouples the semantic field from the colour field and applies hierarchical compression — quantisation plus a scene-specific autoencoder. This reduces the number of semantic Gaussians from ~600k to ~29k with minor mIoU loss, and a fastest variant trains in 8 minutes (down from 351 minutes).
+[DF-3DGS](https://cvpr.thecvf.com/virtual/2025/poster/34457) decouples the semantic field from the colour field and applies hierarchical compression: quantisation plus a scene-specific autoencoder. This reduces the number of semantic Gaussians from ~600k to ~29k with minor mIoU loss, and a fastest variant trains in 8 minutes (down from 99 minutes).
 
 **Limitation.** All feature-field methods inherit the alpha-blending problem directly: rendered features at object boundaries are blended mixtures, reducing instance-level discriminability.
 
@@ -65,11 +73,11 @@ The feature-field approach augments each Gaussian with a learned semantic featur
 
 Rather than learning continuous features, lifting methods assign discrete object IDs to Gaussians by aggregating 2D segmentation masks across multiple views. If a Gaussian contributes primarily to pixels labelled as object $$k$$ in multiple views, it is assigned to object $$k$$.
 
-**Gaussian Grouping** ([Ye et al., ECCV 2024](https://arxiv.org/abs/2312.00732)) learns a 16D identity embedding per Gaussian, rendered via alpha-compositing and classified into $$K$$ mask IDs through a linear layer. A 3D spatial regularisation loss penalises nearby Gaussians with dissimilar embeddings, providing supervision signal for occluded regions. Replica panoptic mIoU: 71.15 at ~140 FPS.
+[Gaussian Grouping](https://arxiv.org/abs/2312.00732) learns a 16D identity embedding per Gaussian, rendered via alpha-compositing and classified into $$K$$ mask IDs through a linear layer. A 3D spatial regularisation loss penalises nearby Gaussians with dissimilar embeddings, providing supervision signal for occluded regions. Replica panoptic mIoU: 71.15 at ~140 FPS.
 
-**FlashSplat** ([Shen et al., ECCV 2024](https://arxiv.org/abs/2407.20529)) makes an important observation: when Gaussian geometry and opacity are fixed, alpha-compositing is *linear* in per-Gaussian labels. This means the label assignment problem can be formulated as a linear programme and solved in closed form — no iterative gradient descent is required. The optimal assignment falls out of a single LP solve. Runtime: 26 seconds per scene (vs. minutes for learning-based methods). NVOS mIoU: 91.8.
+[FlashSplat](https://arxiv.org/abs/2409.08270) makes an important observation: when Gaussian geometry and opacity are fixed, alpha-compositing is *linear* in per-Gaussian labels. This means the label assignment problem can be formulated as a linear programme and solved in closed form, so no iterative gradient descent is required. The optimal assignment falls out of a single LP solve. Runtime: 26 seconds per scene (vs. minutes for learning-based methods). NVOS mIoU: 91.8.
 
-**Unified-Lift** ([Zhan et al., CVPR 2025](https://arxiv.org/abs/2501.12413)) takes an end-to-end approach, learning a global object codebook ($$L=256$$ entries) alongside per-Gaussian features. An area-aware ID mapping stabilises cross-view consistency, and an uncertainty score filters noisy SAM pseudo-labels. LERF-Mask mIoU: 80.9, the current strongest result on this benchmark.
+[Unified-Lift](https://arxiv.org/abs/2503.14029) takes an end-to-end approach, learning a global object codebook ($$L=256$$ entries) alongside per-Gaussian features. An area-aware ID mapping stabilises cross-view consistency, and an uncertainty score filters noisy SAM pseudo-labels. LERF-Mask mIoU: 80.9, the current strongest result on this benchmark.
 
 **Limitation.** Lifting quality depends on (a) 2D mask quality from the teacher model and (b) cross-view consistency of instance IDs. Both degrade with larger viewpoint changes and noisier imagery.
 
@@ -77,7 +85,7 @@ Rather than learning continuous features, lifting methods assign discrete object
 
 Identity-centric methods sidestep the blending problem by making object identity discrete at the representation level, rather than learning around the continuous rendering equation.
 
-**ILGS** ([Groenendijk et al., ICCV 2025](https://arxiv.org/abs/2501.06575)) assigns each Gaussian a 16D identity embedding trained with a contrastive loss — same-object Gaussians are pulled together in embedding space, different-object Gaussians are pushed apart. Cross-view pseudo-IDs are obtained from [DEVA](https://arxiv.org/abs/2309.03903) ([Cheng et al., 2023](https://arxiv.org/abs/2309.03903)) tracking applied to SAM segments. An outlier filter removes Gaussians whose rendered identity disagrees with the pseudo-label. LERF average mIoU: 80.5.
+[ILGS](https://openaccess.thecvf.com/content/ICCV2025/papers/Jang_Identity-aware_Language_Gaussian_Splatting_for_Open-vocabulary_3D_Semantic_Segmentation_ICCV_2025_paper.pdf) assigns each Gaussian a 16D identity embedding trained with a contrastive loss where same-object Gaussians are pulled together in embedding space, different-object Gaussians are pushed apart. Cross-view pseudo-IDs are obtained from [DEVA](https://arxiv.org/abs/2309.03903) tracking applied to SAM segments. An outlier filter removes Gaussians whose rendered identity disagrees with the pseudo-label. LERF average mIoU: 80.5.
 
 **ObjectGS** ([Zhang et al., ICCV 2025](https://arxiv.org/abs/2504.08452)) represents objects as explicit anchor-based clusters built on [Scaffold-GS](https://arxiv.org/abs/2312.00109) ([Lu et al., 2024](https://arxiv.org/abs/2312.00109)). Each Gaussian inherits a **one-hot** object ID from its anchor — no regression or continuous features, only a hard categorical assignment trained with cross-entropy loss (weight 0.2). Results: 3D-OVS mIoU 96.4, ScanNet++ IoU 95.38 — the highest numbers in the field.
 
