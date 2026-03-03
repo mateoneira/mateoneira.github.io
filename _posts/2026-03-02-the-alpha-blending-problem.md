@@ -87,7 +87,7 @@ Identity-centric methods sidestep the blending problem by making object identity
 
 [ILGS](https://openaccess.thecvf.com/content/ICCV2025/papers/Jang_Identity-aware_Language_Gaussian_Splatting_for_Open-vocabulary_3D_Semantic_Segmentation_ICCV_2025_paper.pdf) assigns each Gaussian a 16D identity embedding trained with a contrastive loss where same-object Gaussians are pulled together in embedding space, different-object Gaussians are pushed apart. Cross-view pseudo-IDs are obtained from [DEVA](https://arxiv.org/abs/2309.03903) tracking applied to SAM segments. An outlier filter removes Gaussians whose rendered identity disagrees with the pseudo-label. LERF average mIoU: 80.5.
 
-**ObjectGS** ([Zhang et al., ICCV 2025](https://arxiv.org/abs/2504.08452)) represents objects as explicit anchor-based clusters built on [Scaffold-GS](https://arxiv.org/abs/2312.00109) ([Lu et al., 2024](https://arxiv.org/abs/2312.00109)). Each Gaussian inherits a **one-hot** object ID from its anchor — no regression or continuous features, only a hard categorical assignment trained with cross-entropy loss (weight 0.2). Results: 3D-OVS mIoU 96.4, ScanNet++ IoU 95.38 — the highest numbers in the field.
+[ObjectGS](https://arxiv.org/abs/2507.15454) represents objects as explicit anchor-based clusters built on [Scaffold-GS](https://arxiv.org/abs/2312.00109). Each Gaussian inherits a **one-hot** object ID from its anchor: no regression or continuous features, only a hard categorical assignment trained with cross-entropy loss. Results: 3D-OVS mIoU 98.0, ScanNet++ IoU 95.38. The highest numbers in the field.
 
 **Trend.** Across the three paradigms, there is a clear empirical pattern: more discrete semantics yield higher segmentation accuracy. The open question is scalability — one-hot encoding over 20 indoor objects is straightforward; extending to tens of thousands of instances at urban scale has not been demonstrated.
 
@@ -95,34 +95,34 @@ Identity-centric methods sidestep the blending problem by making object identity
 
 | Method | Venue | Paradigm | Key Mechanism | Benchmark | mIoU |
 |--------|-------|----------|---------------|-----------|------|
-| LangSplat | CVPR 2024 | Feature distillation | OpenCLIP features + autoencoder | LERF | 51.4 |
+| LangSplat | CVPR 2024 | Feature distillation | OpenCLIP features + autoencoder | 3D-OVS | 93.4 |
 | Feature 3DGS | CVPR 2024 | Feature distillation | N-dim parallel rasterizer | Replica | 78.7 |
 | DF-3DGS | CVPR 2025 | Feature distillation | Hierarchical compression | Replica | ~78 |
-| Gaussian Grouping | ECCV 2024 | 2D-to-3D lifting | 16D embedding + spatial regularisation | Replica | 71.2 |
+| Gaussian Grouping | ECCV 2024 | 2D-to-3D lifting | 16D embedding + spatial regularisation | Replica | 71.15 |
 | FlashSplat | ECCV 2024 | 2D-to-3D lifting | Linear programme (closed-form) | NVOS | 91.8 |
 | Unified-Lift | CVPR 2025 | 2D-to-3D lifting | Object codebook + uncertainty filtering | LERF-Mask | 80.9 |
 | ILGS | ICCV 2025 | Identity-centric | Contrastive identity embedding | LERF | 80.5 |
-| ObjectGS | ICCV 2025 | Identity-centric | One-hot anchor IDs (Scaffold-GS) | 3D-OVS | 96.4 |
+| ObjectGS | ICCV 2025 | Identity-centric | One-hot anchor IDs (Scaffold-GS) | 3D-OVS | 98 |
 
 <h3><b>The Per-Scene Optimisation Bottleneck</b></h3>
 
 A structural property shared by all methods above is worth highlighting: every one is a **per-scene, transductive optimisation**. The workflow is: (1) run Structure-from-Motion on a specific image set, (2) initialise Gaussians from the resulting point cloud, (3) optimise 3DGS for ~30k iterations, (4) run semantic optimisation for an additional 10k–30k iterations. The output is a set of parameters fitted to *that specific scene*. There are no cross-scene learned priors.
 
-This contrasts sharply with the 2D segmentation landscape. [SAM](https://arxiv.org/abs/2304.02643) runs inference in milliseconds on unseen images. [CLIP](https://arxiv.org/abs/2103.00020) ([Radford et al., 2021](https://arxiv.org/abs/2103.00020)) generalises zero-shot across distributions. [Mask2Former](https://arxiv.org/abs/2112.01527) ([Cheng et al., 2022](https://arxiv.org/abs/2112.01527)), trained once on COCO, segments arbitrary scenes. These are *inductive* models that have learned general visual priors. 3DGS remains in the NeRF-era paradigm where the parameters *are* the scene.
+This contrasts sharply with the 2D segmentation landscape. [SAM](https://arxiv.org/abs/2304.02643) runs inference in milliseconds on unseen images. [CLIP](https://arxiv.org/abs/2103.00020) generalises zero-shot across distributions. [Mask2Former](https://arxiv.org/abs/2112.01527), trained once on COCO, segments arbitrary scenes. These are *inductive* models that have learned general visual priors. 3DGS remains in the NeRF-era paradigm where the parameters *are* the scene.
 
 The practical consequences are:
 
-- **Throughput.** A pipeline requiring 30k + 30k iterations per scene cannot process thousands of buildings. It is a research loop, not a scalable inference system.
+- **Throughput.** A pipeline requiring 30k + 30k iterations per scene cannot process thousands of buildings. So it is not a scalable inference system.
 - **No transfer.** Features learned for one reconstruction do not carry over to another. A Gaussian labelled "rooftop" in scene A provides no information about rooftops in scene B.
 - **No incremental updates.** If the scene changes (construction, seasonal variation), the entire optimisation must be re-run.
 
-Recent work on feed-forward Gaussian prediction — [Splatt3R](https://arxiv.org/abs/2408.07990) (Smart et al., 2024), MASt3R-based methods, [MVSplat](https://arxiv.org/abs/2403.14627) (Chen et al., 2024) — can predict Gaussian scene representations from images in a single forward pass without per-scene optimisation. These models are not yet semantic, but the direction is clear: the natural next step is feed-forward encoders that output semantically-labelled Gaussians directly, trained once on large-scale data and deployed at inference time without per-scene fine-tuning.
+Recent work on feed-forward Gaussian prediction: [Splatt3R](https://splatt3r.active.vision/), MASt3R-based methods, [MVSplat](https://arxiv.org/abs/2403.14627), can predict Gaussian scene representations from images in a single forward pass without per-scene optimisation. These models are not yet semantic, but the direction is clear. The natural next step is feed-forward encoders that output semantically-labelled Gaussians directly, trained once on large-scale data and deployed at inference time without per-scene fine-tuning.
 
 <h3><b>Open Challenges: Urban Scale</b></h3>
 
-The standard evaluation datasets — ScanNet, Replica, LERF-Mask, 3D-OVS — are indoor scenes with 20–50 objects. Unified-Lift's Messy Rooms benchmark extends this to ~500 objects. Urban-scale deployment involves qualitatively different challenges:
+The standard evaluation datasets: ScanNet, Replica, LERF-Mask, 3D-OVS, are indoor scenes with 20–50 objects. Unified-Lift's Messy Rooms benchmark extends this to ~500 objects. Urban-scale deployment involves qualitatively different challenges:
 
-**Object count.** A single London borough contains ~50,000 buildings. Unified-Lift's codebook has 256 entries. ObjectGS's one-hot encoding has not been tested beyond small object counts. Whether current representations can scale to this regime — or whether fundamentally different approaches are needed — is an open empirical question.
+**Object count.** A single London borough contains ~50,000 buildings. Unified-Lift's codebook has 256 entries. ObjectGS's one-hot encoding has not been tested beyond small object counts. Whether current representations can scale to this regime, or whether fundamentally different approaches are needed, is an open empirical question.
 
 **Scene composition.** Indoor benchmarks feature walls, furniture, and discrete objects in controlled environments. Urban outdoor scenes include sky, vegetation, parked vehicles, pedestrians, and buildings of widely varying geometry. 2D segmentation masks from SAM are considerably noisier on outdoor imagery, and multi-view consistency is harder to achieve across wide-baseline aerial viewpoint changes versus room-scale scanning.
 
@@ -136,36 +136,16 @@ The standard evaluation datasets — ScanNet, Replica, LERF-Mask, 3D-OVS — are
 
 Several research directions appear promising based on the current trajectory:
 
-**Feed-forward semantic Gaussians.** The building blocks exist independently: feed-forward Gaussian predictors (Splatt3R, MVSplat), open-vocabulary 2D segmentation (SAM 2, Grounded-SAM), and large-scale 3D datasets (Objaverse, urban captures). A model that jointly predicts Gaussians and semantic labels from multi-view images in a single pass — without per-scene optimisation — would make existing methods obsolete for throughput-sensitive applications.
+**Feed-forward semantic Gaussians.** The building blocks exist independently: feed-forward Gaussian predictors (Splatt3R, MVSplat), open-vocabulary 2D segmentation (SAM 2, Grounded-SAM), and large-scale 3D datasets (Objaverse, urban captures). A model that jointly predicts Gaussians and semantic labels from multi-view images in a single pass, without per-scene optimisation, would make existing methods obsolete for throughput-sensitive applications.
 
-**Hybrid discrete-continuous representations.** ObjectGS's discrete one-hot IDs achieve the best segmentation accuracy; LangSplat's continuous CLIP embeddings provide open-vocabulary flexibility. A natural synthesis would combine discrete instance identity with continuous semantic attributes — a Gaussian carries both a categorical object ID and a dense feature embedding — with calibrated uncertainty over boundary assignments.
+**Hybrid discrete-continuous representations.** ObjectGS's discrete one-hot IDs achieve the best segmentation accuracy; LangSplat's continuous CLIP embeddings provide open-vocabulary flexibility. A natural synthesis would combine discrete instance identity with continuous semantic attributes, a Gaussian carries both a categorical object ID and a dense feature embedding, with calibrated uncertainty over boundary assignments.
 
 **Urban-scale benchmarks.** The gap between indoor evaluation and outdoor deployment is large enough to expect the emergence of city-scale semantic Gaussian benchmarks. These would need to include outdoor scenes with >1,000 instances, aerial viewpoints, temporal variation, and LiDAR integration protocols. Such benchmarks are likely to expose failure modes that current indoor evaluations do not capture.
 
 <h3><b>Conclusion</b></h3>
 
-3D Gaussian Splatting began as a faster alternative to NeRF for novel view synthesis. The research community is now working to make it a *semantic* scene representation — and this is harder in a technically precise sense. The alpha-compositing equation that enables real-time differentiable rendering is exactly what makes semantic label assignment ambiguous at object boundaries.
+3D Gaussian Splatting began as a faster alternative to NeRF for novel view synthesis. The research community is now working to make it a *semantic* scene representation ... and this is harder in a technically precise sense. The alpha-compositing equation that enables real-time differentiable rendering is exactly what makes semantic label assignment ambiguous at object boundaries.
 
-The 2024–25 literature has converged on three strategies: distill continuous features (fast and flexible, but boundary-ambiguous), lift discrete IDs from 2D masks (explicit instances, but dependent on mask quality), or enforce discrete identity at the representation level (best accuracy, but untested at scale). The empirical trend favours discretisation — ObjectGS's 96.4 mIoU on 3D-OVS, up from LangSplat's 51.4 on LERF in under two years, represents rapid progress.
+The 2024–25 literature has converged on three strategies: distill continuous features (fast and flexible, but boundary-ambiguous), lift discrete IDs from 2D masks (explicit instances, but dependent on mask quality), or enforce discrete identity at the representation level (best accuracy, but untested at scale). The empirical trend favours discretisation: ObjectGS's 98 mIoU on 3D-OVS, up from LangSplat's 93.4.
 
 The remaining structural bottleneck is per-scene optimisation. Until feed-forward models can predict semantically-labelled Gaussians directly from images, these methods remain proof-of-concepts rather than deployable pipelines. The transition from transductive, per-scene fitting to inductive, cross-scene prediction is likely where the most impactful work in this space will happen next.
-
-<h3><b>References</b></h3>
-
-- Chen et al. "MVSplat: Efficient 3D Gaussian Splatting from Sparse Multi-View Images." 2024. [arXiv:2403.14627](https://arxiv.org/abs/2403.14627)
-- Cheng et al. "Masked-attention Mask Transformer for Universal Image Segmentation." CVPR 2022. [arXiv:2112.01527](https://arxiv.org/abs/2112.01527)
-- Cheng et al. "Tracking Anything with Decoupled Video Segmentation." ICCV 2023. [arXiv:2309.03903](https://arxiv.org/abs/2309.03903)
-- Groenendijk et al. "ILGS: Instance-Level Gaussian Splatting." ICCV 2025. [arXiv:2501.06575](https://arxiv.org/abs/2501.06575)
-- Kerbl et al. "3D Gaussian Splatting for Real-Time Radiance Field Rendering." SIGGRAPH 2023. [arXiv:2308.04079](https://arxiv.org/abs/2308.04079)
-- Kirillov et al. "Segment Anything." ICCV 2023. [arXiv:2304.02643](https://arxiv.org/abs/2304.02643)
-- Li et al. "DF-3DGS: Decoupled Feature 3D Gaussian Splatting." CVPR 2025. [arXiv:2411.12657](https://arxiv.org/abs/2411.12657)
-- Lu et al. "Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering." CVPR 2024. [arXiv:2312.00109](https://arxiv.org/abs/2312.00109)
-- Mildenhall et al. "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis." ECCV 2020. [arXiv:2003.08934](https://arxiv.org/abs/2003.08934)
-- Qin et al. "LangSplat: 3D Language Gaussian Splatting." CVPR 2024. [arXiv:2312.09245](https://arxiv.org/abs/2312.09245)
-- Radford et al. "Learning Transferable Visual Models From Natural Language Supervision." ICML 2021. [arXiv:2103.00020](https://arxiv.org/abs/2103.00020)
-- Shen et al. "FlashSplat: 2D to 3D Gaussian Splatting Segmentation Solved Optimally." ECCV 2024. [arXiv:2407.20529](https://arxiv.org/abs/2407.20529)
-- Smart et al. "Splatt3R: Zero-shot Gaussian Splatting from Uncalibrated Image Pairs." 2024. [arXiv:2408.07990](https://arxiv.org/abs/2408.07990)
-- Ye et al. "Gaussian Grouping: Segment and Edit Anything in 3D Scenes." ECCV 2024. [arXiv:2312.00732](https://arxiv.org/abs/2312.00732)
-- Zhan et al. "Unified-Lift: A Unified Framework for 2D to 3D Mask Lifting." CVPR 2025. [arXiv:2501.12413](https://arxiv.org/abs/2501.12413)
-- Zhang et al. "ObjectGS: Object-Centric Gaussian Splatting." ICCV 2025. [arXiv:2504.08452](https://arxiv.org/abs/2504.08452)
-- Zhou et al. "Feature 3DGS: Supercharging 3D Gaussian Splatting to Enable Distilled Feature Fields." CVPR 2024. [arXiv:2312.03203](https://arxiv.org/abs/2312.03203)
