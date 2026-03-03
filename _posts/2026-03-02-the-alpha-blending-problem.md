@@ -16,7 +16,8 @@ This post covers: (1) the 3DGS representation and its rendering equation, (2) th
 
 I won't go into a deep dive into 3DGS, that is not the purpose of this post. For the curious ones, there is a great blog post that goes into all the details by [Aras](https://aras-p.info/blog/2023/09/05/Gaussian-Splatting-is-pretty-cool/). 
 
-**From NeRF to 3DGS.** 
+<b>From NeRF to 3DGS.</b>
+
 3DGS was born as a response to the shortcomings of [Neural Radiance Fields](https://arxiv.org/abs/2003.08934). Neural Radiance Fields encode a scene as a continuous function. Basically an MLP mapping a 5D input (3D position + 2D viewing direction) to colour and density. Rendering requires ray-marching through this function at many sample points per pixel, resulting in slow training and inference. The scene has no explicit geometry; extracting a mesh requires running Marching Cubes over a voxel grid of density queries.
 
 3DGS replaces the implicit MLP with an *explicit* set of 3D Gaussians. Each primitive is defined by:
@@ -26,10 +27,12 @@ I won't go into a deep dive into 3DGS, that is not the purpose of this post. For
 - An opacity $$\alpha \in [0, 1]$$
 - View-dependent colour encoded via **spherical harmonics** (SH) coefficients — the directional analogue of Fourier series, allowing each Gaussian to change appearance with viewing angle
 
-**Rendering.** 
+<b>Rendering.</b>
+
 To produce an image, each 3D Gaussian is projected onto the image plane (a 3D Gaussian projects to a 2D Gaussian analytically), sorted by depth, and composited front-to-back via alpha-blending. The pipeline is fully differentiable, enabling gradient-based optimisation of all Gaussian parameters against posed photographs. Starting from a sparse Structure-from-Motion point cloud, a typical scene converges in minutes and renders at real-time framerates.
 
-**Adaptive density control.** 
+<b>Adaptive density control.</b>
+
 During optimisation, the system clones Gaussians in under-reconstructed regions (high positional gradient, small scale) and splits Gaussians that are too large and span multiple structures. This allows the representation to allocate capacity where the scene needs it. Fewer Gaussians on flat walls, more on high-frequency textures.
 
 The result is a scene represented by 1–6 million oriented ellipsoids. It is neither a mesh nor an implicit function, but a cloud of soft, overlapping primitives, and this property is precisely what makes semantics difficult.
