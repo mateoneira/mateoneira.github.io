@@ -16,7 +16,7 @@ This post covers: (1) the 3DGS representation and its rendering equation, (2) th
 
 I won't go into a deep dive into 3DGS, that is not the purpose of this post. For the curious ones, there is a great blog post that goes into all the details by [Aras](https://aras-p.info/blog/2023/09/05/Gaussian-Splatting-is-pretty-cool/). 
 
-<b>From NeRF to 3DGS.</b>
+<b>From NeRF to 3DGS:</b>
 
 3DGS was born as a response to the shortcomings of [Neural Radiance Fields](https://arxiv.org/abs/2003.08934). Neural Radiance Fields encode a scene as a continuous function. Basically an MLP mapping a 5D input (3D position + 2D viewing direction) to colour and density. Rendering requires ray-marching through this function at many sample points per pixel, resulting in slow training and inference. The scene has no explicit geometry; extracting a mesh requires running Marching Cubes over a voxel grid of density queries.
 
@@ -27,11 +27,11 @@ I won't go into a deep dive into 3DGS, that is not the purpose of this post. For
 - An opacity $$\alpha \in [0, 1]$$
 - View-dependent colour encoded via **spherical harmonics** (SH) coefficients — the directional analogue of Fourier series, allowing each Gaussian to change appearance with viewing angle
 
-<b>Rendering.</b>
+<b>Rendering:</b>
 
 To produce an image, each 3D Gaussian is projected onto the image plane (a 3D Gaussian projects to a 2D Gaussian analytically), sorted by depth, and composited front-to-back via alpha-blending. The pipeline is fully differentiable, enabling gradient-based optimisation of all Gaussian parameters against posed photographs. Starting from a sparse Structure-from-Motion point cloud, a typical scene converges in minutes and renders at real-time framerates.
 
-<b>Adaptive density control.</b>
+<b>Adaptive density control:</b>
 
 During optimisation, the system clones Gaussians in under-reconstructed regions (high positional gradient, small scale) and splits Gaussians that are too large and span multiple structures. This allows the representation to allocate capacity where the scene needs it. Fewer Gaussians on flat walls, more on high-frequency textures.
 
@@ -107,6 +107,7 @@ Identity-centric methods sidestep the blending problem by making object identity
 | ILGS | ICCV 2025 | Identity-centric | Contrastive identity embedding | LERF | 80.5 |
 | ObjectGS | ICCV 2025 | Identity-centric | One-hot anchor IDs (Scaffold-GS) | 3D-OVS | 98 |
 
+<br>
 <h3><b>The Per-Scene Optimisation Bottleneck</b></h3>
 
 A structural property shared by all methods above is worth highlighting: every one is a **per-scene, transductive optimisation**. The workflow is: (1) run Structure-from-Motion on a specific image set, (2) initialise Gaussians from the resulting point cloud, (3) optimise 3DGS for ~30k iterations, (4) run semantic optimisation for an additional 10k–30k iterations. The output is a set of parameters fitted to *that specific scene*. There are no cross-scene learned priors.
