@@ -2,25 +2,20 @@
 layout: home
 ---
 
-Hi, I'm Mateo. 
+Hi, I’m Mateo.
 
-<h1>I build ML systems for complex environments.</h1>
+<h1>I build ML systems</h1>
 
-I’m a **Senior Machine Learning Engineer** at [Vu.City](https://www.vu.city/) and an **Honorary Research Fellow** at [UCL](https://www.ucl.ac.uk/bartlett/casa/).
+I hold a **PhD in Network Science** from [UCL](https://www.ucl.ac.uk/bartlett/casa/) and the [Alan Turing Institute](https://www.turing.ac.uk/), where I studied how graph structure and information propagation shape human behaviour. My research sits at the intersection of **graph theory, statistical modelling, and large-scale computation**.
 
-I specialize in **spatial** and **graph-structured data**, moving between academic research and production engineering. I build models that don't fall apart the second they hit production, even when the underlying data is a total disaster.
+I’m currently a **Senior Machine Learning Engineer** at [Vu.City](https://www.vu.city/), building ML systems for 3D city-scale reconstruction and semantic understanding. Previously, I spent 8 years at [Foster + Partners](https://www.fosterandpartners.com/) as an **Associate Partner**, leading data science and deploying ML pipelines that operated at an urban scale. Before that, I developed transport optimisation algorithms at [SignalBox](https://www.signalbox.io/).
 
+Across research and industry, my work has centred on taking mathematically grounded ideas and turning them into **production systems that hold up under real-world constraints**: noisy data, long feedback loops, and high-stakes decisions. I operate end-to-end: from formulation and prototyping through to engineering, deployment, and stakeholder alignment.
 
-I have a research background in **Network Science and Urban Analytics** (PhD, [UCL](https://www.ucl.ac.uk/bartlett/casa/) / [Alan Turing Institute](https://www.turing.ac.uk/)), where I studied how network structure and information shape human behaviour in cities. Since then, I’ve spent much of my time bridging the gap between research and production: designing, building, and deploying data and ML systems inside practice-driven environments.
-
-I have spent my career applying that rigor to industry. Previously, as an Associate Partner at [Foster and Partners](https://www.fosterandpartners.com/), I led the deployment of data-driven tools that influenced urban design at scale. Before that, I developed transport algorithms at [SignalBox](https://www.signalbox.io/).
-
-My work is defined by synthesis: taking ideas from papers, prototypes, or whiteboards and translating them into **robust, scalable systems** across data pipelines, modelling, and product integration. I’m comfortable operating end-to-end, from experimental work to engineering decisions and stakeholder alignment.
-
-I’m especially interested in problems involving:
-- spatial and graph-structured data  
-- long feedback loops and real-world constraints  
-- systems where technical choices meaningfully shape decisions  
+I’m interested in problems that demand both mathematical depth and engineering rigour:
+- graph-structured and high-dimensional data
+- probabilistic modelling and inference
+- systems where model decisions carry real consequences
 
 <div class="writing-section">
 <h2 class="writing-heading">WRITING</h2>

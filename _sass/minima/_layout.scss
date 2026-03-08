@@ -227,6 +227,32 @@
   margin-bottom: 0;
 }
 
+.publication-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+
+  li {
+    @include relative-font-size(0.9);
+    line-height: 1.6;
+    color: $grey-color;
+    margin-bottom: $spacing-unit / 2;
+
+    em {
+      color: $text-color;
+    }
+
+    a {
+      color: $brand-color;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
 
 /**
  * Page content
