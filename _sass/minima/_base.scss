@@ -25,6 +25,10 @@ body {
   font-kerning: normal;
 }
 
+b, strong {
+  font-weight: 700;
+}
+
 
 
 /**
@@ -213,4 +217,35 @@ pre {
   li + li {
     padding-top: 5px;
   }
+}
+
+
+
+/**
+ * Tables
+ */
+table {
+  width: 100%;
+  margin-bottom: $spacing-unit;
+  border-collapse: collapse;
+  @include relative-font-size(0.85);
+
+  th, td {
+    padding: 8px 12px;
+    text-align: left;
+    border-bottom: 1px solid $grey-color-light;
+  }
+
+  th {
+    font-weight: 700;
+    background-color: darken($background-color, 4%);
+    border-bottom: 2px solid $grey-color;
+  }
+
+  tr:hover {
+    background-color: darken($background-color, 2%);
+  }
+
+  overflow-x: auto;
+  display: block;
 }

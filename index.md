@@ -2,51 +2,42 @@
 layout: home
 ---
 
-I'm **Mateo Neira**, an Associate Partner and Data Scientist at [Foster and Partners](https://www.fosterandpartners.com/) where I transform complex urban data into actionable insights that shape how we design cities. With a PhD from UCL's [Centre for Advanced Spatial Analysis](https://www.ucl.ac.uk/bartlett/casa/) (Alan Turing Institute program) and an Honorary Research Fellowship, I bridge the gap between cutting-edge research and real-world urban solutions.
+Hi, I'm Mateo. 
 
-## What I Do
+<h1>I build ML systems for complex environments.</h1>
 
-I architect **production-grade ML systems** that decode urban complexity. From network analysis algorithms that optimize transport flows to machine learning models that predict urban segregation patterns, my work has been deployed at scale and showcased at international conferences. Whether it's developing real-time analytics for [SignalBox](https://www.signalbox.io/) transport networks or building data pipelines that influence billion-dollar architectural projects, I turn messy urban data into strategic clarity.
+I’m a **Senior Machine Learning Engineer** at [Vu.City](https://www.vu.city/) and an **Honorary Research Fellow** at [UCL](https://www.ucl.ac.uk/bartlett/casa/).
 
-## Tech Stack & Expertise
+I specialize in **spatial** and **graph-structured data**, moving between academic research and production engineering. I build models that don't fall apart the second they hit production, even when the underlying data is a total disaster.
 
-**Languages & Frameworks:** Python (NumPy, Pandas, Scikit-learn, NetworkX), R, JavaScript (D3.js, React), SQL  
-**ML & Analytics:** TensorFlow, PyTorch, Graph Neural Networks, Time Series Analysis, Spatial Statistics  
-**Infrastructure:** Docker, AWS/GCP, Apache Spark, PostGIS, GTFS processing pipelines  
-**Specialties:** Complex Network Analysis, Information Theory, Geospatial ML, Urban Informatics
 
-You can find my full resume [here]({{site.url}}/assets/cv_mneira.pdf).
-<hr>
-<br>
----
+I have a research background in **Network Science and Urban Analytics** (PhD, [UCL](https://www.ucl.ac.uk/bartlett/casa/) / [Alan Turing Institute](https://www.turing.ac.uk/)), where I studied how network structure and information shape human behaviour in cities. Since then, I’ve spent much of my time bridging the gap between research and production: designing, building, and deploying data and ML systems inside practice-driven environments.
 
-## Featured Projects
+I have spent my career applying that rigor to industry. Previously, as an Associate Partner at [Foster and Partners](https://www.fosterandpartners.com/), I led the deployment of data-driven tools that influenced urban design at scale. Before that, I developed transport algorithms at [SignalBox](https://www.signalbox.io/).
 
-### 🚇 Transport Network Analytics
-**Real-time centrality analysis across global metro systems**  
-Built an interactive platform analyzing London, NYC, Chicago, and Santiago metro networks using **GTFS data processing** and **graph theory algorithms**. The tool reveals hidden connectivity patterns that influence urban mobility decisions.
+My work is defined by synthesis: taking ideas from papers, prototypes, or whiteboards and translating them into **robust, scalable systems** across data pipelines, modelling, and product integration. I’m comfortable operating end-to-end, from experimental work to engineering decisions and stakeholder alignment.
 
-**Tech:** JavaScript (D3.js), Python (NetworkX, GTFS-toolkit), Graph algorithms  
-[→ Explore the live tool]({{site.url}}/transport_networks/)
+I’m especially interested in problems involving:
+- spatial and graph-structured data  
+- long feedback loops and real-world constraints  
+- systems where technical choices meaningfully shape decisions  
 
-<a href="{{site.url}}/transport_networks/">
-<img src="{{site.url}}/assets/transport_network.gif" alt="Transport Network Visualization">
-</a>
+<div class="writing-section">
+<h2 class="writing-heading">WRITING</h2>
 
-### 🏙️ placeSpace: Urban Amenity Intelligence
-**ML-powered platform mapping London's urban fabric**  
-[placeSpace](https://placespace.mateoneira.com/){:target="_blank"} transforms complex urban amenity data into intuitive visualizations, helping planners understand agglomeration economies and urban accessibility patterns.
+<div class="post-card">
+<h3 class="post-card-title"><a href="{{site.url}}/the-alpha-blending-problem/">The Alpha-Blending Problem: Semantic Segmentation in 3D Gaussian Splatting</a></h3>
+<p class="post-card-description">A survey of why making 3D Gaussian Splatting semantically meaningful is harder than it looks. Covers the core technical challenge — alpha-blending ambiguity at object boundaries — and the three paradigms that have emerged across the CVPR, ECCV, and ICCV 2024–25 literature: feature-field distillation, 2D-to-3D lifting, and identity-centric methods.</p>
+</div>
 
-**Impact:** Used by urban planners and researchers to assess neighborhood development strategies  
-**Tech:** React, PostGIS, Spatial clustering algorithms, Interactive data visualization
+<div class="post-card">
+<h3 class="post-card-title"><a href="{{site.url}}/spatial-interaction-models/">Spatial Interaction Models</a></h3>
+<p class="post-card-description">An in-depth exploration of spatial interaction models with interactive visualizations, covering their theoretical foundations, mathematical formulation, and practical applications in urban planning.</p>
+</div>
 
-<iframe src="https://player.vimeo.com/video/224066364?loop=1&title=0&portrait=0" style="width:100%;height:500px;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="post-card">
+<h3 class="post-card-title"><a href="{{site.url}}/transport_networks/">Transport Networks</a></h3>
+<p class="post-card-description">Interactive exploration of centrality measures of the metro systems of London, New York, Chicago, and Santiago de Chile. Time-weighted graphs constructed from publicly available GTFS data.</p>
+</div>
 
-### 📱 urbanPulse: Digital Footprints of City Life
-**Spatiotemporal analysis of urban activity patterns**  
-Developed algorithms to decode the rhythmic patterns of city life by analyzing digital interaction traces. This project reveals how virtual social networks create measurable pulses in physical urban space.
-
-**Innovation:** First to visualize temporal urban patterns through social media geolocation at city scale  
-**Tech:** Python (Pandas, Geopandas), Time series analysis, Social network APIs, Spatiotemporal clustering
-
-<iframe src="https://player.vimeo.com/video/223309049?autoplay=0&loop=1&title=0&portrait=0&background=1" style="width:100%;height:500px;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
