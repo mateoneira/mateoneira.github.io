@@ -4,7 +4,7 @@ layout: home
 
 Hi, I’m Mateo.
 
-<h2>Senior Machine Learning Engineer.</h2>
+<h1>I build ML systems</h1>
 
 I hold a **PhD in Network Science** from [UCL](https://www.ucl.ac.uk/bartlett/casa/) and the [Alan Turing Institute](https://www.turing.ac.uk/), where I studied how graph structure and information propagation shape human behaviour. My research sits at the intersection of **graph theory, statistical modelling, and large-scale computation**.
 
