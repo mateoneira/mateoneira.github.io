@@ -10,7 +10,7 @@ I hold a **PhD in Network Science** from [UCL](https://www.ucl.ac.uk/bartlett/ca
 
 I’m currently a **Senior Machine Learning Engineer** at [Vu.City](https://www.vu.city/), building ML systems for 3D city-scale reconstruction and semantic understanding. Previously, I spent 8 years at [Foster + Partners](https://www.fosterandpartners.com/) as an **Associate Partner**, leading data science and deploying ML pipelines that operated at an urban scale. Before that, I developed transport optimisation algorithms at [SignalBox](https://www.signalbox.io/).
 
-Across research and industry, my work has centred on taking mathematically grounded ideas and turning them into **production systems that hold up under real-world constraints**: noisy data, long feedback loops, and high-stakes decisions. I operate end-to-end: from formulation and prototyping through to engineering, deployment, and stakeholder alignment.
+Across research and industry, my work has centred on taking mathematically grounded ideas and turning them into **production systems that function under real-world constraints**: noisy data, long feedback loops, and high-stakes decisions. I operate end-to-end: from formulation and prototyping through to engineering, deployment, and stakeholder alignment.
 
 I’m interested in problems that demand both mathematical depth and engineering rigour:
 - graph-structured and high-dimensional data
