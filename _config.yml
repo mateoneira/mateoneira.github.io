@@ -32,6 +32,11 @@ header_pages:
   - blog.md
   - publications.md
   - contact.md
+collections:
+  papers:
+    output: true
+    permalink: /papers/:name/
+
 theme: minima
 plugins:
   - jekyll-feed

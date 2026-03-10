@@ -36,3 +36,18 @@ I’m interested in problems that demand both mathematical depth and engineering
 </div>
 
 </div>
+
+<div class="papers-section">
+<h2 class="writing-heading">PAPER NOTES</h2>
+
+{% assign sorted_papers = site.papers | sort: "year" | reverse %}
+{% for paper in sorted_papers limit:3 %}
+<div class="paper-card">
+<div class="paper-meta">{{ paper.authors | truncate: 60 }} &middot; {{ paper.year }} &middot; <em>{{ paper.venue }}</em></div>
+<h3 class="post-card-title"><a href="{{ paper.url | relative_url }}">{{ paper.title }}</a></h3>
+<p class="post-card-description">{{ paper.excerpt }}</p>
+</div>
+{% endfor %}
+
+<p class="section-all-link"><a href="{{ site.url }}/papers/">All paper notes &rarr;</a></p>
+</div>

@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<div class="papers-index">
+
+  <h1 class="page-heading">Paper Notes</h1>
+
+  {{ content }}
+
+  <ul class="papers-list">
+    {% assign sorted_papers = site.papers | sort: "year" | reverse %}
+    {% for paper in sorted_papers %}
+      <li class="paper-card">
+        <div class="paper-meta">
+          {{ paper.authors }} &middot; {{ paper.year }} &middot; <em>{{ paper.venue }}</em>
+        </div>
+        <h2 class="paper-card-title">
+          <a href="{{ paper.url | relative_url }}">{{ paper.title | escape }}</a>
+        </h2>
+        <p class="paper-card-excerpt">{{ paper.excerpt }}</p>
+        {% if paper.tags %}
+          <div class="paper-tags">
+            {% for tag in paper.tags %}
+              <span class="paper-tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>

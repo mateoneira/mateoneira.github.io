@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<article class="paper">
+
+  <header class="paper-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+    <div class="paper-header-meta">
+      <span class="paper-authors">{{ page.authors }}</span>
+      <span class="paper-separator">&middot;</span>
+      <span class="paper-year">{{ page.year }}</span>
+      <span class="paper-separator">&middot;</span>
+      <em class="paper-venue">{{ page.venue }}</em>
+      {% if page.paper_url %}
+        <span class="paper-separator">&middot;</span>
+        <a class="paper-link" href="{{ page.paper_url }}" target="_blank" rel="noopener">Read paper &rarr;</a>
+      {% endif %}
+    </div>
+    {% if page.tags %}
+      <div class="paper-tags">
+        {% for tag in page.tags %}
+          <span class="paper-tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>
