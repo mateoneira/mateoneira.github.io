@@ -21,6 +21,11 @@ I’m interested in problems that demand both mathematical depth and engineering
 <h2 class="writing-heading">WRITING</h2>
 
 <div class="post-card">
+<h3 class="post-card-title"><a href="{{site.url}}/world-models/">So What Exactly Is a World Model?</a></h3>
+<p class="post-card-description">World models are everywhere in 2026. But what exactly is a world model, where did the idea come from, how are different groups approaching the problem, and why should anyone care?</p>
+</div>
+
+<div class="post-card">
 <h3 class="post-card-title"><a href="{{site.url}}/the-alpha-blending-problem/">The Alpha-Blending Problem: Semantic Segmentation in 3D Gaussian Splatting</a></h3>
 <p class="post-card-description">A survey of why making 3D Gaussian Splatting semantically meaningful is harder than it looks. Covers the core technical challenge — alpha-blending ambiguity at object boundaries — and the three paradigms that have emerged across the CVPR, ECCV, and ICCV 2024–25 literature: feature-field distillation, 2D-to-3D lifting, and identity-centric methods.</p>
 </div>
