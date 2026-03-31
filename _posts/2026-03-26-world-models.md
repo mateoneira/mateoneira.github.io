@@ -11,7 +11,7 @@ World models seem to be all the rage right now. Every time I go on X, every othe
 So what exactly is a world model? How did they come about? How are different people and labs approaching them? And why are they important?
 
 The last few months I've been deep in the weeds in generative AI for 3D generation, mostly looking at feed-forward Gaussian Splatting and semantic segmentation (see [my previous post](/the-alpha-blending-problem/) if that's your thing). I started following a lot of people on X who are pushing what is possible in this space, and as a result started getting a lot of content on world models. So I did what I always do when something catches my interest. I dove deep into the papers and tried to understand the current landscape: what we mean when we talk about "world models", what different approaches are being tried, what seems to work, and where we are likely to see progress.
-s
+
 <h3><b>The simple definition</b></h3>
 
 A world model is a system that learns an internal representation of an environment and can predict how that environment will change given some set of actions or conditions.
@@ -94,7 +94,7 @@ Object-centric slot representations ([SlotFormer](https://arxiv.org/abs/2210.058
 
 At the other end of the spectrum sit representations that make geometry a first-class citizen. Occupancy voxel models ([OccWorld](https://arxiv.org/abs/2311.16038), [OccSora](https://arxiv.org/pdf/2405.20337), [SparseWorld](https://arxiv.org/pdf/2510.17482)) recover it at voxel resolution by construction. 3D Gaussian models ([GaussianDWM](https://arxiv.org/pdf/2512.23180), [Street Gaussians](https://arxiv.org/pdf/2401.01339)) go further, representing geometry explicitly and continuously. 
 
-[AXIOM's](https://arxiv.org/html/2505.24784v1) mixture model components are somewhere in between, they capture object-level structure, but geometric fidelity is untested. What is interesting about AXIOM (Active eXpanding Inference with Object-centric Models) is that is goes againsts the dominant paridigm and does away with neural networks and gradient-based optimization. Instead, it updates sequentially one frame at a time using variational Bayesian inference, which means it can learn from a single event rather tahn needing to see thousands of samples. The generative model is expanded online by growing and learning mixture models from single events, then periodically refined through Bayesian model reduction to induce generalisation. The authors show good performance on 2D game environments, whether it can scale to real-world 3D scenes is an open question.
+[AXIOM's](https://arxiv.org/html/2505.24784v1) mixture model components are somewhere in between, they capture object-level structure, but geometric fidelity is untested. What is interesting about AXIOM (Active eXpanding Inference with Object-centric Models) is that is goes againsts the dominant paridigm and does away with neural networks and gradient-based optimization. Instead, it updates sequentially one frame at a time using variational Bayesian inference, which means it can learn from a single event rather than needing to see thousands of samples. The generative model is expanded online by growing and learning mixture models from single events, then periodically refined through Bayesian model reduction to induce generalisation. The authors show good performance on 2D game environments, whether it can scale to real-world 3D scenes is an open question.
 
 **Prediction mechanism:**
 
