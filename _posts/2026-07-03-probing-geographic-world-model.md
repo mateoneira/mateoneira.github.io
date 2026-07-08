@@ -234,9 +234,10 @@ The CIs are bootstrap intervals on the median.
 <figure>
   <img src="/assets/geollm_bias_map.png" alt="Per-city probe error plotted at true locations">
   <figcaption><small><b>Fig. 5.</b> Per-city out-of-fold probe error at
-  true locations, log colour scale. Arrows show the displacement of two
-  example predictions: London (2,490 km) and Cuenca
-  (757 km).</small></figcaption>
+  true locations, log colour scale. Prompt: <code>In {country}, the city
+  of {name}</code>, layer 29. Arrows show the displacement of two
+  example predictions: London (1,132 km) and Cuenca
+  (109 km).</small></figcaption>
 </figure>
 
 This continent-level ordering is at least partly consistent with the training-data coverage
