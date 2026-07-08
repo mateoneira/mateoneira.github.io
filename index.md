@@ -21,6 +21,11 @@ I’m interested in problems that demand both mathematical depth and engineering
 <h2 class="writing-heading">WRITING</h2>
 
 <div class="post-card">
+<h3 class="post-card-title"><a href="{{site.url}}/probing-geographic-world-model/">Probing the Geographic World Model of Llama-3.1-8B</a></h3>
+<p class="post-card-description">Linear probes recover a recognizable map of the world from an 8B model's residual stream — 750 km median error for world cities from the name alone, 4.4 km for London neighbourhoods. The error structure decomposes into a coverage imprint that survives statistical controls and a name-ambiguity effect that dominates the tails: the probe places bare "London" in the mid-Atlantic while locating Cuenca, Ecuador within 109 km.</p>
+</div>
+
+<div class="post-card">
 <h3 class="post-card-title"><a href="{{site.url}}/world-models/">So What Exactly Is a World Model?</a></h3>
 <p class="post-card-description">World models are everywhere in 2026. But what exactly is a world model, where did the idea come from, how are different groups approaching the problem, and why should anyone care?</p>
 </div>
