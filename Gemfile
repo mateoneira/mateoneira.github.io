@@ -7,3 +7,4 @@ gem 'csv', '~> 3.3'
 gem "jekyll", "~> 4.4"
 gem "minima"
 gem "jekyll-feed"
+gem "logger"
